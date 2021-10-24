@@ -1,15 +1,23 @@
 <html>
 <head>
-    <tilte>
-        UJenglishword
-    </tilte>
+    <tilte>UJenglishword</tilte>
     <script>
-
+        function readTextFile() {
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", "./src/a.txt", true);
+            rawFile.onreadystatechange = function() {
+                if (rawFile.readyState === 4) {
+                    var allText = rawFile.responseText;
+                    document.getElementById("textSection").innerHTML = allText;
+                }
+            }
+            rawFile.send();
+        }
     </script>
 
 </head>
 <body>
     hellos2
-    <embed src="./src/a.txt">
+
 </body>
 </html>
