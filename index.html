@@ -1,15 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <tilte>
-        UJenglishword
-    </tilte>
+    <tilte>UJenglishword</tilte>
     <script>
-
+        var rawFile;
+        function readTextFile() {
+            alert("hello");
+            rawFile = new XMLHttpRequest();
+            rawFile.open("GET", "src/a.txt",true);
+            rawFile.onreadystatechange = function() {
+                console.log(1);
+                console.log(rawFile.responseText);
+            }
+            rawFile.send();
+        }
     </script>
 
 </head>
 <body>
     hellos2
-    <embed src="./src/a.txt">
+    <button onclick="readTextFile()">click!</button>
 </body>
 </html>
