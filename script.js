@@ -1,3 +1,14 @@
+var filter = "win16|win32|win64|mac|macintel";
+
+if ( navigator.platform ) {
+    if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) {
+        //mobile
+        console.log('mobile 접속');
+    } else {
+        //pc
+        console.log('pc 접속');
+    }
+}
 var test;
 var Q;
 var question, answer, score = 0, init_score;
@@ -30,11 +41,14 @@ function Init(){
 }
 
 function Enter() {
-    alert("hello");
     var rawFile = new XMLHttpRequest();
     part_selected = document.getElementById("select-part");
     lng_selected = document.getElementById("select-lng");
     type_selected = document.getElementById("select-type");
+    if (confirm("Part: "+part_selected.value+"\nSTART?")){}
+    else{
+        return;
+    }
     var src = "src/word/"+part_selected.value+'.txt';
     var Text;
     rawFile.open("GET", src, true);
@@ -155,6 +169,7 @@ function Question(){
         document.getElementById("question").innerHTML = question;
         document.getElementById("input-answer").value='';
         document.getElementById("input-answer").placeholder='';
+        document.getElementById("input-answer").focus();
     }
 }
 
