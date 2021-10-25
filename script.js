@@ -56,7 +56,14 @@ function Enter() {
 
 function Build_list(Text){
     var i=0;
-    Text = Text.split('\r\n');
+    while (i < Text.length){
+        if (Text[i] === '\r'){
+            Text = Text.substring(0,i)+Text.substring(i+1);
+            i--;
+        }
+        i++;
+    }
+    Text = Text.split('\n');
     var ln = 'K';
     var pf;
     for (f of Text){
