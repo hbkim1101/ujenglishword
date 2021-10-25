@@ -10,12 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="hmm">
+      <change afterPath="$PROJECT_DIR$/src/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PartⅠ 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅠ 03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PartⅠ 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅠ 04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PartⅡ 23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PartⅡ 24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 24.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -48,7 +62,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -60,8 +75,13 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\word" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword" />
     </key>
   </component>
@@ -166,7 +186,8 @@
       <workItem from="1635060874671" duration="4761000" />
       <workItem from="1635070076631" duration="8590000" />
       <workItem from="1635083554947" duration="1345000" />
-      <workItem from="1635085187957" duration="15434000" />
+      <workItem from="1635085187957" duration="16387000" />
+      <workItem from="1635170134802" duration="4111000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1635062837343</created>
@@ -245,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635100497858</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hmm">
+      <created>1635100797594</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635100797594</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

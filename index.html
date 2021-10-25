@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>UJenglishword</title>
-
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script>
         var test;
         var Q;
@@ -42,7 +42,7 @@
             part_selected = document.getElementById("select-part");
             lng_selected = document.getElementById("select-lng");
             type_selected = document.getElementById("select-type");
-            var src = "src/"+part_selected.value+'.txt';
+            var src = "src/word/"+part_selected.value+'.txt';
             var Text;
             rawFile.open("GET", src, true);
             rawFile.onreadystatechange = function() {
@@ -64,7 +64,6 @@
         function Build_list(Text){
             var i=0;
             Text = Text.split('\r\n');
-            Text = Text.split('\n');
             var ln = 'K';
             var pf;
             for (f of Text){
@@ -205,27 +204,31 @@
         }
     </script>
 
+
 </head>
 <body onload="Init();">
-    <select name="part" id="select-part" style="width:100px; text-align-last: center;" selected=""></select>
-    <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
-        <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
-        <option id="lng_writeKOREAN" value="KOREAN" disabled>한국어 쓰기</option>
-    </select>
-    <select name="type" id="select-type" style="width:100px; text-align-last: center;">
-        <option id="type_word" value="word">단어</option>
-        <option id="type_sentence" value="sentence">문장</option>
-    </select>
-    <button onclick="Enter()">Enter</button>
-    <ul style="padding-inline-start: 0px;height: 30px">
+    <section>
+        <select name="part" id="select-part" style="width:100px; text-align-last: center;"></select>
+        <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
+            <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
+            <option id="lng_writeKOREAN" value="KOREAN" disabled>한국어 쓰기</option>
+        </select>
+        <select name="type" id="select-type" style="width:100px; text-align-last: center;">
+            <option id="type_word" value="word">단어</option>
+            <option id="type_sentence" value="sentence">문장</option>
+        </select>
+        <button onclick="Enter()">Enter</button>
         <h3 id="question"></h3>
-    </ul>
+        <center>
+            <input type="text" name="answer" id="input-answer" autocomplete='off' size="30"
+                   style="display:inline-block;" onKeypress="javascript:if(event.keyCode==13){Input()}">
 
-    <input type="text" name="answer" id="input-answer" autocomplete='off' size="30"
-           style="display:inline-block;" onKeypress="javascript:if(event.keyCode==13){Input()}">
+            <button id='skip' name="skip" style="display:inline-block;" onclick="Skip();">SKIP</button>
+            <button name="hint" style="display:inline-block;" onclick="Hint();">HINT</button>
 
-    <button id='skip' name="skip" style="display:inline-block;" onclick="Skip();">SKIP</button>
-    <button name="hint" style="display:inline-block;" onclick="Hint();">HINT</button>
+        </center>
 
+
+    </section>
 </body>
 </html>
