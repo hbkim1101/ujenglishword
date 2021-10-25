@@ -7,8 +7,6 @@ section{
     background-image: url('src/background.jpg');
     background-size: cover;
     height: inherit;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
 }
 footer{
     height: 100px;
