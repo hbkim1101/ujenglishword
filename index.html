@@ -10,25 +10,29 @@
 </head>
 <body onload="Init();">
     <section>
-        <select name="part" id="select-part" style="width:100px; text-align-last: center;"></select>
-        <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
-            <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
-            <option id="lng_writeKOREAN" value="KOREAN" disabled>한국어 쓰기</option>
-        </select>
-        <select name="type" id="select-type" style="width:100px; text-align-last: center;">
-            <option id="type_word" value="word">단어</option>
-            <option id="type_sentence" value="sentence">문장</option>
-        </select>
-        <button onclick="Enter()">Enter</button>
-        <h3 id="question"></h3>
-        <center>
+        <ul id="select" style="text-align: center">
+            <select name="part" id="select-part" style="width:100px; text-align-last: center;"></select>
+            <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
+                <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
+                <option id="lng_writeKOREAN" value="KOREAN" disabled>한국어 쓰기</option>
+            </select>
+            <select name="type" id="select-type" style="width:100px; text-align-last: center;">
+                <option id="type_word" value="word">단어</option>
+                <option id="type_sentence" value="sentence">문장</option>
+            </select>
+            <button onclick="Enter()">Enter</button>
+        </ul>
+        <ul id="question_box">
+            <h1 id="question" style="text-align: center"></h1>
+        </ul>
+        <div id="answer_box" style="text-align: center">
             <input type="text" name="answer" id="input-answer" autocomplete='off' size="30"
                    style="display:inline-block;" onKeypress="javascript:if(event.keyCode==13){Input()}">
+            <br>
+            <button id='skip' name="skip" onclick="Skip();">SKIP</button>
+            <button id='hint' name="hint" style="display:inline-block;" onclick="Hint();">HINT</button>
 
-            <button id='skip' name="skip" style="display:inline-block;" onclick="Skip();">SKIP</button>
-            <button name="hint" style="display:inline-block;" onclick="Hint();">HINT</button>
-
-        </center>
+        </div>
 
 babo
     </section>
