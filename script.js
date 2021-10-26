@@ -247,12 +247,12 @@ function Hint(){
 
 function input_focus() {
     if (Flatform === "mobile"){
-        document.getElementById("question_box").style.marginTop = "30px";
+        document.getElementById("select").style.paddingTop = "30px";
     }
 }
 
 function input_blur() {
     if (Flatform === "mobile"){
-        document.getElementById("question_box").style.marginTop = "70px";
+        document.getElementById("question_box").style.paddingTop = "100px";
     }
 }
