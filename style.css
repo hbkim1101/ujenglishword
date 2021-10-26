@@ -3,18 +3,9 @@ body {
     height: 100vh;
     margin: 0;
 }
-@media (hover: none) and (pointer: coarse){
-    section{
-        background-image: url('src/background.jpg');
-        background-size: cover;
-        height: inherit;
-    }
-}
-@media (hover: hover) and (pointer: fine) {
-    section{
-        background-size: cover;
-        height: inherit;
-    }
+section{
+    background-size: cover;
+    height: inherit;
 }
 
 select{

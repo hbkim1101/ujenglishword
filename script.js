@@ -1,14 +1,4 @@
-var filter = "win16|win32|win64|mac|macintel";
 
-if ( navigator.platform ) {
-    if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) {
-        //mobile
-        console.log('mobile 접속');
-    } else {
-        //pc
-        console.log('pc 접속');
-    }
-}
 var test;
 var Q;
 var question, answer, score = 0, init_score;
@@ -18,6 +8,18 @@ var K_E = {};
 var K_ans = {};
 var part_selected, lng_selected, type_selected;
 function Init(){
+
+    var filter = "win16|win32|win64|mac|macintel";
+
+    if ( navigator.platform ) {
+        if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) {
+            //mobile
+            document.getElementById("section").style.backgroundImage = "url(src/background_mobile.jpg)";
+        } else {
+            //pc
+            document.getElementById("section").style.backgroundImage = "url(src/background_pc.jpg)";
+        }
+    }
     var part_select = document.getElementById("select-part");
     for (i of [24,23,4,3]){
         var part_option = document.createElement("option");

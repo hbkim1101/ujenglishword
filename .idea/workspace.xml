@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="12">
+      <change afterPath="$PROJECT_DIR$/src/background_mobile.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/background_pc.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,8 +75,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
@@ -187,7 +188,7 @@
       <workItem from="1635083554947" duration="1345000" />
       <workItem from="1635085187957" duration="16387000" />
       <workItem from="1635170134802" duration="13563000" />
-      <workItem from="1635255775986" duration="2761000" />
+      <workItem from="1635255775986" duration="5040000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1635062837343</created>
@@ -322,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635180750635</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="12">
+      <created>1635260672283</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635260672284</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +356,7 @@
     <MESSAGE value="aa" />
     <MESSAGE value="ad" />
     <MESSAGE value="hmm" />
+    <MESSAGE value="babo" />
     <MESSAGE value="12" />
     <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
