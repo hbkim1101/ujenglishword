@@ -21,7 +21,7 @@ function Init(){
         }
     }
     var part_select = document.getElementById("select-part");
-    for (i of [24,23,4,3]){
+    for (i of [26,25,24,23,4,3]){
         var part_option = document.createElement("option");
         if (i<18){
             if (i<10){
@@ -57,7 +57,6 @@ function Enter() {
     rawFile.onreadystatechange = function() {
         if (rawFile.readyState === rawFile.DONE){
             if (rawFile.status === 200) {
-                console.log(1);
                 Text = rawFile.responseText;
                 Build_list(Text);
                 Q = K;
@@ -100,8 +99,32 @@ function Build_list(Text){
     }
 }
 function Manufact_K(Text){
-    var pre = Text.split(', ');
+    var pre = [];
     var result;
+    var U = '';
+    var a = 0;
+    var b = 0;
+    while (true){
+        console.log(a);
+        if (a >= Text.length){
+            pre.push(U);
+            break;
+        }
+        else if (Text[a] === ',' && b === 0){
+            pre.push(U);
+            a++;
+        }
+        else{
+            if (Text[a] === '(' || Text[a] === '['){
+                b = 1;
+            }
+            else if (Text[a] === ')' || Text[a] === ']'){
+                b = 0;
+            }
+            U += Text[a];
+        }
+        a++;
+    }
     result = pre;
     var t = 0;
     while (t !== result.length){
@@ -138,7 +161,7 @@ function Manufact_K(Text){
         }
 
         if (con['[]'].length !== 0){
-            var j = con['[]'][0];
+            var i = con['[]'][0];
             while (true){
                 i--;
                 if (T[i] === ' ' || i === 0){

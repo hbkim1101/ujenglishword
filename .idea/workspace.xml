@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="12">
-      <change afterPath="$PROJECT_DIR$/src/background_mobile.jpg" afterDir="false" />
+    <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;#&#9;style.css">
+      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 26.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/background_pc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +186,7 @@
       <workItem from="1635083554947" duration="1345000" />
       <workItem from="1635085187957" duration="16387000" />
       <workItem from="1635170134802" duration="13563000" />
-      <workItem from="1635255775986" duration="5040000" />
+      <workItem from="1635255775986" duration="8836000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1635062837343</created>
@@ -330,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635260672284</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;#&#9;style.css">
+      <created>1635263104785</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635263104785</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +363,7 @@
     <MESSAGE value="hmm" />
     <MESSAGE value="babo" />
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;#&#9;style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;#&#9;style.css" />
   </component>
 </project>
