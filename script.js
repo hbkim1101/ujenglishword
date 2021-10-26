@@ -1,5 +1,5 @@
 
-var test;
+var Flatform;
 var Q;
 var question, answer, score = 0, init_score;
 var K = [];
@@ -14,10 +14,12 @@ function Init(){
     if ( navigator.platform ) {
         if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) {
             //mobile
-            document.getElementById("section").style.backgroundImage = "url(src/background_mobile.jpg)";
+            Flatform = "mobile";
+            document.getElementById("css").href = "style_mobile.css";
         } else {
             //pc
-            document.getElementById("section").style.backgroundImage = "url(src/background_pc.jpg)";
+            Flatform = "pc";
+            document.getElementById("css").href = "style_pc.css";
         }
     }
     var part_select = document.getElementById("select-part");
@@ -241,4 +243,16 @@ function Hint(){
     document.getElementById("input-answer").value=''
     document.getElementById("input-answer").placeholder=
         answer.substring(0, document.getElementById("input-answer").placeholder.length+1)
+}
+
+function input_focus() {
+    if (Flatform === "mobile"){
+        document.getElementById("question_box").style.marginTop = "30px";
+    }
+}
+
+function input_blur() {
+    if (Flatform === "mobile"){
+        document.getElementById("question_box").style.marginTop = "70px";
+    }
 }

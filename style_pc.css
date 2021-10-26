@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 section{
+    background-image: url("src/background_pc.jpg");
     background-size: cover;
     height: inherit;
 }
