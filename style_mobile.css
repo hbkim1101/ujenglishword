@@ -2,6 +2,8 @@ body {
     overflow: hidden;
     height: 100vh;
     margin: 0;
+    background-image: url("src/background_mobile.jpg");
+    background-size: cover;
 }
 section{
     background-image: url("src/background_mobile.jpg");

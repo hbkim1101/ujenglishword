@@ -29,9 +29,9 @@ button{
     margin-right: 15px;
 }
 #select{
-    height: 15vh;
+    height: 9vh auto;
     padding-top: 13vh;
-    padding-bottom: 1vh;
+    padding-bottom: 7vh;
 }
 #question_box{
     height: 16vh;

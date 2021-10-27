@@ -7,6 +7,15 @@ var E = [];
 var K_E = {};
 var K_ans = {};
 var part_selected, lng_selected, type_selected;
+
+window.onresize = function(event){
+    if (document.getElementsByTagName('body')[0].clientHeight<450){
+        document.getElementById("select").style.paddingTop = "0";
+    }
+    else{
+        document.getElementById("select").style.paddingTop = "13vh";
+    }
+}
 function Init(){
 
 
@@ -31,6 +40,8 @@ function Init(){
         part_select.prepend(part_option);
     }
 }
+
+
 
 function Enter() {
     var rawFile = new XMLHttpRequest();
