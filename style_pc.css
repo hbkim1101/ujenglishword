@@ -28,18 +28,18 @@ button{
 #skip{
     margin-right: 15px;
 }
+#select{
+    height: 15vh;
+    padding-top: 13vh;
+    padding-bottom: 4vh;
+}
 #question_box{
     height: 13vh;
     padding-left: 0;
 }
-#select{
-    height: 15vh;
-    padding-top: 8.25vh;
-    margin-bottom: 4vh;
- }
 #answer_box{
     height: 40px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 #input-answer{
     width: 300px;
