@@ -21,7 +21,6 @@ window.onresize = function(event){
 
 function Enter(){
     var rawFile = new XMLHttpRequest();
-    console.log("dkssud")
     part_selected = document.getElementById("select-part");
     lng_selected = document.getElementById("select-lng");
     type_selected = document.getElementById("select-type");
