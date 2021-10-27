@@ -231,6 +231,7 @@ function Complete(){
 }
 
 function Skip(){
+    alert("정답: "+answer);
     Q.shift();
     if (Q.length === 0){
         return Complete();
@@ -239,7 +240,8 @@ function Skip(){
 }
 
 function Hint(){
-    document.getElementById("input-answer").value=''
+    document.getElementById("input-answer").value='';
     document.getElementById("input-answer").placeholder=
-        answer.substring(0, document.getElementById("input-answer").placeholder.length+1)
+        answer.substring(0, document.getElementById("input-answer").placeholder.length+1);
+    document.getElementById("input-answer").focus();
 }
