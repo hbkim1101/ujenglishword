@@ -3,14 +3,20 @@ body {
     height: 100vh;
     margin: 0;
 }
+/* 데스크탑 */
 section{
     background-image: url("src/background_pc.jpg");
     background-size: cover;
     height: inherit;
 }
+@media screen and (max-width:767px){
+    section{
+        background-image: url("src/background_mobile.jpg");
+    }
+}
 
 select{
-    width: 100%;
+    width: 100vh;
     height: 40px;
     border: 1px solid #E0E0E0;
     padding: 0 10px;
@@ -23,14 +29,13 @@ button{
     margin-right: 15px;
 }
 #question_box{
-    height: 90px;
+    height: 13vh;
     padding-left: 0;
-    margin-top: 70px;
 }
 #select{
-    padding-top: 100px;
-    padding-left: 0;
-    margin: 0;
+    height: 15vh;
+    padding-top: 8.25vh;
+    margin-bottom: 4vh;
  }
 #answer_box{
     height: 40px;
