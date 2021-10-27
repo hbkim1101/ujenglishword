@@ -16,7 +16,7 @@ section{
 }
 
 select{
-    width: 100vh;
+    width: 100px;
     height: 40px;
     border: 1px solid #E0E0E0;
     padding: 0 10px;
@@ -31,15 +31,14 @@ button{
 #select{
     height: 15vh;
     padding-top: 13vh;
-    padding-bottom: 4vh;
+    padding-bottom: 1vh;
 }
 #question_box{
-    height: 13vh;
+    height: 16vh;
     padding-left: 0;
 }
 #answer_box{
-    height: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 2vh;
 }
 #input-answer{
     width: 300px;
