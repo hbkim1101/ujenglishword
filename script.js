@@ -21,6 +21,7 @@ window.onresize = function(event){
 
 function Enter(){
     var rawFile = new XMLHttpRequest();
+    console.log("dkssud")
     part_selected = document.getElementById("select-part");
     lng_selected = document.getElementById("select-lng");
     type_selected = document.getElementById("select-type");
@@ -82,7 +83,6 @@ function Manufact_K(Text){
     var a = 0;
     var b = 0;
     while (true){
-        console.log(a);
         if (a >= Text.length){
             pre.push(U);
             break;
@@ -148,9 +148,9 @@ function Manufact_K(Text){
                     break;
                 }
             }
-            r1 = T.substring(0,i+1);
+            r1 = T.substring(0,j+1);
             r2 = T.substring(con['[]'][1]+1);
-            r3 = r1 + T.substring(i+1, con['[]'][0]) + r2;
+            r3 = r1 + T.substring(j+1, con['[]'][0]) + r2;
             r4 = r1 + T.substring(con['[]'][0]+1,con['[]'][1])+r2;
             result.push(r3);
             result.push(r4);
