@@ -7,6 +7,7 @@ var E = [];
 var K_E = {};
 var K_ans = {};
 var part_selected, lng_selected, type_selected;
+var flg;
 
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
@@ -16,34 +17,9 @@ window.onresize = function(event){
         document.getElementById("select").style.paddingTop = "13vh";
     }
 }
-function Init(){
 
 
-    var part_select = document.getElementById("select-part");
-    for (i of [26,25,24,23]){
-        var part_option = document.createElement("option");
-        if (i<18){
-            if (i<10){
-                part_option.value="PartⅠ 0"+i;
-                part_option.innerHTML="PartⅠ 0"+i;
-            }
-            else{
-                part_option.value="PartⅠ "+i;
-                part_option.innerHTML="PartⅠ "+i;
-            }
-        }
-        else{
-            part_option.value="PartⅡ "+i;
-            part_option.innerHTML="PartⅡ "+i;
-
-        }
-        part_select.prepend(part_option);
-    }
-}
-
-
-
-function Enter() {
+function Enter(){
     var rawFile = new XMLHttpRequest();
     part_selected = document.getElementById("select-part");
     lng_selected = document.getElementById("select-lng");
@@ -52,12 +28,12 @@ function Enter() {
     else{
         return;
     }
-    var src = "src/word/"+part_selected.value+'.txt';
+    var src = "src/word/"+part_selected.value+".txt";
     var Text;
     rawFile.open("GET", src, true);
-    rawFile.onreadystatechange = function() {
+    rawFile.onreadystatechange = function(){
         if (rawFile.readyState === rawFile.DONE){
-            if (rawFile.status === 200) {
+            if (rawFile.status === 200){
                 Text = rawFile.responseText;
                 Build_list(Text);
                 Q = K;
@@ -162,12 +138,12 @@ function Manufact_K(Text){
         }
 
         if (con['[]'].length !== 0){
-            var i = con['[]'][0];
+            var j =  con['[]'][0];
             while (true){
-                i--;
-                if (T[i] === ' ' || i === 0){
-                    if (i === 0){
-                        i--;
+                j--;
+                if (T[j] === ' ' || j === 0){
+                    if (j === 0){
+                        j--;
                     }
                     break;
                 }

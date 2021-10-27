@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/server_visitors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 29.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,8 +76,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
@@ -184,7 +189,7 @@
       <workItem from="1635083554947" duration="1345000" />
       <workItem from="1635085187957" duration="16387000" />
       <workItem from="1635170134802" duration="13563000" />
-      <workItem from="1635255775986" duration="19971000" />
+      <workItem from="1635255775986" duration="24414000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1635062837343</created>
@@ -417,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635344074854</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="a">
+      <created>1635344443465</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1635344443465</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
