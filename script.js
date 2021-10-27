@@ -20,7 +20,7 @@ function Init(){
 
 
     var part_select = document.getElementById("select-part");
-    for (i of [26,25,24,23,4,3]){
+    for (i of [26,25,24,23]){
         var part_option = document.createElement("option");
         if (i<18){
             if (i<10){
