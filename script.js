@@ -1,4 +1,4 @@
-
+var test;
 var Flatform;
 var Q;
 var question, answer, score = 0, init_score;
@@ -23,13 +23,19 @@ window.onresize = function(event){
 function Enter(){
     var rawFile = new XMLHttpRequest();
     part_selected = document.getElementById("select-part");
+    part_label = part_selected.options[part_selected.selectedIndex].parentElement.label;
     lng_selected = document.getElementById("select-lng");
     type_selected = document.getElementById("select-type");
     if (confirm("Part: "+part_selected.value+"\nSTART?")){}
     else{
         return;
     }
-    var src = "src/word/"+part_selected.value+".txt";
+    if (part_label.substring(0,1) === 'P'){
+        var src = "src/word/"+part_selected.value + ".txt";
+    }
+    else {
+        var src = "src/word/" + part_label + '/' + part_selected.value + ".txt";
+    }
     var Text;
     rawFile.open("GET", src, true);
     rawFile.onreadystatechange = function(){
@@ -171,7 +177,6 @@ function Question(){
         document.getElementById("question").innerHTML = question;
         document.getElementById("input-answer").value='';
         document.getElementById("input-answer").placeholder='';
-        document.getElementById("input-answer").style.imeMode="inactive";
         document.getElementById("input-answer").focus();
     }
 }
