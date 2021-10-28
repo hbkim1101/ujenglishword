@@ -9,6 +9,8 @@ var K_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 
+var count;
+
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";
@@ -17,6 +19,37 @@ window.onresize = function(event){
         document.getElementById("select").style.paddingTop = "13vh";
     }
 }
+var db;
+window.onload = function(event) {
+    console.log("heoo");
+    db = openDatabase('word', '1.0', 'word database', 1024 * 1024);
+
+    db.transaction(function(tx){
+        console.log("select");
+        tx.executeSql('SELECT * from VARIABLE', [], function(tx, result){
+            count = result.rows.item(0)["content"];
+        });
+
+    });
+    db.transaction(function(tx){
+        console.log("update");
+        count += 1;
+        tx.executeSql('UPDATE VARIABLE SET content=? WHERE id=?',[count,1]);
+    });
+};
+
+window.onbeforeunload = function(event){
+    db = openDatabase('word','1.0','word database',1024*1024);
+
+
+    db.transaction(function(tx){
+        tx.executeSql('SELECT * from VARIABLE', [], function(tx, result){
+            count = result.rows.item(0)["content"];
+        });
+        count -= 1;
+        tx.executeSql('UPDATE VARIABLE SET content=? WHERE id=?',[count,1]);
+    });
+};
 
 
 function Enter(){
