@@ -23,7 +23,10 @@ var db;
 window.onload = function(event) {
     console.log("heoo");
     db = openDatabase('word', '1.0', 'word database', 1024 * 1024);
-
+    db.transaction(function(tx){
+        tx.executeSql('CREATE TABLE IF NOT EXISTS VARIABLE (id unique, name, content)');
+        tx.executeSql('INSERT  INTO  VARIABLE (id, name, content) VALUES (1,"visitor_count", 0)');
+    });
     db.transaction(function(tx){
         console.log("select");
         tx.executeSql('SELECT * from VARIABLE', [], function(tx, result){
