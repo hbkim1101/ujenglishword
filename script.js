@@ -19,41 +19,6 @@ window.onresize = function(event){
         document.getElementById("select").style.paddingTop = "13vh";
     }
 }
-var db;
-window.onload = function(event) {
-    console.log("heoo");
-    db = openDatabase('word', '1.0', 'word database', 1024 * 1024);
-    db.transaction(function(tx){
-        tx.executeSql('CREATE TABLE IF NOT EXISTS VARIABLE (id unique, name, content)');
-        tx.executeSql('INSERT  INTO  VARIABLE (id, name, content) VALUES (1,"visitor_count", 0)');
-    });
-    db.transaction(function(tx){
-        console.log("select");
-        tx.executeSql('SELECT * from VARIABLE', [], function(tx, result){
-            count = result.rows.item(0)["content"];
-        });
-
-    });
-    db.transaction(function(tx){
-        console.log("update");
-        count += 1;
-        tx.executeSql('UPDATE VARIABLE SET content=? WHERE id=?',[count,1]);
-    });
-};
-
-window.onbeforeunload = function(event){
-    db = openDatabase('word','1.0','word database',1024*1024);
-
-
-    db.transaction(function(tx){
-        tx.executeSql('SELECT * from VARIABLE', [], function(tx, result){
-            count = result.rows.item(0)["content"];
-        });
-        count -= 1;
-        tx.executeSql('UPDATE VARIABLE SET content=? WHERE id=?',[count,1]);
-    });
-};
-
 
 function Enter(){
     var rawFile = new XMLHttpRequest();
