@@ -171,6 +171,7 @@ function Question(){
         document.getElementById("question").innerHTML = question;
         document.getElementById("input-answer").value='';
         document.getElementById("input-answer").placeholder='';
+        document.getElementById("input-answer").style.imeMode="inactive";
         document.getElementById("input-answer").focus();
     }
 }
