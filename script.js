@@ -180,10 +180,18 @@ function Input(){
     if (ans === '') {
         alert(Q.length+"개 남았습니다.");
     }
-    else if (ans === 'S') {
+
+    else if (ans === "dvl"){
+        document.getElementById("count").style.display = "block";
+        setTimeout(function(){
+            document.getElementById("count").style.display = "none";
+        },3000);
+    }
+
+    else if (ans === 'S'){
         return Skip();
     }
-    else if (ans === 'H') {
+    else if (ans === 'H'){
         return Hint();
     }
     else if (ans === answer){
