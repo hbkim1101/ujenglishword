@@ -23,8 +23,13 @@ function Part_visible(){
 }
 var part_selected = {};
 function Check(elm){
-    var key = elm.parentElement.classList[0] + " " + elm.parentElement.classList[1];
-    var value = elm.parentElement.innerText.substring(3);
+    if (elm.parentElement.classList.length===3){
+        var key = elm.parentElement.classList[0] + " " + elm.parentElement.classList[1];
+    }
+    else{
+        var key = elm.parentElement.classList[0] + " " + elm.parentElement.classList[1] + " " + elm.parentElement.classList[2];
+    }
+    var value = elm.parentElement.innerText.substring(2);
     console.log(key);
     console.log(value);
     if (elm.checked===true){
@@ -47,6 +52,14 @@ function Check(elm){
     }
 }
 
+function Reset(){
+    for (p of Object.keys(part_selected)){
+        for (t of part_selected[p]){
+            document.getElementById(p+"_"+t).checked = false;
+        }
+    }
+    part_selected = {};
+}
 
 function Enter(){
     var keys = Object.keys(part_selected).sort(function(a, b) {

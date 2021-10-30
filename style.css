@@ -9,7 +9,8 @@ section{
     background-size: cover;
     height: inherit;
 }
-@media screen and (max-width:767px){
+
+@media screen and (max-width:767px) and (orientation: portrait){
     section{
         background-image: url("src/background_mobile.jpg");
     }
@@ -52,7 +53,6 @@ button{
 
 #part_select_box{
     -ms-user-select: none;
-    -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
@@ -63,4 +63,10 @@ label{
 .part_label:hover{
     background-color: #1e90ff;
     color: #FFFFFF;
+}
+.reset_button{
+    background-color: rgb(240, 240, 240);
+}
+.reset_button:hover{
+    background-color: rgb(220, 220, 220);
 }
