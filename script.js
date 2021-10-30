@@ -94,6 +94,7 @@ function Enter(){
     shuffle(Q);
     Question();
 }
+
 function Build_list(Text){
     K = []; E = []; K_E = {}; K_ans = {};
     var i=0;
@@ -126,6 +127,7 @@ function Build_list(Text){
         }
     }
 }
+
 function Manufact_K(Text){
     var pre = [];
     var result;
@@ -258,6 +260,7 @@ function Input(){
         document.getElementById("input-answer").value='';
     }
 }
+
 function Complete(){
     alert(init_score+"개 중 "+score+"개 정답")
     document.getElementById("question").innerHTML='';
