@@ -44,7 +44,7 @@ function Check(elm){
 
 
 function Enter(){
-    document.getElementById("part_select_box").className = "part_select"
+    document.getElementById("part_select_box").className = "part_select";
     for (p of Object.keys(part_selected)){
         part_selected[p].sort(function(a, b) {
             return a < b ? -1 : a > b ? 1 : 0;

@@ -21,6 +21,7 @@ select, #part_button{
     border: 1px solid #E0E0E0;
     padding: 0 10px;
     margin: 10px;
+    background-color: hsl(160,0%,240%);
 }
 button{
     height: 40px;
