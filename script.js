@@ -50,8 +50,8 @@ function Enter(){
             return a < b ? -1 : a > b ? 1 : 0;
         });
     }
-    lng_selected = document.getElementById("select-lng");
-    type_selected = document.getElementById("select-type")
+    lng_selected = document.getElementById("select-lng").value;
+    type_selected = document.getElementById("select-type").value;
 
     var message = '';
     for (p of Object.keys(part_selected)){
@@ -108,7 +108,9 @@ function Build_list(Text){
         if (ln === 'K'){
             K.push(f);
             ln = 'E';
-            K_ans[f] = Manufact_K(f);
+            if (lng_selected === "ENGLISH"){
+                K_ans[f] = Manufact_K(f);
+            }
             pf = f;
         }
         else{
@@ -207,7 +209,7 @@ function Manufact_K(Text){
 function shuffle(array) { array.sort(() => Math.random() - 0.5); }
 
 function Question(){
-    if (lng_selected.value === "ENGLISH"){
+    if (lng_selected === "ENGLISH"){
         question = Q[0];
         answer = K_E[Q[0]];
         document.getElementById("question").innerHTML = question;
