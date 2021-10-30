@@ -15,7 +15,7 @@ section{
     }
 }
 
-select{
+select, #part_button{
     width: 100px;
     height: 40px;
     border: 1px solid #E0E0E0;
@@ -24,6 +24,10 @@ select{
 }
 button{
     height: 40px;
+}
+#part_button{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 #skip{
     margin-right: 15px;
