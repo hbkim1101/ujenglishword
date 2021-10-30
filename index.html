@@ -14,7 +14,7 @@
             <div style="display: inline-block">
                 <button id="part_button" onclick="Part_visible()">Part</button>
                 <div tabindex="1" id="part_select_box" class="part_select" style="overflow-y: scroll; position: absolute; background-color: #FFFFFF; width: 128px; height: 30vh; border: 1px solid; border-color: black; margin-left: 10px; display: none"
-                     onblur="this.style.display='none';">
+                     onblur="this.style.display='none'">
                     <script>
                         var part_select = document.getElementById("part_select_box");
                         for (i of [23,24,25,26,27,28,29]){
@@ -41,6 +41,10 @@
                                 part_option.style.float = "left";
                                 part_option.style.width = "111.2px";
                                 part_option.style.fontWeight = "300";
+                                part_option.addEventListener("mousedown", function(e){
+                                    Part_visible();
+                                    e.preventDefault();
+                                });
                                 part_option.innerHTML = "&nbsp&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>Exercise " + j;
                                 part_select.appendChild(part_option);
                             }
@@ -60,6 +64,10 @@
                                 part_option_.style.float = "left";
                                 part_option_.style.width = "111.2px";
                                 part_option_.style.fontWeight = "300";
+                                part_option_.addEventListener("mousedown", function(e){
+                                    Part_visible();
+                                    e.preventDefault();
+                                });
                                 part_option_.innerHTML = "&nbsp&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>Exercise " + j;
                                 part_select.appendChild(part_option_);
                             }
