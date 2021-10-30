@@ -24,8 +24,8 @@ activate
 slight
 관사
 article
-~을 ~에게 주목하게 하다
-refer ~ to ~
+~을 ...에게 주목하게 하다
+refer ~ to ...
 취하다, 띠다
 assume
 증진하다, 육성하다

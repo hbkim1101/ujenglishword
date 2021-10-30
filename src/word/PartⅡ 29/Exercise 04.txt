@@ -10,8 +10,8 @@ refrigeration
 sour
 거주자, 주민
 resident
-~을 ~의 탓으로 돌리다
-attribute ~ to ~
+~을 ...의 탓으로 돌리다
+attribute ~ to ...
 기념(식)
 celebration
 봉헌하다, 헌정하다

@@ -8,5 +8,5 @@ norms
 differ from
 지역주의
 regionalism
-~을 ~이라고 부르다[일컫다]
-refer to ~ as ~
+~을 ...이라고 부르다[일컫다]
+refer to ~ as ...

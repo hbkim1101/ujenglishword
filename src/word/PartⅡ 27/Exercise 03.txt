@@ -4,5 +4,5 @@ reveal
 current
 무시하다
 discount
-~을 ~이라고 부르다
-refer to ~ as ~
+~을 ...이라고 부르다
+refer to ~ as ...
