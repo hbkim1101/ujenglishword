@@ -21,7 +21,7 @@ select, #part_button{
     border: 1px solid #E0E0E0;
     padding: 0 10px;
     margin: 10px;
-    background-color: hsl(160,0%,240%);
+    background-color: #FFFFFF;
 }
 button{
     height: 40px;
@@ -50,17 +50,17 @@ button{
     font-size: 30px;
 }
 
-.part_select{
-    display: none;
-}
-.part_select_active{
-    display: block;
-}
-
 #part_select_box{
     -ms-user-select: none;
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+}
+label{
+    text-align: left;
+}
+.part_label:hover{
+    background-color: #1e90ff;
+    color: #FFFFFF;
 }

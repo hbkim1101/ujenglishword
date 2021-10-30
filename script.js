@@ -18,33 +18,40 @@ window.onresize = function(event){
     }
 }
 function Part_visible(){
-    $("#part_select_box").toggleClass('part_select_active');
+    document.getElementById("part_select_box").style.display = "block";
+    document.getElementById("part_select_box").focus();
 }
 var part_selected = {};
 function Check(elm){
+    var key = elm.parentElement.classList[0] + " " + elm.parentElement.classList[1];
+    var value = elm.parentElement.innerText.substring(3);
+    console.log(key);
+    console.log(value);
     if (elm.checked===true){
         if (part_selected.length === 0){
-            part_selected[elm.parentElement.className].push(elm.parentElement.innerText);
+            part_selected[key].push(value);
         }
-        else if (elm.parentElement.className in part_selected){
-            part_selected[elm.parentElement.className].push(elm.parentElement.innerText);
+        else if (key in part_selected){
+            part_selected[key].push(value);
         }
         else{
-            part_selected[elm.parentElement.className] = [elm.parentElement.innerText];
+            part_selected[key] = [value];
         }
     }
     else{
-        var idx = part_selected[elm.parentElement.className].indexOf(elm.parentElement.innerText)
-        part_selected[elm.parentElement.className].splice(idx, 1);
-        if (part_selected[elm.parentElement.className].length === 0){
-            delete part_selected[elm.parentElement.className];
+        var idx = part_selected[key].indexOf(value)
+        part_selected[key].splice(idx, 1);
+        if (part_selected[key].length === 0){
+            delete part_selected[key];
         }
     }
 }
 
 
 function Enter(){
-    document.getElementById("part_select_box").className = "part_select";
+    var keys = Object.keys(part_selected).sort(function(a, b) {
+            return a < b ? -1 : a > b ? 1 : 0;
+    });
     for (p of Object.keys(part_selected)){
         part_selected[p].sort(function(a, b) {
             return a < b ? -1 : a > b ? 1 : 0;
@@ -52,9 +59,8 @@ function Enter(){
     }
     lng_selected = document.getElementById("select-lng").value;
     type_selected = document.getElementById("select-type").value;
-
     var message = '';
-    for (p of Object.keys(part_selected)){
+    for (p of keys){
         message += p + ": " + part_selected[p].join(", ") + '\n';
     }
     message += "START?"
