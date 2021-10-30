@@ -9,8 +9,6 @@ var K_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 
-var count;
-
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";
@@ -19,41 +17,79 @@ window.onresize = function(event){
         document.getElementById("select").style.paddingTop = "13vh";
     }
 }
+function Part_visible(){
+    $("#part_select_box").toggleClass('part_select_active');
+}
+var part_selected = {};
+function Check(elm){
+    if (elm.checked===true){
+        if (part_selected.length === 0){
+            part_selected[elm.parentElement.className].push(elm.parentElement.innerText);
+        }
+        else if (elm.parentElement.className in part_selected){
+            part_selected[elm.parentElement.className].push(elm.parentElement.innerText);
+        }
+        else{
+            part_selected[elm.parentElement.className] = [elm.parentElement.innerText];
+        }
+    }
+    else{
+        var idx = part_selected[elm.parentElement.className].indexOf(elm.parentElement.innerText)
+        part_selected[elm.parentElement.className].splice(idx, 1);
+        if (part_selected[elm.parentElement.className].length === 0){
+            delete part_selected[elm.parentElement.className];
+        }
+    }
+}
+
 
 function Enter(){
-    var rawFile = new XMLHttpRequest();
-    part_selected = document.getElementById("select-part");
-    part_label = part_selected.options[part_selected.selectedIndex].parentElement.label;
+    document.getElementById("part_select_box").className = "part_select"
+    for (p of Object.keys(part_selected)){
+        part_selected[p].sort(function(a, b) {
+            return a < b ? -1 : a > b ? 1 : 0;
+        });
+    }
     lng_selected = document.getElementById("select-lng");
-    type_selected = document.getElementById("select-type");
-    if (confirm("Part: "+part_selected.value+"\nSTART?")){}
+    type_selected = document.getElementById("select-type")
+
+    var message = '';
+    for (p of Object.keys(part_selected)){
+        message += p + ": " + part_selected[p].join(", ") + '\n';
+    }
+    message += "START?"
+    if (confirm(message)){}
     else{
         return;
     }
-    if (part_label.substring(0,1) === 'P'){
-        var src = "src/word/"+part_selected.value + ".txt";
-    }
-    else {
-        var src = "src/word/" + part_label + '/' + part_selected.value + ".txt";
-    }
-    var Text;
-    rawFile.open("GET", src, true);
-    rawFile.onreadystatechange = function(){
-        if (rawFile.readyState === rawFile.DONE){
-            if (rawFile.status === 200){
-                Text = rawFile.responseText;
-                Build_list(Text);
-                Q = K;
-                init_score = Q.length;
-                shuffle(Q);
-                Question();
+
+    var rawFile = new XMLHttpRequest();
+    var Text = '';
+    for (p of Object.keys(part_selected)){
+        i += part_selected[p].length;
+        for (t of part_selected[p]){
+            var k = false;
+            src = "src/word/" + p + "/" + t + ".txt";
+            rawFile.open("GET", src, false);
+            rawFile.onreadystatechange = function () {
+                if (rawFile.readyState === rawFile.DONE) {
+                    if (rawFile.status === 200) {
+                        Text += rawFile.responseText;
+                    }
+                }
             }
+            rawFile.send();
         }
     }
-    rawFile.send();
+    console.log(Text);
+    Build_list(Text);
+    Q = K;
+    init_score = Q.length;
+    shuffle(Q);
+    Question();
 }
-
 function Build_list(Text){
+    K = []; E = []; K_E = {}; K_ans = {};
     var i=0;
     while (i < Text.length){
         if (Text[i] === '\r'){

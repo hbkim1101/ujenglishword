@@ -1,0 +1,40 @@
+차량
+vehicle
+장치
+device
+가시성
+visibility
+운영, 작동
+operation
+효율성
+efficiency
+추적 관찰하다
+monitor
+조정[조절]하다
+adjust
+최적의
+optimal
+비용이 많이 드는
+costly
+(기계, 특히 컴퓨터의) 작동 중지 시간
+down-time
+~이라는 이유로, ~에 근거하여
+on the basis that
+마모된
+worn
+기계(류)
+machinery
+고장 나다
+break down
+최적화하다
+optimize
+재고
+stock
+자동으로
+automatically
+생성하다
+generate
+일기 예보
+weather forecast
+~의 양을 늘리다, ~을 보충하다
+top up

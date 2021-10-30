@@ -44,3 +44,18 @@ button{
     width: 300px;
     font-size: 30px;
 }
+
+.part_select{
+    display: none;
+}
+.part_select_active{
+    display: block;
+}
+
+#part_select_box{
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

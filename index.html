@@ -3,50 +3,68 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,
   maximum-scale=1.0, minimum-scale=1.0">
     <title>UJenglishword</title>
-    <link id="css" rel="stylesheet" type="text/css" href="style_pc.css">
+    <link id="css" rel="stylesheet" type="text/css" href="style.css">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <section id="section">
         <img src="src/communist.jpg" style="width: 25vh; position: absolute; right: 0px; bottom: 0px;">
         <div id="select" style="text-align: center">
-            <select name="part" id="select-part" style="width:100px; text-align-last: center;"></select>
-            <script>
-                var part_select = document.getElementById("select-part");
-                for (i of [23,24,25,26,27,28,29]){
-                    var part_optgroup = document.createElement("optgroup");
-                    var part_option = document.createElement("option");
-                    if (i < 18) {
-                        if (i < 10) {
-                            part_optgroup.label = "PartⅠ 0" + i;
-                            part_option.value = "PartⅠ 0" + i;
-                            part_option.innerHTML = "PartⅠ 0" + i;
-                        } else {
-                            part_optgroup.label = "PartⅠ " + i;
-                            part_option.value = "PartⅠ " + i;
-                            part_option.innerHTML = "PartⅠ " + i;
+            <div style="display: inline-block">
+                <button style="background-color: #FFFFFF; width: 100px; border: 1px solid; border-color: #E0E0E0" onclick="Part_visible()">Part</button>
+                <div id="part_select_box" class="part_select" style="overflow-y: scroll; position: absolute; background-color: #FFFFFF; border: 1px solid; border-color: black; width: 128px; height: 30vh">
+                    <script>
+                        var part_select = document.getElementById("part_select_box");
+                        for (i of [23,24,25,26,27,28,29]){
+                            var part_label = document.createElement("label");
+                            part_label.style.float = "left";
+                            var part;
+                            if (i < 18){
+                                if (i < 10){
+                                    part = "PartⅠ 0" + i;
+                                }
+                                else{
+                                    part = "PartⅠ " + i;
+                                }
+                            }
+                            else{
+                                part = "PartⅡ " + i;
+                            }
+                            part_label.innerHTML = part;
+                            part_select.appendChild(part_label);
+                            part_select.appendChild(document.createElement("br"));
+                            for (j of [1,2,3,4]){
+                                var part_option = document.createElement("label");
+                                part_option.className = part;
+                                part_option.style.float = "left";
+                                part_option.style.fontWeight = "lighter";
+                                part_option.innerHTML = "<input type='checkbox' onclick='Check(this)'>Exercise " + j;
+                                part_select.appendChild(part_option);
+                            }
+                            part_select.appendChild(document.createElement("br"));
                         }
-                    } else {
-                        part_optgroup.label = "PartⅡ " + i;
-                        part_option.value = "PartⅡ " + i;
-                        part_option.innerHTML = "PartⅡ " + i;
-
-                    }
-                    part_select.appendChild(part_optgroup);
-                    part_optgroup.appendChild(part_option);
-                }
-                for (i of [1]){
-                    var part_optgroup_ = document.createElement("optgroup");
-                    part_optgroup_.label = "Weak "+i;
-                    part_select.appendChild(part_optgroup_);
-                    for (j of [2,4,6]){
-                        var part_option_ = document.createElement("option");
-                        part_option_.value = "Exercise " + j;
-                        part_option_.innerHTML = "Exercise " + j;
-                        part_optgroup_.appendChild(part_option_);
-                    }
-                }
-            </script>
+                        for (i of [1]){
+                            var part_label_ = document.createElement("label");
+                            part_label_.style.float = "left";
+                            var part_;
+                            part_ = "Weak "+i
+                            part_label_.innerHTML = part_;
+                            part_select.appendChild(part_label_);
+                            part_select.appendChild(document.createElement("br"));
+                            for (j of [2,4,6]){
+                                var part_option_ = document.createElement("label");
+                                part_option_.className = part_;
+                                part_option_.style.float = "left";
+                                part_option_.style.fontWeight = "lighter";
+                                part_option_.innerHTML = "<input type='checkbox' onclick='Check(this)'>Exercise " + j;
+                                part_select.appendChild(part_option_);
+                            }
+                            part_select.appendChild(document.createElement("br"));
+                        }
+                    </script>
+                </div>
+            </div>
             <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
                 <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
                 <option id="lng_writeKOREAN" value="KOREAN" disabled>한국어 쓰기</option>
@@ -70,7 +88,9 @@
             <button id='hint' name="hint" style="display:inline-block;" onclick="Hint();">HINT</button>
         </div>
         <div id="count" style="display: none">
-            <script id="_waul72">var _wau = _wau || []; _wau.push(["dynamic", "csekd2ib8k", "l72", "a2c4c9ffffff", "small"]);</script><script async src="//waust.at/d.js"></script>        </div>
+            <script id="_waul72">var _wau = _wau || []; _wau.push(["dynamic", "csekd2ib8k", "l72", "a2c4c9ffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
+        </div>
+
     </section>
 
 </body>
