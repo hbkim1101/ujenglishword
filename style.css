@@ -11,24 +11,11 @@ section{
     height: inherit;
 }
 
-@media (hover: none) and (pointer: coarse) {
-    @media (orientation: portrait){
-        section {
-            background-image: url("src/background_mobile.jpg");
-        }
-    }
-    @media (orientation: landscape){
-        section {
-            background-image: url("src/background_pc.jpg");
-        }
-    }
-}
-/*
 @media screen and (max-width:767px) and (orientation: portrait){
     section{
         background-image: url("src/background_mobile.jpg");
     }
-}*/
+}
 
 select, #part_button{
     width: 100px;
