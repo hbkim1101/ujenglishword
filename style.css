@@ -7,10 +7,11 @@ body {
 section{
     background-image: url("src/background_pc.jpg");
     background-size: cover;
+    background-position: center;
     height: inherit;
 }
 
-@media screen and (max-width:767px) and (orientation: portrait){
+@media screen and (max-width:767px){
     section{
         background-image: url("src/background_mobile.jpg");
     }

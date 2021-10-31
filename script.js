@@ -9,6 +9,13 @@ var K_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 window.onresize = function(event){
+    if (window.innerHeight > window.innerWidth){
+        document.getElementById("section").style.backgroundImage = "url('src/background_mobile.jpg')";
+        console.log(document.getElementById("section").style.backgroundImage)
+    }
+    else{
+        document.getElementById("section").style.backgroundImage = "url('src/background_pc.jpg')";
+    }
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";
     }
@@ -237,8 +244,10 @@ function Input(){
 
     else if (ans === "dvl"){
         document.getElementById("count").style.display = "block";
+        document.getElementById("develop").innerHTML = window.innerHeight+' '+window.innerWidth;
         setTimeout(function(){
             document.getElementById("count").style.display = "none";
+            document.getElementById("develop").innerHTML = '';
         },3000);
     }
 
