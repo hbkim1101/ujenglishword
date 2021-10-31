@@ -9,13 +9,7 @@ var K_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 window.onresize = function(event){
-    if (window.innerHeight > window.innerWidth){
-        document.getElementById("section").style.backgroundImage = "url('src/background_mobile.jpg')";
-        console.log(document.getElementById("section").style.backgroundImage)
-    }
-    else{
-        document.getElementById("section").style.backgroundImage = "url('src/background_pc.jpg')";
-    }
+    document.getElementById("develop").innerHTML = window.innerHeight +' '+window.innerWidth;
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";
     }
