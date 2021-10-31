@@ -11,13 +11,7 @@ var flg;
 window.onresize = function(event){
     document.getElementById("develop").innerHTML = window.innerHeight +' '+window.innerWidth;
     if (document.getElementsByTagName('body')[0].clientHeight<450){
-        if (window.innerHeight > indow.innerWidth){
-            document.getElementById("select").style.paddingTop = "0";
-            document.getElementById("section").style.backgroundImage = "url('src/background_mobile.jpg')";
-        }
-        else{
-            document.getElementById("select").style.paddingTop = "0";
-        }
+        document.getElementById("select").style.paddingTop = "0";
     }
     else{
         document.getElementById("select").style.paddingTop = "13vh";
