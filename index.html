@@ -24,7 +24,7 @@
                 var sqc = "Exercise 0" + j;
                 var file = document.createElement("iframe");
                 file.src = "src/word/" + part + "/" + sqc + ".txt";
-                file.id = part.replace(" ", "") + "_" + sqc.replace(" ", "");
+                file.id = part.replaceAll(" ", "") + "_" + sqc.replaceAll(" ", "");
                 document.getElementsByTagName("head")[0].append(file);
             }
         }
@@ -38,7 +38,7 @@
             }
             var file_ = document.createElement("iframe");
             file_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
-            file_.id = part_.replace(" ", "") + "_" + sqc_.replace(" ", "");
+            file_.id = part_.replaceAll(" ", "") + "_" + sqc_.replaceAll(" ", "");
             document.getElementsByTagName("head")[0].append(file_);
         }
         for (i of [1]){
@@ -47,7 +47,7 @@
                 var sqc__ = "Exercise 0" + j;
                 var file__ = document.createElement("iframe");
                 file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
-                file__.id = part__.replace(" ", "") + "_" + sqc__.replace(" ", "");
+                file__.id = part__.replaceAll(" ", "") + "_" + sqc__.replaceAll(" ", "");
                 document.getElementsByTagName("head")[0].append(file__);
             }
         }
