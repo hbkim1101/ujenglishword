@@ -88,7 +88,7 @@ function Enter(){
     for (p of Object.keys(part_selected)){
         i += part_selected[p].length;
         for (t of part_selected[p]){
-            var k = false;
+            console.log("load: ", p, t);
             src = "src/word/" + p + "/" + t + ".txt";
             rawFile.open("GET", src, false);
             rawFile.onreadystatechange = function () {
