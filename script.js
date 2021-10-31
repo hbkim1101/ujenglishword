@@ -25,8 +25,6 @@ var part_selected = {};
 function Check(elm){
     var key = elm.parentElement.parentElement.id;
     var value = elm.parentElement.innerText.substring(2);
-    console.log(key);
-    console.log(value);
     if (elm.checked===true){
         if (part_selected.length === 0){
             part_selected[key].push(value);
@@ -103,7 +101,6 @@ function Enter(){
             rawFile.send();
         }
     }
-    console.log(Text);
     Build_list(Text);
     Q = K;
     init_score = Q.length;
