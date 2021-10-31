@@ -9,7 +9,6 @@ var K_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 window.onresize = function(event){
-    document.getElementById("develop").innerHTML = window.innerHeight +' '+window.innerWidth;
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";
     }
