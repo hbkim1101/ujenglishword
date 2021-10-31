@@ -64,9 +64,13 @@ label{
     background-color: #1e90ff;
     color: #FFFFFF;
 }
-.reset_button{
+.select_button{
+    float: left;
+    height: 20px;
+    width: 55.6px;
+    border: 0;
     background-color: rgb(240, 240, 240);
 }
-.reset_button:hover{
+.select_button:hover{
     background-color: rgb(220, 220, 220);
 }

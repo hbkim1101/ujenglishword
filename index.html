@@ -32,12 +32,13 @@
                             else{
                                 part = "PartⅡ " + i;
                             }
+                            part_label.id = part;
                             part_label.innerHTML = "&nbsp" + part;
                             part_select.appendChild(part_label);
                             part_select.appendChild(document.createElement("br"));
                             for (j of [1,2,3,4]){
                                 var part_option = document.createElement("label");
-                                part_option.className = part + " part_label";
+                                part_option.className = "part_label";
                                 part_option.style.float = "left";
                                 part_option.style.width = "111.2px";
                                 part_option.style.fontWeight = "300";
@@ -46,22 +47,22 @@
                                     e.preventDefault();
                                 });
                                 var sqc = "Exercise 0" + j;
-                                part_option.innerHTML = "&nbsp&nbsp<input id='" + part + "_" + sqc + "' type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc;
-                                part_select.appendChild(part_option);
+                                part_option.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc;
+                                part_label.appendChild(part_option);
                             }
-                            part_select.appendChild(document.createElement("br"));
                         }
 
                         var part_label_ = document.createElement("label");
                         part_label_.style.float = "left";
                         var part_;
                         part_ = "PartⅢ Test 1";
+                        part_label_.id = part_;
                         part_label_.innerHTML = "&nbsp" + part_;
                         part_select.appendChild(part_label_);
                         part_select.appendChild(document.createElement("br"));
                         for (i of [3,4,5,6,7,12,13,14,15,16]){
                             var part_option_ = document.createElement("label");
-                            part_option_.className = part_ + " part_label";
+                            part_option_.className = "part_label";
                             part_option_.style.float = "left";
                             part_option_.style.width = "111.2px";
                             part_option_.style.fontWeight = "300";
@@ -76,22 +77,22 @@
                             else{
                                 sqc_ = "Exercise " + i;
                             }
-                            part_option_.innerHTML = "&nbsp&nbsp<input id='" + part_ + "_" + sqc_ + "' type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc_;
-                            part_select.appendChild(part_option_);
-                            part_select.appendChild(document.createElement("br"));
+                            part_option_.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc_;
+                            part_label_.appendChild(part_option_);
                         }
 
                         for (i of [1]){
                             var part_label__ = document.createElement("label");
                             part_label__.style.float = "left";
                             var part__;
-                            part__ = "Weak "+i
+                            part__ = "Weak "+i;
+                            part_label__.id = part__;
                             part_label__.innerHTML = "&nbsp" + part__;
                             part_select.appendChild(part_label__);
                             part_select.appendChild(document.createElement("br"));
                             for (j of [2,4,6]){
                                 var part_option__ = document.createElement("label");
-                                part_option__.className = part__ + " part_label";
+                                part_option__.className = "part_label";
                                 part_option__.style.float = "left";
                                 part_option__.style.width = "111.2px";
                                 part_option__.style.fontWeight = "300";
@@ -100,13 +101,13 @@
                                     Part_visible();
                                 });
                                 var sqc__ = "Exercise 0" + j;
-                                part_option__.innerHTML = "&nbsp&nbsp<input id='" + part__ + "_" + sqc__ +  "' type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
-                                part_select.appendChild(part_option__);
+                                part_option__.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
+                                part_label__.appendChild(part_option__);
                             }
-                            part_select.appendChild(document.createElement("br"));
                         }
                     </script>
-                    <button class="reset_button" style="float: left; height: 20px; width: 111.2px; border: 0" onmousedown="event.preventDefault(); Part_visible(); Reset()">reset</button>
+                    <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); All
+                    ()">all</button><button class="select_button" onmousedown="event.preventDefault(); Part_visible(); Reset()">reset</button>
                 </div>
             </div>
             <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
