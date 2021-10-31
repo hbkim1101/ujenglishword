@@ -6,6 +6,52 @@
     <link id="css" rel="stylesheet" type="text/css" href="style.css">
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script>
+        for (i of [23,24,25,26,27,28,29]){
+            var part;
+            if (i < 18){
+                if (i < 10){
+                    part = "PartⅠ 0" + i;
+                }
+                else{
+                    part = "PartⅠ" + i;
+                }
+            }
+            else{
+                part = "PartⅡ " + i;
+            }
+            for (j of [1,2,3,4]){
+                var sqc = "Exercise 0" + j;
+                var file = document.createElement("iframe");
+                file.src = "src/word/" + part + "/" + sqc + ".txt";
+                file.id = part.replace(" ", "") + "_" + sqc.replace(" ", "");
+                document.getElementsByTagName("head")[0].append(file);
+            }
+        }
+        for (i of [3,4,5,6,7,12,13,14,15,16]) {
+            var part_ = "PartⅢ Test 1";
+            var sqc_;
+            if (i < 10) {
+                sqc_ = "Exercise 0" + i;
+            } else {
+                sqc_ = "Exercise " + i;
+            }
+            var file_ = document.createElement("iframe");
+            file_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
+            file_.id = part_.replace(" ", "") + "_" + sqc_.replace(" ", "");
+            document.getElementsByTagName("head")[0].append(file_);
+        }
+        for (i of [1]){
+            var part__ = "Weak "+i
+            for (j of [2,4,6]){
+                var sqc__ = "Exercise 0" + j;
+                var file__ = document.createElement("iframe");
+                file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
+                file__.id = part__.replace(" ", "") + "_" + sqc__.replace(" ", "");
+                document.getElementsByTagName("head")[0].append(file__);
+            }
+        }
+    </script>
 </head>
 <body>
     <section id="section">
@@ -84,8 +130,7 @@
                         for (i of [1]){
                             var part_label__ = document.createElement("label");
                             part_label__.style.float = "left";
-                            var part__;
-                            part__ = "Weak "+i;
+                            var part__ = "Weak "+i;
                             part_label__.id = part__;
                             part_label__.innerHTML = "&nbsp" + part__;
                             part_select.appendChild(part_label__);
@@ -136,6 +181,7 @@
             <script id="_waul72">var _wau = _wau || []; _wau.push(["dynamic", "csekd2ib8k", "l72", "a2c4c9ffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
         </div>
     </section>
+
 
 </body>
 </html>

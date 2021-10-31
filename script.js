@@ -8,7 +8,6 @@ var K_E = {};
 var K_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
-
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";
@@ -86,19 +85,9 @@ function Enter(){
     var rawFile = new XMLHttpRequest();
     var Text = '';
     for (p of Object.keys(part_selected)){
-        i += part_selected[p].length;
         for (t of part_selected[p]){
-            console.log("load: ", p, t);
-            src = "src/word/" + p + "/" + t + ".txt";
-            rawFile.open("GET", src, false);
-            rawFile.onreadystatechange = function () {
-                if (rawFile.readyState === rawFile.DONE) {
-                    if (rawFile.status === 200) {
-                        Text += rawFile.responseText;
-                    }
-                }
-            }
-            rawFile.send();
+            src = "#" + p.replace(" ", "")+ "_" +t.replace(" ", "");
+            Text += $(src).contents().find("pre").html();
         }
     }
     Build_list(Text);
