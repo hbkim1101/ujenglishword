@@ -35,3 +35,4 @@ reveal
 애국지사, 애국자
 patriot
 (괴로움 등을) 가하다, 괴롭히다
+inflict
