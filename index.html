@@ -21,7 +21,7 @@
                 part = "PartⅡ " + i;
             }
             for (j of [1,2,3,4]){
-                var sqc = "Exercise 0" + j;
+                var sqc = "Exercise " + j;
                 var file = document.createElement("iframe");
                 file.src = "src/word/" + part + "/" + sqc + ".txt";
                 file.id = part.replaceAll(" ", "") + "_" + sqc.replaceAll(" ", "");
@@ -30,25 +30,22 @@
         }
         for (i of [3,4,5,6,7,12,13,14,15,16]) {
             var part_ = "PartⅢ Test 1";
-            var sqc_;
-            if (i < 10) {
-                sqc_ = "Exercise 0" + i;
-            } else {
-                sqc_ = "Exercise " + i;
-            }
+            var sqc_= "Exercise " + i;
             var file_ = document.createElement("iframe");
             file_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
             file_.id = part_.replaceAll(" ", "") + "_" + sqc_.replaceAll(" ", "");
             document.getElementsByTagName("head")[0].append(file_);
         }
-        for (i of [1]){
-            var part__ = "Weak "+i
-            for (j of [2,4,6]){
-                var sqc__ = "Exercise 0" + j;
-                var file__ = document.createElement("iframe");
-                file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
-                file__.id = part__.replaceAll(" ", "") + "_" + sqc__.replaceAll(" ", "");
-                document.getElementsByTagName("head")[0].append(file__);
+        for (i of [1,2]){
+            var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;
+            if (i < 5) {
+                for (j of [2,4,6,8,10,12]) {
+                    var sqc__ = "Exercise " + j;
+                    var file__ = document.createElement("iframe");
+                    file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
+                    file__.id = part__.replaceAll(" ", "") + "_" + sqc__.replaceAll(" ", "");
+                    document.getElementsByTagName("head")[0].append(file__);
+                }
             }
         }
     </script>
@@ -61,6 +58,10 @@
                 <button id="part_button" onclick="Part_visible()">Part</button>
                 <div tabindex="1" id="part_select_box" class="part_select" style="overflow-y: scroll; position: absolute; background-color: #FFFFFF; width: 128px; height: 30vh; border: 1px solid; border-color: black; margin-left: 10px; display: none"
                      onblur="this.style.display='none'">
+                    <div style="position: sticky; top: 0;">
+                        <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); All()">all</button>
+                        <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); Reset()">reset</button>
+                    </div>
                     <script>
                         var part_select = document.getElementById("part_select_box");
                         for (i of [23,24,25,26,27,28,29]){
@@ -92,7 +93,7 @@
                                     Part_visible();
                                     e.preventDefault();
                                 });
-                                var sqc = "Exercise 0" + j;
+                                var sqc = "Exercise " + j;
                                 part_option.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc;
                                 part_label.appendChild(part_option);
                             }
@@ -116,43 +117,38 @@
                                 Part_visible();
                                 e.preventDefault();
                             });
-                            var sqc_;
-                            if (i < 10) {
-                                sqc_ = "Exercise 0" + i;
-                            }
-                            else{
-                                sqc_ = "Exercise " + i;
-                            }
+                            var sqc_ = "Exercise " + i;
                             part_option_.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc_;
                             part_label_.appendChild(part_option_);
                         }
 
-                        for (i of [1]){
+                        for (i of [1,2]){
                             var part_label__ = document.createElement("label");
                             part_label__.style.float = "left";
-                            var part__ = "Weak "+i;
+                            var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;
                             part_label__.id = part__;
                             part_label__.innerHTML = "&nbsp" + part__;
                             part_select.appendChild(part_label__);
                             part_select.appendChild(document.createElement("br"));
-                            for (j of [2,4,6]){
-                                var part_option__ = document.createElement("label");
-                                part_option__.className = "part_label";
-                                part_option__.style.float = "left";
-                                part_option__.style.width = "111.2px";
-                                part_option__.style.fontWeight = "300";
-                                part_option__.addEventListener("mousedown", function(e){
-                                    e.preventDefault();
-                                    Part_visible();
-                                });
-                                var sqc__ = "Exercise 0" + j;
-                                part_option__.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
-                                part_label__.appendChild(part_option__);
+                            if (i < 5){
+                                for (j of [2,4,6,8,10,12]){
+                                    var part_option__ = document.createElement("label");
+                                    part_option__.className = "part_label";
+                                    part_option__.style.float = "left";
+                                    part_option__.style.width = "111.2px";
+                                    part_option__.style.fontWeight = "300";
+                                    part_option__.addEventListener("mousedown", function(e){
+                                        e.preventDefault();
+                                        Part_visible();
+                                    });
+                                    var sqc__ = "Exercise " + j;
+                                    part_option__.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
+                                    part_label__.appendChild(part_option__);
+                                }
                             }
+
                         }
                     </script>
-                    <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); All
-                    ()">all</button><button class="select_button" onmousedown="event.preventDefault(); Part_visible(); Reset()">reset</button>
                 </div>
             </div>
             <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
