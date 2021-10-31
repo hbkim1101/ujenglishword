@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,14 +194,7 @@
       <workItem from="1635430245066" duration="26815000" />
       <workItem from="1635522373889" duration="36692000" />
       <workItem from="1635607804570" duration="4816000" />
-      <workItem from="1635646703893" duration="23001000" />
-    </task>
-    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;#&#9;style.css">
-      <created>1635288017941</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1635288017941</updated>
+      <workItem from="1635646703893" duration="24068000" />
     </task>
     <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;index.html&#10;#&#9;style.css">
       <created>1635288373993</created>
@@ -538,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635685875352</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="as">
+      <created>1635685921364</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1635685921364</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
