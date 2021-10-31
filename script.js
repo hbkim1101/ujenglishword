@@ -87,8 +87,6 @@ function Enter(){
     for (p of Object.keys(part_selected)){
         for (t of part_selected[p]){
             src = "#" + p.replaceAll(" ", "")+ "_" +t.replaceAll(" ", "");
-            console.log(p);
-            console.log(src);
             Text += $(src).contents().find("pre").html();
         }
     }
