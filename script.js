@@ -81,13 +81,13 @@ function Enter(){
     else{
         return;
     }
-
-    var rawFile = new XMLHttpRequest();
+    document.getElementById("test").innerHTML = '';
     var Text = '';
     for (p of Object.keys(part_selected)){
         for (t of part_selected[p]){
-            document.getElementById("test").innerHTML += p+t;
+            document.getElementById("test").innerHTML += p+' '+t+'\n';
             src = "#" + p.replaceAll(" ", "")+ "_" +t.replaceAll(" ", "");
+            document.getElementById("test").innerHTML += src+'\n';
             Text += $(src).contents().find("pre").html();
         }
     }
