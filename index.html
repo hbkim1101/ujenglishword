@@ -24,7 +24,7 @@
                 var sqc = "Exercise " + j;
                 var file = document.createElement("iframe");
                 file.src = "src/word/" + part + "/" + sqc + ".txt";
-                file.id = part.replaceAll(" ", "") + "_" + sqc.replaceAll(" ", "");
+                file.id = part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                 document.getElementsByTagName("head")[0].append(file);
             }
         }
@@ -33,7 +33,7 @@
             var sqc_= "Exercise " + i;
             var file_ = document.createElement("iframe");
             file_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
-            file_.id = part_.replaceAll(" ", "") + "_" + sqc_.replaceAll(" ", "");
+            file_.id = part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
             document.getElementsByTagName("head")[0].append(file_);
         }
         for (i of [1,2]){
@@ -43,7 +43,7 @@
                     var sqc__ = "Exercise " + j;
                     var file__ = document.createElement("iframe");
                     file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
-                    file__.id = part__.replaceAll(" ", "") + "_" + sqc__.replaceAll(" ", "");
+                    file__.id = part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
                     document.getElementsByTagName("head")[0].append(file__);
                 }
             }
