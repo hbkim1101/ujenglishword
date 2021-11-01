@@ -62,7 +62,6 @@ function Reset(){
 }
 
 function Enter(){
-    document.write(part_selected);
     var keys = Object.keys(part_selected).sort(function(a, b) {
             return a < b ? -1 : a > b ? 1 : 0;
     });
