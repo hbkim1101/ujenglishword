@@ -10,57 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
-      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 01/Exercise 10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 01/Exercise 12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 01/Exercise 8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 02/Exercise 10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 02/Exercise 12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 02/Exercise 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 02/Exercise 4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 02/Exercise 6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak1 02/Exercise 8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 23/Exercise 04.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 24/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 25/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 26/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 27/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 28/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅡ 29/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/PartⅢ Test 1/Exercise 7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/Weak 1/Exercise 02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak1 01/Exercise 2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/Weak 1/Exercise 04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak1 01/Exercise 4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word/Weak 1/Exercise 06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak1 01/Exercise 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,13 +198,7 @@
       <workItem from="1635646703893" duration="29397000" />
       <workItem from="1635696271954" duration="102000" />
       <workItem from="1635696386305" duration="3323000" />
-    </task>
-    <task id="LOCAL-00025" summary="a">
-      <created>1635288758696</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1635288758696</updated>
+      <workItem from="1635781733507" duration="289000" />
     </task>
     <task id="LOCAL-00026" summary="a">
       <created>1635288940244</created>
@@ -591,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635687653946</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="as">
+      <created>1635782006998</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1635782006999</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
