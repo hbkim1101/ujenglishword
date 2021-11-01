@@ -81,7 +81,6 @@ function Enter(){
     else{
         return;
     }
-
     var rawFile = new XMLHttpRequest();
     var Text = '';
     for (p of Object.keys(part_selected)){
@@ -242,6 +241,7 @@ function Input(){
             document.getElementById("count").style.display = "none";
             document.getElementById("develop").innerHTML = '';
         },3000);
+        document.getElementById("test").innerHTML = Text;
     }
 
     else if (ans === 'S'){
