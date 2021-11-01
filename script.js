@@ -81,12 +81,10 @@ function Enter(){
     else{
         return;
     }
-    document.getElementById("test").innerHTML = '';
     var Text = '';
     for (p of Object.keys(part_selected)){
         for (t of part_selected[p]){
             var src = "#" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
-            console.log(src);
             Text += $(src).contents().find("pre").html();
         }
     }
