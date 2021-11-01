@@ -81,15 +81,16 @@ function Enter(){
     else{
         return;
     }
+
     var rawFile = new XMLHttpRequest();
     var Text = '';
     for (p of Object.keys(part_selected)){
         for (t of part_selected[p]){
+            document.getElementById("test").innerHTML += p+t;
             src = "#" + p.replaceAll(" ", "")+ "_" +t.replaceAll(" ", "");
             Text += $(src).contents().find("pre").html();
         }
     }
-    document.getElementById("test").innerHTML = Text;
     Build_list(Text);
     Q = K;
     init_score = Q.length;
