@@ -42,6 +42,7 @@ function Check(elm){
             delete part_selected[key];
         }
     }
+    document.write(part_selected);
 }
 
 function All(){
