@@ -86,7 +86,7 @@ function Enter(){
     for (p of Object.keys(part_selected)){
         for (t of part_selected[p]){
             document.getElementById("test").innerHTML += p+' '+t+'\n';
-            src = "#" + p.replaceAll(" ", "")+ "_" +t.replaceAll(" ", "");
+            var src = "#" + p.replaceAll(" ", "")+ "_" +t.replaceAll(" ", "");
             document.getElementById("test").innerHTML += src+'\n';
             Text += $(src).contents().find("pre").html();
         }
