@@ -1,6 +1,7 @@
 var test;
 var Flatform;
 var Q;
+var R = [];
 var question, answer, score = 0, init_score;
 var K = [];
 var E = [];
@@ -90,6 +91,7 @@ function Enter(){
     }
     Build_list(Text);
     Q = K;
+    score = 0;
     init_score = Q.length;
     shuffle(Q);
     Question();
@@ -227,12 +229,12 @@ function Question(){
     }
 }
 
+var opt = 0;
 function Input(){
     var ans = document.getElementById("input-answer").value;
     if (ans === '') {
         alert(Q.length+"개 남았습니다.");
     }
-
     else if (ans === "dvl"){
         document.getElementById("count").style.display = "block";
         document.getElementById("develop").innerHTML = window.innerHeight+' '+window.innerWidth;
@@ -249,7 +251,8 @@ function Input(){
         return Hint();
     }
     else if (ans === answer){
-        alert("success");
+        alert("SUCCESS");
+        opt = 0;
         score += 1;
         Q.shift();
         if (Q.length === 0){
@@ -258,19 +261,47 @@ function Input(){
         return Question();
     }
     else{
-        alert('failure');
         document.getElementById("input-answer").value='';
+        opt += 1;
+        if (opt === 3){
+            alert("FAILURE\n3번 모두 실패하셨습니다.");
+            Skip();
+        }
+        else{
+            var message = "FAILURE\n남은 기회: " + (3-opt);
+            alert(message);
+        }
     }
 }
 
 function Complete(){
-    alert(init_score+"개 중 "+score+"개 정답")
     document.getElementById("question").innerHTML='';
     document.getElementById("input-answer").value='';
+    var message = '';
+    message += "총 개수: " + init_score + "\n"
+    message += "맞힌 개수: " + score;
+    if (score === init_score){
+        alert(message);
+    }
+    else{
+        message += "\n틀린 개수: " + (init_score-score);
+        message += "\nRESTART?"
+        if (confirm(message)){}
+        else{
+            return;
+        }
+        score = 0;
+        init_score = R.length;
+        Q = R;
+        R = [];
+        Question();
+    }
 }
 
 function Skip(){
     alert("정답: "+answer);
+    opt = 0;
+    R.push(Q[0]);
     Q.shift();
     if (Q.length === 0){
         return Complete();
