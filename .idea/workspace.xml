@@ -66,6 +66,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -199,14 +200,8 @@
       <workItem from="1635696271954" duration="102000" />
       <workItem from="1635696386305" duration="3323000" />
       <workItem from="1635781733507" duration="2126000" />
-      <workItem from="1635865655431" duration="2949000" />
-    </task>
-    <task id="LOCAL-00036" summary="a">
-      <created>1635376362909</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1635376362909</updated>
+      <workItem from="1635865655431" duration="3129000" />
+      <workItem from="1635942908471" duration="2794000" />
     </task>
     <task id="LOCAL-00037" summary="a">
       <created>1635376386508</created>
@@ -544,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635783770127</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="as">
+      <created>1635874754367</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1635874754397</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -7,6 +7,7 @@ var K = [];
 var E = [];
 var K_E = {};
 var K_ans = {};
+var E_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 window.onresize = function(event){
@@ -117,7 +118,7 @@ function Build_list(Text){
         if (ln === 'K'){
             K.push(f);
             ln = 'E';
-            if (lng_selected === "ENGLISH"){
+            if (lng_selected === "KOREAN"){
                 K_ans[f] = Manufact_K(f);
             }
             pf = f;
@@ -126,6 +127,9 @@ function Build_list(Text){
             E.push(f);
             K_E[pf] = f;
             ln = 'K';
+            if (lng_selected === "ENGLISH"){
+                E_ans[f] = Manufact_E(f);
+            }
         }
     }
 }
@@ -216,12 +220,38 @@ function Manufact_K(Text){
     return result;
 }
 
+function Manufact_E(Text){
+    var U = '';
+    var con = [];
+    var i = 0;
+    for (f of Text){
+        if (f === "~"){
+            con.push([i,1]);
+        }
+        else if (f === "." && Text.substring(i,i+3) === "..."){
+            con.push([i,3]);
+        }
+        i++;
+    }
+    if (con.length !== 0){
+        var j = 0;
+        for (c of con){
+            U += Text.substring(j, c[0]-1);
+            j = c[0]+c[1];
+        }
+        return [Text, U];
+    }
+    else{
+        return [Text];
+    }
+}
+
 function shuffle(array) { array.sort(() => Math.random() - 0.5); }
 
 function Question(){
     if (lng_selected === "ENGLISH"){
         question = Q[0];
-        answer = K_E[Q[0]];
+        answer = E_ans[K_E[Q[0]]];
         document.getElementById("question").innerHTML = question;
         document.getElementById("input-answer").value='';
         document.getElementById("input-answer").placeholder='';
@@ -250,7 +280,7 @@ function Input(){
     else if (ans === 'H'){
         return Hint();
     }
-    else if (ans === answer){
+    else if (answer.includes(ans)){
         alert("SUCCESS");
         opt = 0;
         score += 1;
@@ -299,7 +329,7 @@ function Complete(){
 }
 
 function Skip(){
-    alert("정답: "+answer);
+    alert("정답: "+answer[0]);
     opt = 0;
     R.push(Q[0]);
     Q.shift();
@@ -312,6 +342,6 @@ function Skip(){
 function Hint(){
     document.getElementById("input-answer").value='';
     document.getElementById("input-answer").placeholder=
-        answer.substring(0, document.getElementById("input-answer").placeholder.length+1);
+        answer[0].substring(0, document.getElementById("input-answer").placeholder.length+1);
     document.getElementById("input-answer").focus();
 }
