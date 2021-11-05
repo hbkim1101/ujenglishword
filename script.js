@@ -13,8 +13,6 @@ var flg;
 
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
-        document.getElementById("select").style.paddingTop = "0";
-        document.getElementById("section").style.height = "100vh";
     }
     else{
         document.getElementById("select").style.paddingTop = "13vh";
