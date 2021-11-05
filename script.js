@@ -11,20 +11,20 @@ var E_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 
-$(function () {
-
-$("#div_section").css('height',window.innerHeight);
-
-});
-
-
+window.onload = function(){
+    var section_height = window.getComputedStyle(document.getElementById("section")).height;
+    document.getElementById("section").style.height = section_height;
+}
 
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
+        document.getElementById("select").style.paddingTop = "0";
     }
     else{
         document.getElementById("select").style.paddingTop = "13vh";
     }
+    var section_height = window.getComputedStyle(document.getElementById("section")).height;
+    document.getElementById("section").style.height = section_height;
 }
 function Part_visible(){
     document.getElementById("part_select_box").style.display = "block";
