@@ -11,6 +11,14 @@ var E_ans = {};
 var part_selected, lng_selected, type_selected;
 var flg;
 
+$(function () {
+
+$("#div_section").css('height',window.innerHeight);
+
+});
+
+
+
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
     }
