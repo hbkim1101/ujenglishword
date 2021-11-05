@@ -10,9 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word/Weak1 02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sentence" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\Weak1 02" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\Weak1 01" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\PartⅢ Test 1" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\PartⅡ 29" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\PartⅡ 28" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
@@ -203,14 +207,7 @@
       <workItem from="1635781733507" duration="2126000" />
       <workItem from="1635865655431" duration="3129000" />
       <workItem from="1635942908471" duration="4506000" />
-      <workItem from="1636095746982" duration="335000" />
-    </task>
-    <task id="LOCAL-00040" summary="as">
-      <created>1635440577214</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1635440577214</updated>
+      <workItem from="1636095746982" duration="5307000" />
     </task>
     <task id="LOCAL-00041" summary="as">
       <created>1635440900504</created>
@@ -548,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636095771034</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="as">
+      <created>1636096128828</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1636096128828</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

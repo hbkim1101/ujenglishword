@@ -22,10 +22,16 @@
             }
             for (j of [1,2,3,4]){
                 var sqc = "Exercise " + j;
-                var file = document.createElement("iframe");
-                file.src = "src/word/" + part + "/" + sqc + ".txt";
-                file.id = part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
-                document.getElementsByTagName("head")[0].append(file);
+                var file_word = document.createElement("iframe");
+                var file_sentence = document.createElement("iframe");
+                file_word.src = "src/word/" + part + "/" + sqc + ".txt";
+                file_word.id = "word_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
+                document.getElementsByTagName("head")[0].append(file_word);
+                if (i === 23 && j === 1){
+                    file_sentence.src = "src/sentence/" + part + "/" + sqc + ".txt";
+                    file_sentence.id = "sentence_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
+                    document.getElementsByTagName("head")[0].append(file_sentence);
+                }
             }
         }
         for (i of [3,4,5,6,7,12,13,14,15,16]) {
@@ -33,7 +39,7 @@
             var sqc_= "Exercise " + i;
             var file_ = document.createElement("iframe");
             file_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
-            file_.id = part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
+            file_.id = "word_" + part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
             document.getElementsByTagName("head")[0].append(file_);
         }
         for (i of [1,2]){
@@ -43,7 +49,7 @@
                     var sqc__ = "Exercise " + j;
                     var file__ = document.createElement("iframe");
                     file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
-                    file__.id = part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
+                    file__.id = "word_" + part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
                     document.getElementsByTagName("head")[0].append(file__);
                 }
             }
@@ -153,11 +159,11 @@
             </div>
             <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
                 <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
-                <option id="lng_writeKOREAN" value="KOREAN" disabled>한국어 쓰기</option>
+                <option id="lng_writeKOREAN" value="KOREAN">한국어 쓰기</option>
             </select>
             <select name="type" id="select-type" style="width:100px; text-align-last: center;">
                 <option id="type_word" value="word">단어</option>
-                <option id="type_sentence" value="sentence" disabled>문장</option>
+                <option id="type_sentence" value="sentence">문장</option>
             </select>
             <button onclick="Enter()">Enter</button>
         </div>

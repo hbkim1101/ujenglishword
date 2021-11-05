@@ -8,13 +8,9 @@ var E = [];
 var K_E = {};
 var K_ans = {};
 var E_ans = {};
+var S = {};
 var part_selected, lng_selected, type_selected;
 var flg;
-
-window.onload = function(){
-    var section_height = window.getComputedStyle(document.getElementById("section")).height;
-    document.getElementById("section").style.height = section_height;
-}
 
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
@@ -23,9 +19,8 @@ window.onresize = function(event){
     else{
         document.getElementById("select").style.paddingTop = "13vh";
     }
-    var section_height = window.getComputedStyle(document.getElementById("section")).height;
-    document.getElementById("section").style.height = section_height;
 }
+
 function Part_visible(){
     document.getElementById("part_select_box").style.display = "block";
     document.getElementById("part_select_box").focus();
@@ -94,7 +89,7 @@ function Enter(){
     var Text = '';
     for (p of Object.keys(part_selected)){
         for (t of part_selected[p]){
-            var src = "#" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
+            var src = "#" + type_selected + "_" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
             Text += $(src).contents().find("pre").html();
         }
     }
@@ -107,7 +102,7 @@ function Enter(){
 }
 
 function Build_list(Text){
-    K = []; E = []; K_E = {}; K_ans = {};
+    K = []; E = []; K_E = {}; K_ans = {}; S = {};
     var i=0;
     while (i < Text.length){
         if (Text[i] === '\r'){
@@ -116,30 +111,39 @@ function Build_list(Text){
         }
         i++;
     }
-    Text = Text.split('\n');
-    var ln = 'K';
-    var pf;
-    for (f of Text){
-        if (f === ''){
-            break;
-        }
-        if (ln === 'K'){
-            K.push(f);
-            ln = 'E';
-            if (lng_selected === "KOREAN"){
-                K_ans[f] = Manufact_K(f);
+    if (type_selected === "word"){
+        Text = Text.split('\n');
+        var ln = 'K';
+        var pf;
+        for (f of Text){
+            if (f === ''){
+                break;
             }
-            pf = f;
-        }
-        else{
-            E.push(f);
-            K_E[pf] = f;
-            ln = 'K';
-            if (lng_selected === "ENGLISH"){
-                E_ans[f] = Manufact_E(f);
+            if (ln === 'K'){
+                K.push(f);
+                ln = 'E';
+                if (lng_selected === "KOREAN"){
+                    K_ans[f] = Manufact_K(f);
+                }
+                pf = f;
+            }
+            else{
+                E.push(f);
+                K_E[pf] = f;
+                ln = 'K';
+                if (lng_selected === "ENGLISH"){
+                    E_ans[f] = Manufact_E(f);
+                }
             }
         }
     }
+    else if (type_selected === "sentence"){
+        var pt;
+        var tg = 0;
+        Text = Text.split('\n');
+        console.log(Text);
+    }
+
 }
 
 function Manufact_K(Text){
@@ -265,6 +269,14 @@ function Question(){
         document.getElementById("input-answer").placeholder='';
         document.getElementById("input-answer").focus();
     }
+    else if (lng_selected === "KOREAN"){
+        question = K_E[Q[0]];
+        answer = K_ans[Q[0]];
+        document.getElementById("question").innerHTML = question;
+        document.getElementById("input-answer").value='';
+        document.getElementById("input-answer").placeholder='';
+        document.getElementById("input-answer").focus();
+    }
 }
 
 var opt = 0;
@@ -299,6 +311,18 @@ function Input(){
         return Question();
     }
     else{
+        if (lng_selected === "KOREAN"){
+            var F = false;
+            for (a of answer){
+                if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')){
+                    F = true;
+                }
+            }
+            if (F === true){
+                alert("띄어쓰기를 확인해주세요.");
+                return;
+            }
+        }
         document.getElementById("input-answer").value='';
         opt += 1;
         if (opt === 3){
