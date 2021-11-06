@@ -377,6 +377,7 @@ function Input(){
     else if (ans === 'H'){
         return Hint();
     }
+    else{
     if (type_selected === "word"){
         if (answer.includes(ans)){
             alert("SUCCESS");
@@ -462,6 +463,7 @@ function Input(){
             }
             answer = U_a.join(" ");
         }
+    }
     }
 }
 
