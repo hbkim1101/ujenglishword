@@ -20,10 +20,15 @@ window.onresize = function(event){
         document.getElementById("select").style.paddingTop = "13vh";
     }
 }
-
+var visible = true;
 function Part_visible(){
-    document.getElementById("part_select_box").style.display = "block";
-    document.getElementById("part_select_box").focus();
+    if (visible === true){
+        document.getElementById("part_select_box").style.display = "block";
+        document.getElementById("part_select_box").focus();
+    }
+    else{
+        visible = true;
+    }
 }
 function Check(elm){
     var key = elm.parentElement.parentElement.id;
@@ -363,8 +368,6 @@ function Input(){
         alert(Q.length+"개 남았습니다.");
     }
     else if (ans === "dvl"){
-        document.getElementById("count").style.display = "block";
-        document.getElementById("develop").innerHTML = window.innerHeight+' '+window.innerWidth;
         setTimeout(function(){
             document.getElementById("count").style.display = "none";
             document.getElementById("develop").innerHTML = '';
@@ -378,92 +381,86 @@ function Input(){
         return Hint();
     }
     else{
-    if (type_selected === "word"){
-        if (answer.includes(ans)){
-            alert("SUCCESS");
-            opt = 0;
-            score += 1;
-            Q.shift();
-            if (Q.length === 0){
-                return Complete();
-            }
-            return Question();
-        }
-        else{
-            if (lng_selected === "KOREAN"){
-                var F = false;
-                for (a of answer){
-                    if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')){
-                        F = true;
+        if (type_selected === "word") {
+            if (answer.includes(ans)) {
+                alert("SUCCESS");
+                opt = 0;
+                score += 1;
+                Q.shift();
+                if (Q.length === 0) {
+                    return Complete();
+                }
+                return Question();
+            } else {
+                if (lng_selected === "KOREAN") {
+                    var F = false;
+                    for (a of answer) {
+                        if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')) {
+                            F = true;
+                        }
+                    }
+                    if (F === true) {
+                        alert("띄어쓰기를 확인해주세요.");
+                        return;
                     }
                 }
-                if (F === true){
-                    alert("띄어쓰기를 확인해주세요.");
-                    return;
+                document.getElementById("input-answer").value = '';
+                opt += 1;
+                if (opt === 3) {
+                    alert("FAILURE\n3번 모두 실패하셨습니다.");
+                    return Skip();
+                } else {
+                    var message = "FAILURE\n남은 기회: " + (3 - opt);
+                    alert(message);
                 }
             }
-            document.getElementById("input-answer").value='';
-            opt += 1;
-            if (opt === 3){
-                alert("FAILURE\n3번 모두 실패하셨습니다.");
-                return Skip();
+        } else if (type_selected === "sentence") {
+            console.log(ans, answer);
+            ans = ans.split(" ");
+            var U = [];
+            var U_a = answer.split(" ");
+            var i = 0;
+            var j = 0;
+            for (a of ans) {
+                if (U_a.slice(j).includes(a)) {
+                    U.push(U_a.indexOf(a));
+                    j += 1;
+                }
+                i++;
             }
-            else{
-                var message = "FAILURE\n남은 기회: " + (3-opt);
-                alert(message);
+            if (U.length === 0) {
+                document.getElementById("input-answer").value = '';
+                opt += 1;
+                if (opt === 3) {
+                    alert("FAILURE\n3번 모두 실패하셨습니다.");
+                    return Skip();
+                } else {
+                    var message = "FAILURE\n남은 기회: " + (3 - opt);
+                    alert(message);
+                }
+            } else if (U.length === U_a.length) {
+                alert("SUCCESS");
+                opt = 0;
+                score += 1;
+                Q.shift();
+                if (Q.length === 0) {
+                    return Complete();
+                }
+                return Question();
+            } else {
+                console.log(U);
+                for (u of U) {
+                    var n = Indexof(question, "___")[u];
+                    console.log(n);
+                    document.getElementById("input-answer").value = '';
+                    question = question.substring(0, n) + U_a[u] + question.substring(n + 3);
+                    document.getElementById("question").innerHTML = question;
+                    alert("더 쓰시오.");
+                    U_a.splice(u, 1);
+                }
+                answer = U_a.join(" ");
             }
         }
-    }
-    else if (type_selected === "sentence"){
-        console.log(ans, answer);
-        ans = ans.split(" ");
-        var U = [];
-        var U_a = answer.split(" ");
-        var i = 0;
-        var j = 0;
-        for (a of ans){
-            if (U_a.slice(j).includes(a)){
-                U.push(U_a.indexOf(a));
-                j += 1;
-            }
-            i++;
-        }
-        if (U.length === 0){
-            document.getElementById("input-answer").value='';
-            opt += 1;
-            if (opt === 3){
-                alert("FAILURE\n3번 모두 실패하셨습니다.");
-                return Skip();
-            }
-            else{
-                var message = "FAILURE\n남은 기회: " + (3-opt);
-                alert(message);
-            }
-        }
-        else if (U.length === U_a.length){
-            alert("SUCCESS");
-            opt = 0;
-            score += 1;
-            Q.shift();
-            if (Q.length === 0){
-                return Complete();
-            }
-            return Question();
-        }
-        else{
-            console.log(U);
-            for (u of U){
-                var n = Indexof(question, "___")[u];
-                console.log(n);
-                document.getElementById("input-answer").value='';
-                question = question.substring(0, n) + U_a[u] + question.substring(n+3);
-                document.getElementById("question").innerHTML = question;
-                alert("더 쓰시오.");
-                U_a.splice(u, 1);
-            }
-            answer = U_a.join(" ");
-        }
-    }
     }
 }
 
