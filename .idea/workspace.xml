@@ -10,13 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +41,22 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/script.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 2.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zwYyfuOUrOJCYpQspnJ0xlMLDA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -207,14 +214,7 @@
       <workItem from="1635781733507" duration="2126000" />
       <workItem from="1635865655431" duration="3129000" />
       <workItem from="1635942908471" duration="4506000" />
-      <workItem from="1636095746982" duration="5307000" />
-    </task>
-    <task id="LOCAL-00041" summary="as">
-      <created>1635440900504</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1635440900504</updated>
+      <workItem from="1636095746982" duration="22653000" />
     </task>
     <task id="LOCAL-00042" summary="as">
       <created>1635441264500</created>
@@ -552,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636096128828</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="as">
+      <created>1636101518922</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1636101518922</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

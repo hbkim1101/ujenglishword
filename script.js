@@ -9,7 +9,7 @@ var K_E = {};
 var K_ans = {};
 var E_ans = {};
 var S = {};
-var part_selected, lng_selected, type_selected;
+var part_selected = {}, lng_selected, type_selected;
 var flg;
 
 window.onresize = function(event){
@@ -25,7 +25,6 @@ function Part_visible(){
     document.getElementById("part_select_box").style.display = "block";
     document.getElementById("part_select_box").focus();
 }
-var part_selected = {};
 function Check(elm){
     var key = elm.parentElement.parentElement.id;
     var value = elm.parentElement.innerText.substring(2);
@@ -48,7 +47,14 @@ function Check(elm){
         }
     }
 }
-
+function Disable(){
+    if (document.getElementById("select-type").value === 'sentence'){
+        document.getElementById("select-lng").disabled = 'disabled';
+    }
+    else{
+        document.getElementById("select-lng").disabled = false;
+    }
+}
 function All(){
     part_selected = {};
     for (check_part of document.getElementsByClassName("part_label")){
@@ -77,7 +83,13 @@ function Enter(){
     }
     lng_selected = document.getElementById("select-lng").value;
     type_selected = document.getElementById("select-type").value;
-    var message = '';
+    var message = "Type: ";
+    if (type_selected === "word"){
+        message += "단어\n";
+    }
+    else if (type_selected === "sentence"){
+        message += "문장\n";
+    }
     for (p of keys){
         message += p + ": " + part_selected[p].join(", ") + '\n';
     }
@@ -94,7 +106,18 @@ function Enter(){
         }
     }
     Build_list(Text);
-    Q = K;
+    if (type_selected === "word") {
+        Q = K;
+    }
+    else if (type_selected === "sentence") {
+        var U = [];
+        for (s of Object.keys(S)){
+            for (i=0;i<S[s].length;i++){
+                U.push(s+i);
+            }
+        }
+        Q = U;
+    }
     score = 0;
     init_score = Q.length;
     shuffle(Q);
@@ -111,8 +134,8 @@ function Build_list(Text){
         }
         i++;
     }
+    Text = Text.split('\n');
     if (type_selected === "word"){
-        Text = Text.split('\n');
         var ln = 'K';
         var pf;
         for (f of Text){
@@ -138,12 +161,39 @@ function Build_list(Text){
         }
     }
     else if (type_selected === "sentence"){
-        var pt;
         var tg = 0;
-        Text = Text.split('\n');
-        console.log(Text);
+        var pt;
+        var j = 0;
+        for (f of Text){
+            if (tg === 0){
+                pt = f;
+                S[pt] = [];
+            }
+            else if (tg === 1){
+                S[pt].push([f]);
+            }
+            else if (tg === 2){
+                S[pt][j].push(f);
+            }
+            else if (tg === 3){
+                S[pt][j].push(f);
+            }
+            else if (tg === 4){
+                if (f === ''){
+                    tg = 0;
+                    j = 0;
+                    continue;
+                }
+                else{
+                    S[pt].push([f]);
+                    tg = 2;
+                    j++;
+                    continue;
+                }
+            }
+            tg++;
+        }
     }
-
 }
 
 function Manufact_K(Text){
@@ -259,19 +309,46 @@ function Manufact_E(Text){
 }
 
 function shuffle(array) { array.sort(() => Math.random() - 0.5); }
+function Indexof(str, searchvalue){
+    var result = [];
+    var i = 0;
+    while (i+searchvalue.length <= str.length){
+        if (str.substr(i, searchvalue.length) === searchvalue){
+            result.push(i);
+        }
+        i++;
+    }
+    return result;
+}
 
 function Question(){
-    if (lng_selected === "ENGLISH"){
-        question = Q[0];
-        answer = E_ans[K_E[Q[0]]];
-        document.getElementById("question").innerHTML = question;
-        document.getElementById("input-answer").value='';
-        document.getElementById("input-answer").placeholder='';
-        document.getElementById("input-answer").focus();
+    if (type_selected === "word"){
+        document.getElementById("question").style.fontSize = "23.5px";
+        document.getElementById("question").style.fontWeight= "bold";
+        if (lng_selected === "ENGLISH"){
+            question = Q[0];
+            answer = E_ans[K_E[Q[0]]];
+            document.getElementById("question").innerHTML = question;
+            document.getElementById("input-answer").value='';
+            document.getElementById("input-answer").placeholder='';
+            document.getElementById("input-answer").focus();
+        }
+        else if (lng_selected === "KOREAN"){
+            question = K_E[Q[0]];
+            answer = K_ans[Q[0]];
+            document.getElementById("question").innerHTML = question;
+            document.getElementById("input-answer").value='';
+            document.getElementById("input-answer").placeholder='';
+            document.getElementById("input-answer").focus();
+        }
     }
-    else if (lng_selected === "KOREAN"){
-        question = K_E[Q[0]];
-        answer = K_ans[Q[0]];
+    else if (type_selected === "sentence"){
+        document.getElementById("question").style.fontSize = "15px";
+        document.getElementById("question").style.fontWeight= "bold";
+        var U = S[Q[0].substring(0, Q[0].length-1)][Q[0].substring(Q[0].length-1)];
+        question = U[0] + "<br><br>" + U[1];
+        answer = U[2];
+        console.log(answer);
         document.getElementById("question").innerHTML = question;
         document.getElementById("input-answer").value='';
         document.getElementById("input-answer").placeholder='';
@@ -300,38 +377,90 @@ function Input(){
     else if (ans === 'H'){
         return Hint();
     }
-    else if (answer.includes(ans)){
-        alert("SUCCESS");
-        opt = 0;
-        score += 1;
-        Q.shift();
-        if (Q.length === 0){
-            return Complete();
-        }
-        return Question();
-    }
-    else{
-        if (lng_selected === "KOREAN"){
-            var F = false;
-            for (a of answer){
-                if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')){
-                    F = true;
-                }
+    if (type_selected === "word"){
+        if (answer.includes(ans)){
+            alert("SUCCESS");
+            opt = 0;
+            score += 1;
+            Q.shift();
+            if (Q.length === 0){
+                return Complete();
             }
-            if (F === true){
-                alert("띄어쓰기를 확인해주세요.");
-                return;
-            }
-        }
-        document.getElementById("input-answer").value='';
-        opt += 1;
-        if (opt === 3){
-            alert("FAILURE\n3번 모두 실패하셨습니다.");
-            Skip();
+            return Question();
         }
         else{
-            var message = "FAILURE\n남은 기회: " + (3-opt);
-            alert(message);
+            if (lng_selected === "KOREAN"){
+                var F = false;
+                for (a of answer){
+                    if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')){
+                        F = true;
+                    }
+                }
+                if (F === true){
+                    alert("띄어쓰기를 확인해주세요.");
+                    return;
+                }
+            }
+            document.getElementById("input-answer").value='';
+            opt += 1;
+            if (opt === 3){
+                alert("FAILURE\n3번 모두 실패하셨습니다.");
+                return Skip();
+            }
+            else{
+                var message = "FAILURE\n남은 기회: " + (3-opt);
+                alert(message);
+            }
+        }
+    }
+    else if (type_selected === "sentence"){
+        console.log(ans, answer);
+        ans = ans.split(" ");
+        var U = [];
+        var U_a = answer.split(" ");
+        var i = 0;
+        var j = 0;
+        for (a of ans){
+            if (U_a.slice(j).includes(a)){
+                U.push(U_a.indexOf(a));
+                j += 1;
+            }
+            i++;
+        }
+        if (U.length === 0){
+            document.getElementById("input-answer").value='';
+            opt += 1;
+            if (opt === 3){
+                alert("FAILURE\n3번 모두 실패하셨습니다.");
+                return Skip();
+            }
+            else{
+                var message = "FAILURE\n남은 기회: " + (3-opt);
+                alert(message);
+            }
+        }
+        else if (U.length === U_a.length){
+            alert("SUCCESS");
+            opt = 0;
+            score += 1;
+            Q.shift();
+            if (Q.length === 0){
+                return Complete();
+            }
+            return Question();
+        }
+        else{
+            console.log(U);
+            for (u of U){
+                var n = Indexof(question, "___")[u];
+                console.log(n);
+                document.getElementById("input-answer").value='';
+                question = question.substring(0, n) + U_a[u] + question.substring(n+3);
+                document.getElementById("question").innerHTML = question;
+                alert("더 쓰시오.");
+                U_a.splice(u, 1);
+            }
+            answer = U_a.join(" ");
         }
     }
 }
@@ -361,7 +490,12 @@ function Complete(){
 }
 
 function Skip(){
-    alert("정답: "+answer[0]);
+    if (type_selected === "word"){
+        alert("정답: "+answer[0]);
+    }
+    else if (type_selected === "sentence"){
+        alert("정답: "+answer);
+    }
     opt = 0;
     R.push(Q[0]);
     Q.shift();
@@ -372,8 +506,14 @@ function Skip(){
 }
 
 function Hint(){
-    document.getElementById("input-answer").value='';
-    document.getElementById("input-answer").placeholder=
-        answer[0].substring(0, document.getElementById("input-answer").placeholder.length+1);
+    document.getElementById("input-answer").value = '';
+    if (type_selected === "word"){
+        document.getElementById("input-answer").placeholder =
+            answer[0].substring(0, document.getElementById("input-answer").placeholder.length+1);
+    }
+    else if (type_selected === "sentence"){
+        document.getElementById("input-answer").placeholder =
+            answer.substring(0, document.getElementById("input-answer").placeholder.length+1);
+    }
     document.getElementById("input-answer").focus();
 }

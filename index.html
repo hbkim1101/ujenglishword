@@ -27,7 +27,7 @@
                 file_word.src = "src/word/" + part + "/" + sqc + ".txt";
                 file_word.id = "word_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                 document.getElementsByTagName("head")[0].append(file_word);
-                if (i === 23 && j === 1){
+                if (i === 23){
                     file_sentence.src = "src/sentence/" + part + "/" + sqc + ".txt";
                     file_sentence.id = "sentence_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                     document.getElementsByTagName("head")[0].append(file_sentence);
@@ -157,18 +157,18 @@
                     </script>
                 </div>
             </div>
+            <select name="type" id="select-type" style="width:100px; text-align-last: center;" onchange="Disable()">
+                <option id="type_word" value="word">단어</option>
+                <option id="type_sentence" value="sentence">문장</option>
+            </select>
             <select name="lng" id="select-lng" style="width:100px; text-align-last: center;">
                 <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
                 <option id="lng_writeKOREAN" value="KOREAN">한국어 쓰기</option>
             </select>
-            <select name="type" id="select-type" style="width:100px; text-align-last: center;">
-                <option id="type_word" value="word">단어</option>
-                <option id="type_sentence" value="sentence">문장</option>
-            </select>
             <button onclick="Enter()">Enter</button>
         </div>
         <div id="question_box">
-            <h1 id="question" style="text-align: center"></h1>
+            <p id="question" style="text-align: center"></p>
         </div>
         <div id="answer_box" style="text-align: center">
             <input type="text" name="answer" id="input-answer" autocomplete='off' size="30"

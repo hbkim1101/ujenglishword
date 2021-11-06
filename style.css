@@ -23,26 +23,35 @@ select, #part_button{
     border: 1px solid #E0E0E0;
     padding: 0 10px;
     margin: 10px;
+    margin-bottom: 0;
     background-color: #FFFFFF;
+    bottom: 0;
 }
 button{
     height: 40px;
-}
-#part_button{
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 #skip{
     margin-right: 15px;
 }
 #select{
-    height: 9vh auto;
+    min-height: 9vh;
+    height: auto;
     padding-top: 13vh;
-    padding-bottom: 7vh;
+}
+#select-type{
+    margin-bottom: 0;
 }
 #question_box{
-    height: 16vh;
-    padding-left: 0;
+    min-height: 16vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#question{
+    margin: 0;
+    width: 100%;
 }
 #answer_box{
     padding-bottom: 2vh;
@@ -57,6 +66,7 @@ button{
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    z-index: 1;
 }
 label{
     text-align: left;
