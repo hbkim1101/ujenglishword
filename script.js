@@ -20,6 +20,8 @@ window.onresize = function(event){
         document.getElementById("select").style.paddingTop = "13vh";
     }
 }
+
+var clicked = false;
 var visible = true;
 function Part_visible(){
     if (visible === true){

@@ -61,9 +61,10 @@
         <img src="src/communist.jpg" style="width: 25vh; position: absolute; right: 0px; bottom: 0px;">
         <div id="select" style="text-align: center">
             <div style="display: inline-block">
-                <button id="part_button" onclick="Part_visible();">Part</button>
+                <button id="part_button" onclick="Part_visible();"
+                        onmousedown="if($('#part_select_box').css('display')==='block'){clicked=true}" onmouseup="clicked=false">Part</button>
                 <div tabindex="1" id="part_select_box" class="part_select" style="overflow-y: scroll; position: absolute; background-color: #FFFFFF; width: 128px; height: 30vh; border: 1px solid; border-color: black; margin-left: 10px; display: none"
-                     onblur="this.style.display='none';">
+                     onblur="this.style.display='none';if(clicked===true){visible=false}">
                     <div style="position: sticky; top: 0;">
                         <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); All()">all</button>
                         <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); Reset()">reset</button>
@@ -97,7 +98,6 @@
                                 part_option.style.fontWeight = "300";
                                 part_option.addEventListener("mousedown", function(e){
                                     Part_visible();
-                                    e.preventDefault();
                                 });
                                 var sqc = "Exercise " + j;
                                 part_option.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc;
@@ -119,9 +119,8 @@
                             part_option_.style.float = "left";
                             part_option_.style.width = "111.2px";
                             part_option_.style.fontWeight = "300";
-                            part_option_.addEventListener("mousedown", function (e) {
+                            part_option_.addEventListener("mousedown", function (e){
                                 Part_visible();
-                                e.preventDefault();
                             });
                             var sqc_ = "Exercise " + i;
                             part_option_.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc_;
@@ -144,7 +143,6 @@
                                     part_option__.style.width = "111.2px";
                                     part_option__.style.fontWeight = "300";
                                     part_option__.addEventListener("mousedown", function(e){
-                                        e.preventDefault();
                                         Part_visible();
                                     });
                                     var sqc__ = "Exercise " + j;
