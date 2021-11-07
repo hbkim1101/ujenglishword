@@ -58,7 +58,7 @@ button{
 }
 #input-answer{
     width: 300px;
-    font-size: 25px;
+    font-size: 30px;
 }
 #input-answer::placeholder{
     font-size: 25px
