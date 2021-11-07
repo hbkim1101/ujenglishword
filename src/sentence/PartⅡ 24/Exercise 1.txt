@@ -1,0 +1,64 @@
+formula
+Too many people regard science as a collection of facts and ___.
+너무나 많은 사람들이 과학을 사실과 _공식_의 집합체로 여긴다.
+formulas
+
+incomplete
+Teachers who are unaware of the actions of science hold an ___ view about the science learning their students should experience.
+과학의 활동을 알지 못하는 교사는 자기 학생들이 경험해야 할 과학 학습에 대해 _불완전한_ 견해를 지니고 있다.
+incomplete
+
+accumulated
+Presenting science to students as an ___ body of knowledge addresses only one aspect of the broad culture of science and will give students an inaccurate and limited view of the discipline.
+과학을 지식의 _축적_체로 학생들에게 제시하는 것은 과학의 폭넓은 사고방식 중 오직 한 측면만을 다루는 것이어서 학생들에게 그 지식 분야에 대해 부정확하고 제한된 견해를 줄 것이다.
+accumulated
+
+address
+Presenting science to students as an accumulated body of knowledge ___ only one aspect of the broad culture of science and will give students an inaccurate and limited view of the discipline.
+과학을 지식의 축적체로 학생들에게 제시하는 것은 과학의 폭넓은 사고방식 중 오직 한 측면만을 _다루_는 것이어서 학생들에게 그 지식 분야에 대해 부정확하고 제한된 견해를 줄 것이다.
+addresses
+
+inaccurate
+Presenting science to students as an accumulated body of knowledge addresses only one aspect of the broad culture of science and will give students an ___ and limited view of the discipline.
+과학을 지식의 축적체로 학생들에게 제시하는 것은 과학의 폭넓은 사고방식 중 오직 한 측면만을 다루는 것이어서 학생들에게 그 지식 분야에 대해 _부정확_하고 제한된 견해를 줄 것이다.
+inaccurate
+
+discipline
+Presenting science to students as an accumulated body of knowledge addresses only one aspect of the broad culture of science and will give students an inaccurate and limited view of the ___.
+과학을 지식의 축적체로 학생들에게 제시하는 것은 과학의 폭넓은 사고방식 중 오직 한 측면만을 다루는 것이어서 학생들에게 그 _지식 분야_에 대해 부정확하고 제한된 견해를 줄 것이다.
+discipline
+
+objective
+Science is ___ in the sense that the principles of science can be applied in the same way by anyone and get the same results.
+과학은 과학의 원리가 누구에 의해서든 똑같은 방법으로 적용되어 똑같은 결과를 얻을 수 있다는 점에서 _객관적_이다.
+objective
+
+in the sense that
+Science is objective ___ ___ ___ ___ the principles of science can be applied in the same way by anyone and get the same results.
+과학은 과학의 원리가 누구에 의해서든 똑같은 방법으로 적용되어 똑같은 결과를 얻을 수 있다_는 점에서_ 객관적이다.
+in the sense that
+
+emphasis
+Teaching science with too much ___ on the content would be like teaching language arts by providing students with a few nouns but no verbs — and expecting them to construct sentences.
+내용을 지나치게 _강조_하면서 과학을 가르치는 것은 학생들에게 동사는 주지 않고 명사 몇 개를 주면서 언어 기술을 가르치고 그들이 문장을 구성하도록 기대하는 것과 같을 것이다.
+emphasis
+
+noun
+Teaching science with too much emphasis on the content would be like teaching language arts by providing students with a few ___ but no verbs — and expecting them to construct sentences.
+내용을 지나치게 강조하면서 과학을 가르치는 것은 학생들에게 동사는 주지 않고 _명사_ 몇 개를 주면서 언어 기술을 가르치고 그들이 문장을 구성하도록 기대하는 것과 같을 것이다.
+nouns
+
+verb
+Teaching science with too much emphasis on the content would be like teaching language arts by providing students with a few nouns but no ___ — and expecting them to construct sentences.
+내용을 지나치게 강조하면서 과학을 가르치는 것은 학생들에게 _동사_는 주지 않고 명사 몇 개를 주면서 언어 기술을 가르치고 그들이 문장을 구성하도록 기대하는 것과 같을 것이다.
+verbs
+
+construct
+Teaching science with too much emphasis on the content would be like teaching language arts by providing students with a few nouns but no verbs — and expecting them to ___ sentences.
+내용을 지나치게 강조하면서 과학을 가르치는 것은 학생들에게 동사는 주지 않고 명사 몇 개를 주면서 언어 기술을 가르치고 그들이 문장을 _구성하_도록 기대하는 것과 같을 것이다.
+construct
+
+incorporate
+Likewise, effective science teaching ___ a healthy balance of concepts and skills.
+마찬가지로, 효과적인 과학 수업은 개념과 기술의 건강한 균형을 _포함한다_.
+incorporates

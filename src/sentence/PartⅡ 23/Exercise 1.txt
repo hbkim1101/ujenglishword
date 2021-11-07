@@ -1,54 +1,54 @@
 element
-Roofs are the most important ___ in building.
-지붕은 건물에서 가장 중요한 요소이다.
+Roofs are the most important ___ in building; for not only do they help to maintain the good health of the residents by defending them from rain, and keeping out the night, and above all keeping out the summer sun, but they provide excellent protection for the whole building as well.
+지붕은 건물에서 가장 중요한 _요소_인데, 그것이 거주자를 비로부터 지켜 주고 밤을 피하게 해 주며, 무엇보다도 여름의 태양을 피하게 해 줌으로써 거주자의 좋은 건강을 유지하게 도와줄 뿐만 아니라 건물 전체를 훌륭하게 보호해 주기 때문이다.
 elements
 
 maintain
-For not only do they help to ___ the good health of the residents by defending them from rain, and keeping out the night, and but they provide excellent protection for the whole building as well.
-그것이 거주자를 비로부터 지켜 주고 밤을 피하게 해 주며, 무엇보다도 여름의 태양을 피하게 해 줌으로써 거주자의 좋은 건강을 유지하게 도와줄 뿐만 아니라 건물 전체를 훌륭하게 보호해 준다.
+Roofs are the most important elements in building; for not only do they help to ___ the good health of the residents by defending them from rain, and keeping out the night, and above all keeping out the summer sun, but they provide excellent protection for the whole building as well.
+지붕은 건물에서 가장 중요한 요소인데, 그것이 거주자를 비로부터 지켜 주고 밤을 피하게 해 주며, 무엇보다도 여름의 태양을 피하게 해 줌으로써 거주자의 좋은 건강을 _유지하_게 도와줄 뿐만 아니라 건물 전체를 훌륭하게 보호해 주기 때문이다.
 maintain
 
 resident
-For not only do roofs help to maintain the good health of the ___ by defending them from rain, and keeping out the night, and but they provide excellent protection for the whole building as well.
-지붕이 거주자를 비로부터 지켜 주고 밤을 피하게 해 주며, 무엇보다도 여름의 태양을 피하게 해 줌으로써 거주자의 좋은 건강을 유지하게 도와줄 뿐만 아니라 건물 전체를 훌륭하게 보호해 준다.
+Roofs are the most important elements in building; for not only do they help to maintain the good health of the ___ by defending them from rain, and keeping out the night, and above all keeping out the summer sun, but they provide excellent protection for the whole building as well.
+지붕은 건물에서 가장 중요한 요소인데, 그것이 _거주자_를 비로부터 지켜 주고 밤을 피하게 해 주며, 무엇보다도 여름의 태양을 피하게 해 줌으로써 거주자의 좋은 건강을 유지하게 도와줄 뿐만 아니라 건물 전체를 훌륭하게 보호해 주기 때문이다.
 residents
 
 woodwork
-Take away the roof, and the ___ rots, the walls totter and their sides crack.
-지붕을 제거하면 목조부가 썩고 벽은 흔들리며 옆면에는 금이 간다.
+Take away the roof, and the ___ rots, the walls totter and their sides crack; gradually the whole structure falls apart.
+지붕을 제거하면 _목조부_가 썩고 벽은 흔들리며 옆면에는 금이 가서, 서서히 전체 구조물이 허물어진다.
 woodwork
 
 crack
-Take away the roof, and the woodwork rots, the walls totter and their sides ___.
-지붕을 제거하면 목조부가 썩고 벽은 흔들리며 옆면에는 금이 간다.
+Take away the roof, and the woodwork rots, the walls totter and their sides ___; gradually the whole structure falls apart.
+지붕을 제거하면 목조부가 썩고 벽은 흔들리며 옆면에는 _금이 가_서, 서서히 전체 구조물이 허물어진다.
 crack
 
 fall apart
-Gradually the whole structure ___ ___.
-서서히 전체 구조물이 허물어진다.
+Take away the roof, and the woodwork rots, the walls totter and their sides crack; gradually the whole structure ___ ___.
+지붕을 제거하면 목조부가 썩고 벽은 흔들리며 옆면에는 금이 가서, 서서히 전체 구조물이 _허물어진다_.
 falls apart
 
 foundation
 Even the very ___, though you may hardly believe it, rely on the protection of the roof for strength.
-거의 믿기 어렵겠지만, 건물의 토대 바로 그것조차도 힘을 얻기 위해 지붕의 보호에 의존한다.
+거의 믿기 어렵겠지만, 건물의 _토대_ 바로 그것조차도 힘을 얻기 위해 지붕의 보호에 의존한다.
 foundations
 
 neglect
 Throughout history, more buildings have fallen into ruin by simple human ___, when left naked and deprived of the roof covering, than by fire, sword, enemy hands, or by any other disaster.
-역사를 통틀어 불, 칼, 적의 손, 혹은 다른 어떤 재난에 의해서보다 인간의 순전한 방치 때문에 지붕 덮개가 벗겨지고 없어졌을 때 폐허가 된 건물들이 더 많았다.
+역사를 통틀어 불, 칼, 적의 손, 혹은 다른 어떤 재난에 의해서보다 인간의 순전한 _방치_ 때문에 지붕 덮개가 벗겨지고 없어졌을 때 폐허가 된 건물들이 더 많았다.
 neglect
 
 deprived of
 Throughout history, more buildings have fallen into ruin by simple human neglect, when left naked and ___ ___ the roof covering, than by fire, sword, enemy hands, or by any other disaster.
-역사를 통틀어 불, 칼, 적의 손, 혹은 다른 어떤 재난에 의해서보다 인간의 순전한 방치 때문에 지붕 덮개가 벗겨지고 없어졌을 때 폐허가 된 건물들이 더 많았다.
+역사를 통틀어 불, 칼, 적의 손, 혹은 다른 어떤 재난에 의해서보다 인간의 순전한 방치 때문에 지붕 덮개가 벗겨지고 _없어졌_을 때 폐허가 된 건물들이 더 많았다.
 deprived of
 
 shelter
 Whatever its form, however, every roof ought to be so designed as to offer ___ to the pavement below and to keep all rainwater out of any part of the building it covers.
-그러나 형태가 어떻든 모든 지붕은 아래의 포장 지역에 보호막을 제공하고 지붕이 덮고 있는 건물의 어떤 부분에도 빗물이 들어가지 않게 막아 주도록 설계되어야 한다.
+그러나 형태가 어떻든 모든 지붕은 아래의 포장 지역에 _보호막_을 제공하고 지붕이 덮고 있는 건물의 어떤 부분에도 빗물이 들어가지 않게 막아 주도록 설계되어야 한다.
 shelter
 
 pavement
 Whatever its form, however, every roof ought to be so designed as to offer shelter to the ___ below and to keep all rainwater out of any part of the building it covers.
-그러나 형태가 어떻든 모든 지붕은 아래의 포장 지역에 보호막을 제공하고 지붕이 덮고 있는 건물의 어떤 부분에도 빗물이 들어가지 않게 막아 주도록 설계되어야 한다.
+그러나 형태가 어떻든 모든 지붕은 아래의 _포장 지역_에 보호막을 제공하고 지붕이 덮고 있는 건물의 어떤 부분에도 빗물이 들어가지 않게 막아 주도록 설계되어야 한다.
 pavement

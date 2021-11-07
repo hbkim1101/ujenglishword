@@ -1,0 +1,62 @@
+burdensome
+For many college students, the language, ideas, and ___ length of traditional texts are so off-putting that they fail to read more than the first lines or pages.
+많은 대학생들에게 전통적인 책의 언어, 개념, _부담스러운_ 길이는 그다지 정이 가지 않으므로 그들은 처음 몇 줄이나 몇 페이지 이상 읽지 못한다.
+burdensome
+
+span
+When students lack the attention ___, critical thinking skills, and motivation necessary to read an entire novel or play, how can they learn to grasp the deeper significance and meanings of these texts?
+학생들이 소설이나 희곡 전체를 읽기 위해 필요한 주의 지속 _시간_, 비판적 사고 기술, 열의가 부족한데, 이러한 책의 더 깊은 의의와 의미를 파악하는 것을 어떻게 배울 수 있겠는가?
+span
+
+motivation
+When students lack the attention span, critical thinking skills, and ___ necessary to read an entire novel or play, how can they learn to grasp the deeper significance and meanings of these texts?
+학생들이 소설이나 희곡 전체를 읽기 위해 필요한 주의 지속 시간, 비판적 사고 기술, _열의_가 부족한데, 이러한 책의 더 깊은 의의와 의미를 파악하는 것을 어떻게 배울 수 있겠는가?
+motivation
+
+grasp
+When students lack the attention span, critical thinking skills, and motivation necessary to read an entire novel or play, how can they learn to ___ the deeper significance and meanings of these texts?
+학생들이 소설이나 희곡 전체를 읽기 위해 필요한 주의 지속 시간, 비판적 사고 기술, 열의가 부족한데, 이러한 책의 더 깊은 의의와 의미를 _파악하_는 것을 어떻게 배울 수 있겠는가?
+grasp
+
+significance
+When students lack the attention span, critical thinking skills, and motivation necessary to read an entire novel or play, how can they learn to grasp the deeper ___ and meanings of these texts?
+학생들이 소설이나 희곡 전체를 읽기 위해 필요한 주의 지속 시간, 비판적 사고 기술, 열의가 부족한데, 이러한 책의 더 깊은 _의의_와 의미를 파악하는 것을 어떻게 배울 수 있겠는가?
+significance
+
+quick-fix
+While there are no ___ answers to this literary gap, traditional texts still have value for our contemporary society and should be taught to our students.
+이와 같은 문예적인 면의 격차에 _효과 빠른_ 해결책은 없더라도, 전통적인 책은 여전히 현대 사회에 필요한 가치를 지니고 있으므로 학생들에게 가르쳐야 한다.
+quick-fix
+
+contemporary
+While there are no quick-fix answers to this literary gap, traditional texts still have value for our ___ society and should be taught to our students.
+이와 같은 문예적인 면의 격차에 효과 빠른 해결책은 없더라도, 전통적인 책은 여전히 _현대_ 사회에 필요한 가치를 지니고 있으므로 학생들에게 가르쳐야 한다.
+contemporary
+Whether used to instruct underclassmen in the basics of literary and philosophical inquiry or with more advanced students to further these ideas, fantasy offers a unique lens of understanding for ___ students.
+저학년 학생들에게 문학과 철학 연구의 기초 개념을 가르치는 데 활용되든, 더 상급의 학생들의 경우에 이러한 개념을 더 발전시키는 데 활용되든, 공상 문학 작품은 _요즘_ 학생들에게 특별한 이해의 안목을 제공해 준다.
+contemporary
+
+incorporate
+Good fantasy literature and film, when ___ appropriately into more traditional course content, can help bridge some of the intellectual and cultural disconnect that impairs many of our students.
+좋은 공상 문학과 영화는 더 전통적인 교수 내용에 적절히 _섞이_면, 많은 우리 학생들에게 나쁜 영향을 미치는 지적·문화적 단절 중 일부를 연결하는 데 도움이 될 수 있다.
+incorporated
+
+disconnect
+Good fantasy literature and film, when incorporated appropriately into more traditional course content, can help bridge some of the intellectual and cultural ___ that impairs many of our students.
+좋은 공상 문학과 영화는 더 전통적인 교수 내용에 적절히 섞이면, 많은 우리 학생들에게 나쁜 영향을 미치는 지적·문화적 _단절_ 중 일부를 연결하는 데 도움이 될 수 있다.
+disconnect
+
+impair
+Good fantasy literature and film, when incorporated appropriately into more traditional course content, can help bridge some of the intellectual and cultural disconnect that ___ many of our students.
+좋은 공상 문학과 영화는 더 전통적인 교수 내용에 적절히 섞이면, 많은 우리 학생들에게 _나쁜 영향을 미치_는 지적·문화적 단절 중 일부를 연결하는 데 도움이 될 수 있다.
+impairs
+
+underclassman
+Whether used to instruct ___ in the basics of literary and philosophical inquiry or with more advanced students to further these ideas, fantasy offers a unique lens of understanding for contemporary students.
+_저학년 학생들_에게 문학과 철학 연구의 기초 개념을 가르치는 데 활용되든, 더 상급의 학생들의 경우에 이러한 개념을 더 발전시키는 데 활용되든, 공상 문학 작품은 요즘 학생들에게 특별한 이해의 안목을 제공해 준다.
+underclassmen
+
+inquiry
+Whether used to instruct underclassmen in the basics of literary and philosophical ___ or with more advanced students to further these ideas, fantasy offers a unique lens of understanding for contemporary students.
+저학년 학생들에게 문학과 철학 _연구_의 기초 개념을 가르치는 데 활용되든, 더 상급의 학생들의 경우에 이러한 개념을 더 발전시키는 데 활용되든, 공상 문학 작품은 요즘 학생들에게 특별한 이해의 안목을 제공해 준다.
+inquiry

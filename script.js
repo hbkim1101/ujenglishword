@@ -55,8 +55,9 @@ function Check(elm){
     }
 }
 function Disable(){
-    if (document.getElementById("select-type").value === 'sentence'){
-        document.getElementById("select-lng").disabled = 'disabled';
+    if (document.getElementById("select-type").value === "sentence"){
+        document.getElementById("select-lng").disabled = "disabled";
+        document.getElementById("select-lng").value = "ENGLISH"
     }
     else{
         document.getElementById("select-lng").disabled = false;
@@ -353,7 +354,7 @@ function Question(){
         document.getElementById("question").style.fontSize = "15px";
         document.getElementById("question").style.fontWeight= "bold";
         var U = S[Q[0].substring(0, Q[0].length-1)][Q[0].substring(Q[0].length-1)];
-        question = U[0] + "<br><br>" + U[1];
+        question = U[0] + "<br><br>" + U[1].replace(/_/gi,'');
         answer = U[2];
         console.log(answer);
         document.getElementById("question").innerHTML = question;
@@ -363,7 +364,7 @@ function Question(){
     }
 }
 
-var opt = 0;
+var oprt = 0;
 function Input(){
     var ans = document.getElementById("input-answer").value;
     if (ans === '') {
@@ -383,10 +384,11 @@ function Input(){
         return Hint();
     }
     else{
+        var message;
         if (type_selected === "word") {
             if (answer.includes(ans)) {
                 alert("SUCCESS");
-                opt = 0;
+                oprt = 0;
                 score += 1;
                 Q.shift();
                 if (Q.length === 0) {
@@ -407,12 +409,12 @@ function Input(){
                     }
                 }
                 document.getElementById("input-answer").value = '';
-                opt += 1;
-                if (opt === 3) {
+                oprt += 1;
+                if (oprt === 3) {
                     alert("FAILURE\n3번 모두 실패하셨습니다.");
                     return Skip();
                 } else {
-                    var message = "FAILURE\n남은 기회: " + (3 - opt);
+                    message = "FAILURE\n남은 기회: " + (3 - oprt);
                     alert(message);
                 }
             }
@@ -432,17 +434,17 @@ function Input(){
             }
             if (U.length === 0) {
                 document.getElementById("input-answer").value = '';
-                opt += 1;
-                if (opt === 3) {
+                oprt += 1;
+                if (oprt === 3) {
                     alert("FAILURE\n3번 모두 실패하셨습니다.");
                     return Skip();
                 } else {
-                    var message = "FAILURE\n남은 기회: " + (3 - opt);
+                    message = "FAILURE\n남은 기회: " + (3 - oprt);
                     alert(message);
                 }
             } else if (U.length === U_a.length) {
                 alert("SUCCESS");
-                opt = 0;
+                oprt = 0;
                 score += 1;
                 Q.shift();
                 if (Q.length === 0) {
@@ -450,10 +452,8 @@ function Input(){
                 }
                 return Question();
             } else {
-                console.log(U);
                 for (u of U) {
                     var n = Indexof(question, "___")[u];
-                    console.log(n);
                     document.getElementById("input-answer").value = '';
                     question = question.substring(0, n) + U_a[u] + question.substring(n + 3);
                     document.getElementById("question").innerHTML = question;
@@ -497,7 +497,7 @@ function Skip(){
     else if (type_selected === "sentence"){
         alert("정답: "+answer);
     }
-    opt = 0;
+    oprt = 0;
     R.push(Q[0]);
     Q.shift();
     if (Q.length === 0){
@@ -505,16 +505,42 @@ function Skip(){
     }
     return Question();
 }
-
+var hint = 0;
 function Hint(){
+    hint++;
     document.getElementById("input-answer").value = '';
     if (type_selected === "word"){
         document.getElementById("input-answer").placeholder =
             answer[0].substring(0, document.getElementById("input-answer").placeholder.length+1);
     }
     else if (type_selected === "sentence"){
-        document.getElementById("input-answer").placeholder =
-            answer.substring(0, document.getElementById("input-answer").placeholder.length+1);
+        if (hint === 1){
+            console.log('hi');
+            var U = S[Q[0].substring(0, Q[0].length-1)][Q[0].substring(Q[0].length-1)];
+            var R = '';
+            var tg = 0;
+            for (u of U[1]){
+                if (u === "_"){
+                    if (tg === 0){
+                        R += "<big><u>";
+                        tg++;
+                    }
+                    else{
+                        R += "</u></big>"
+                        tg--;
+                    }
+                }
+                else{
+                    R += u;
+                }
+            }
+            question = U[0] + "<br><br>" + R;
+            document.getElementById("question").innerHTML = question;
+        }
+        else{
+            document.getElementById("input-answer").placeholder =
+                answer.substring(0, document.getElementById("input-answer").placeholder.length+1);
+        }
     }
     document.getElementById("input-answer").focus();
 }

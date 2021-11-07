@@ -1,54 +1,54 @@
 theory
-While I do believe that with practice we can improve our looking skills, I am not a great believer in attempts to teach art theory to ___ reasonably well-educated adults.
-나는 정말로 연습을 통해 우리가 보는 기량을 향상할 수 있다고 믿기는 하지만, 다른 점에서는 상당히 잘 교육받은 성인들에게 미술 이론을 가르치려는 시도는 그다지 신봉하지 않는다.
+While I do believe that with practice we can improve our looking skills, I am not a great believer in attempts to teach art ___ to otherwise reasonably well-educated adults.
+나는 정말로 연습을 통해 우리가 보는 기량을 향상할 수 있다고 믿기는 하지만, 다른 점에서는 상당히 잘 교육받은 성인들에게 미술 _이론_을 가르치려는 시도는 그다지 신봉하지 않는다.
 theory
 
 otherwise
-While I do believe that with practice we can improve our looking skills, I am not a great believer in attempts to teach art ___ to otherwise reasonably well-educated adults.
-나는 정말로 연습을 통해 우리가 보는 기량을 향상할 수 있다고 믿기는 하지만, 다른 점에서는 상당히 잘 교육받은 성인들에게 미술 이론을 가르치려는 시도는 그다지 신봉하지 않는다.
+While I do believe that with practice we can improve our looking skills, I am not a great believer in attempts to teach art theory to ___ reasonably well-educated adults.
+나는 정말로 연습을 통해 우리가 보는 기량을 향상할 수 있다고 믿기는 하지만, _다른 점에서는_ 상당히 잘 교육받은 성인들에게 미술 이론을 가르치려는 시도는 그다지 신봉하지 않는다.
 otherwise
 
 reasonably
 While I do believe that with practice we can improve our looking skills, I am not a great believer in attempts to teach art theory to otherwise ___ well-educated adults.
-나는 정말로 연습을 통해 우리가 보는 기량을 향상할 수 있다고 믿기는 하지만, 다른 점에서는 상당히 잘 교육받은 성인들에게 미술 이론을 가르치려는 시도는 그다지 신봉하지 않는다.
+나는 정말로 연습을 통해 우리가 보는 기량을 향상할 수 있다고 믿기는 하지만, 다른 점에서는 _상당히_ 잘 교육받은 성인들에게 미술 이론을 가르치려는 시도는 그다지 신봉하지 않는다.
 reasonably
 
 virtue
 From a social point of view, however, there may be ___ in attending lectures and panel discussions at your local museum, or even perhaps joining a guided tour.
-그렇지만 사교적인 견지에서 보면, 지역 미술관에서의 강좌와 공개 토론회에 출석하는 것, 또는 심지어 아마도 안내자가 있는 투어에 참석하는 것에도 장점이 있을 수 있다.
+그렇지만 사교적인 견지에서 보면, 지역 미술관에서의 강좌와 공개 토론회에 출석하는 것, 또는 심지어 아마도 안내자가 있는 투어에 참석하는 것에도 _장점_이 있을 수 있다.
 virtue
 
 lecture
 From a social point of view, however, there may be virtue in attending ___ and panel discussions at your local museum, or even perhaps joining a guided tour.
-그렇지만 사교적인 견지에서 보면, 지역 미술관에서의 강좌와 공개 토론회에 출석하는 것, 또는 심지어 아마도 안내자가 있는 투어에 참석하는 것에도 장점이 있을 수 있다.
+그렇지만 사교적인 견지에서 보면, 지역 미술관에서의 _강좌_와 공개 토론회에 출석하는 것, 또는 심지어 아마도 안내자가 있는 투어에 참석하는 것에도 장점이 있을 수 있다.
 lectures
 
 panel discussion
 From a social point of view, however, there may be virtue in attending lectures and ___ ___ at your local museum, or even perhaps joining a guided tour.
-그렇지만 사교적인 견지에서 보면, 지역 미술관에서의 강좌와 공개 토론회에 출석하는 것, 또는 심지어 아마도 안내자가 있는 투어에 참석하는 것에도 장점이 있을 수 있다.
+그렇지만 사교적인 견지에서 보면, 지역 미술관에서의 강좌와 _공개 토론회_에 출석하는 것, 또는 심지어 아마도 안내자가 있는 투어에 참석하는 것에도 장점이 있을 수 있다.
 panel discussions
 
 exclude
 I don’t entirely ___ the possibility of thus finding a life partner, but the odds of simply making friends are better than on a subway platform.
-이렇게 하여 평생의 동반자를 찾을 가능성을 내가 완전히 배제하는 것은 아니지만, 그냥 친구를 사귈 확률은 지하철 승강장에 서 있을 때보다 더 높다.
+이렇게 하여 평생의 동반자를 찾을 가능성을 내가 완전히 _배제하_는 것은 아니지만, 그냥 친구를 사귈 확률은 지하철 승강장에 서 있을 때보다 더 높다.
 exclude
 
 odds
-I don’t entirely exclude the possibility of thus finding a life partner, but the ___
-이렇게 하여 평생의 동반자를 찾을 가능성을 내가 완전히 배제하는 것은 아니지만, 그냥 친구를 사귈 확률은 지하철 승강장에 서 있을 때보다 더 높다.
+I don’t entirely exclude the possibility of thus finding a life partner, but the ___ of simply making friends are better than on a subway platform.
+이렇게 하여 평생의 동반자를 찾을 _가능성_을 내가 완전히 배제하는 것은 아니지만, 그냥 친구를 사귈 확률은 지하철 승강장에 서 있을 때보다 더 높다.
 odds
 
 institution
 All types of educational ___ offer opportunities to visit works of art with other people, whether recreationally or as part of a study course that can be audited by nondegree students of any age.
-온갖 형태의 교육 기관이, 즐거움을 위해서든 아니면 학위를 필요로 하지 않는 모든 나이의 학생들이 청강할 수 있는 연구 과정의 일부로든지 간에, 다른 사람들과 함께 미술품을 보러 갈 기회를 제공한다.
+온갖 형태의 교육 _기관_이, 즐거움을 위해서든 아니면 학위를 필요로 하지 않는 모든 나이의 학생들이 청강할 수 있는 연구 과정의 일부로든지 간에, 다른 사람들과 함께 미술품을 보러 갈 기회를 제공한다.
 institutions
 
 recreationally
 All types of educational institutions offer opportunities to visit works of art with other people, whether ___ or as part of a study course that can be audited by nondegree students of any age.
-온갖 형태의 교육 기관이, 즐거움을 위해서든 아니면 학위를 필요로 하지 않는 모든 나이의 학생들이 청강할 수 있는 연구 과정의 일부로든지 간에, 다른 사람들과 함께 미술품을 보러 갈 기회를 제공한다.
+온갖 형태의 교육 기관이, _즐거움을 위해서_든 아니면 학위를 필요로 하지 않는 모든 나이의 학생들이 청강할 수 있는 연구 과정의 일부로든지 간에, 다른 사람들과 함께 미술품을 보러 갈 기회를 제공한다.
 recreationally
 
 nondegree
 All types of educational institutions offer opportunities to visit works of art with other people, whether recreationally or as part of a study course that can be audited by ___ students of any age.
-온갖 형태의 교육 기관이, 즐거움을 위해서든 아니면 학위를 필요로 하지 않는 모든 나이의 학생들이 청강할 수 있는 연구 과정의 일부로든지 간에, 다른 사람들과 함께 미술품을 보러 갈 기회를 제공한다.
+온갖 형태의 교육 기관이, 즐거움을 위해서든 아니면 _학위를 필요로 하지 않는_ 모든 나이의 학생들이 청강할 수 있는 연구 과정의 일부로든지 간에, 다른 사람들과 함께 미술품을 보러 갈 기회를 제공한다.
 nondegree

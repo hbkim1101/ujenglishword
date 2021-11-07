@@ -1,0 +1,73 @@
+arena
+Play is the ___ where the imagination still reigns.
+놀이는 상상력이 여전히 지배하는 _무대_이다.
+arena
+
+reign
+Play is the arena where the imagination still ___.
+놀이는 상상력이 여전히 _지배하_는 무대이다.
+reigns
+
+divergent
+One kind of thinking linked to the imagination is ___ thinking, also known by the corporate cliché: “thinking outside the box.”
+상상력과 관련된 사고의 한 종류는 _확산적_ 사고인데, 이는 ‘틀을 벗어나 사고 하기’라는 기업의 상투적인 문구에 의해 또한 알려져 있다.
+divergent
+Young children typically score very highly in ___ thinking — they are quite familiar with the idea of playing.
+어린아이들은 일반적으로 _확산적_ 사고에서 매우 높은 점수를 받는데, 그들은 놀이라는 생각과 매우 친숙하다.
+divergent
+At this point, scores in ___ thinking begin to diminish significantly.
+이 시점에서 _확산적_ 사고의 점수는 두드러지게 감소하기 시작한다.
+divergent
+
+corporate
+One kind of thinking linked to the imagination is divergent thinking, also known by the ___ cliché: “thinking outside the box.”
+상상력과 관련된 사고의 한 종류는 확산적 사고인데, 이는 ‘틀을 벗어나 사고 하기’라는 _기업의_ 상투적인 문구에 의해 또한 알려져 있다.
+corporate
+
+diminish
+At this point, scores in divergent thinking begin to ___ significantly.
+이 시점에서 확산적 사고의 점수는 두드러지게 _감소하_기 시작한다.
+diminish
+
+significantly
+At this point, scores in divergent thinking begin to diminish ___.
+이 시점에서 확산적 사고의 점수는 _두드러지게_ 감소하기 시작한다.
+significantly
+
+convergent
+This is called ___ thinking.
+이것은 _수렴적_ 사고라고 불린다.
+convergent
+This is not to say that we have no need for the ___ skills that are associated with words and numbers, but ___ thinking is not enough for a present and future where we don’t even know the right questions, much less the right answers.
+이것은 우리에게 말과 숫자와 관련된 _수렴적_ 기술이 필요하지 않다고 말하는 것이 아니라, _수렴적_ 사고는, 우리가 정답은 말할 것도 없고 올바른 질문조차 알지 못하는 현재와 미래에 있어 충분치 않다는 것을 말하는 것이다.
+convergent convergent
+
+associate
+This is not to say that we have no need for the convergent skills that are ___ with words and numbers, but convergent thinking is not enough for a present and future where we don’t even know the right questions, much less the right answers.
+이것은 우리에게 말과 숫자와 _관련된_ 수렴적 기술이 필요하지 않다고 말하는 것이 아니라, 수렴적 사고는, 우리가 정답은 말할 것도 없고 올바른 질문조차 알지 못하는 현재와 미래에 있어 충분치 않다는 것을 말하는 것이다.
+associated
+
+much less
+This is not to say that we have no need for the convergent skills that are associated with words and numbers, but convergent thinking is not enough for a present and future where we don’t even know the right questions, ___ ___ the right answers.
+이것은 우리에게 말과 숫자와 관련된 수렴적 기술이 필요하지 않다고 말하는 것이 아니라, 수렴적 사고는, 우리가 정답_은 말할 것도 없고_ 올바른 질문조차 알지 못하는 현재와 미래에 있어 충분치 않다는 것을 말하는 것이다.
+much less
+
+measure
+Play is also one way of ___ creativity.
+놀이는 또한 창의력을 _측정하_는 한 가지 방법이기도 하다.
+measuring
+
+logical
+In its place, we commence teaching and valuing the ___ and linear thinking that supports coming up with one right answer.
+그것 대신에 우리는 하나의 정답을 생각해 내는 것을 지지하는 _논리적_이고 선형적인 사고를 가르치고 중시하기 시작한다.
+logical
+
+linear
+In its place, we commence teaching and valuing the logical and ___ thinking that supports coming up with one right answer.
+그것 대신에 우리는 하나의 정답을 생각해 내는 것을 지지하는 논리적이고 _선형적인_ 사고를 가르치고 중시하기 시작한다.
+linear
+
+come up with
+In its place, we commence teaching and valuing the logical and linear thinking that supports ___ ___ ___ one right answer.
+그것 대신에 우리는 하나의 정답을 _생각해 내_는 것을 지지하는 논리적이고 선형적인 사고를 가르치고 중시하기 시작한다.
+coming up with

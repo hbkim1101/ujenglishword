@@ -10,7 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 24/Exercise 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 24/Exercise 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 24/Exercise 3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 24/Exercise 4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +50,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/script.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 2.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
@@ -66,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sentence" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sentence/PartⅡ 24" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,11 +88,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 24" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 23" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\Weak1 02" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\Weak1 01" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\PartⅢ Test 1" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\PartⅡ 29" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
@@ -208,14 +215,7 @@
       <workItem from="1635781733507" duration="2126000" />
       <workItem from="1635865655431" duration="3129000" />
       <workItem from="1635942908471" duration="4506000" />
-      <workItem from="1636095746982" duration="36446000" />
-    </task>
-    <task id="LOCAL-00046" summary="as">
-      <created>1635566803953</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1635566803953</updated>
+      <workItem from="1636095746982" duration="50314000" />
     </task>
     <task id="LOCAL-00047" summary="as">
       <created>1635567244992</created>
@@ -553,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636217431063</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="as">
+      <created>1636217549233</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1636217549233</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
