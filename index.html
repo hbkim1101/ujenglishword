@@ -27,7 +27,7 @@
                 file_word.src = "src/word/" + part + "/" + sqc + ".txt";
                 file_word.id = "word_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                 document.getElementsByTagName("head")[0].append(file_word);
-                if (i === 23){
+                if ([23,24].includes(i) || (i === 25 && j === 1)){
                     file_sentence.src = "src/sentence/" + part + "/" + sqc + ".txt";
                     file_sentence.id = "sentence_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                     document.getElementsByTagName("head")[0].append(file_sentence);
@@ -100,6 +100,7 @@
                                     Part_visible();
                                 });
                                 var sqc = "Exercise " + j;
+                                part_option.id = "Ch" + part.replace(/ /gi,'') + sqc.replace(/ /gi,'');
                                 part_option.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc;
                                 part_label.appendChild(part_option);
                             }
@@ -123,6 +124,7 @@
                                 Part_visible();
                             });
                             var sqc_ = "Exercise " + i;
+                            part_option_.id = "Ch" + part_.replace(/ /gi,'') + sqc_.replace(/ /gi,'');
                             part_option_.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc_;
                             part_label_.appendChild(part_option_);
                         }
@@ -146,6 +148,7 @@
                                         Part_visible();
                                     });
                                     var sqc__ = "Exercise " + j;
+                                    part_option__.id = "Ch" + part__.replace(/ /gi,'') + sqc__.replace(/ /gi,'');
                                     part_option__.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
                                     part_label__.appendChild(part_option__);
                                 }

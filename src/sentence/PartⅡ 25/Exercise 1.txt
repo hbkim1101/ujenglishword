@@ -1,0 +1,87 @@
+originality
+The biggest barrier to fostering ___, however, is a lack of time in a busy world with ever increasing pressures.
+그러나, _독창성_을 육성하는 데 있어서 가장 큰 장 애물은 계속해서 압박이 증대되는 바쁜 사회에서 시간의 부족이다.
+originality
+
+tricky
+Originality is a particularly ___ and apparently contrary concept.
+originality는 유별나게 _까다롭_고 겉보기에 상반되는 개념이다.
+tricky
+
+contrary
+Originality is a particularly tricky and apparently ___ concept.
+originality는 유별나게 까다롭고 겉보기에 _상반되는_ 개념이다.
+contrary
+
+primary
+Up to the late eighteenth century it had the ___ sense of ‘ancient, traditional, from the beginning’ (a sense that is still with us in the phrase ‘original inhabitants’ and the archaic notion of ‘aborigines’); this was itself the ancient or classical sense.
+그것은 18세기 말까지 (‘원래의 거주민’이라는 어구와 ‘원주민’이라는 고대의 개념에서 여전히 살아 있는 의미인) ‘고대의, 고래의, 처음부터’라는 _기본적인_ 의미를 가지고 있었는데, 이것은 그 자체로 고대의 혹은 고전주의의 의미였다.
+primary
+
+inhabitant
+Up to the late eighteenth century it had the primary sense of ‘ancient, traditional, from the beginning’ (a sense that is still with us in the phrase ‘original ___’ and the archaic notion of ‘aborigines’); this was itself the ancient or classical sense.
+그것은 18세기 말까지 (‘원래의 _거주민_’이라는 어구와 ‘원주민’이라는 고대의 개념에서 여전히 살아 있는 의미인) ‘고대의, 고래의, 처음부터’라는 기본적인 의미를 가지고 있었는데, 이것은 그 자체로 고대의 혹은 고전주의의 의미였다.
+inhabitants
+
+notion
+Up to the late eighteenth century it had the primary sense of ‘ancient, traditional, from the beginning’ (a sense that is still with us in the phrase ‘original inhabitants’ and the archaic ___ of ‘aborigines’); this was itself the ancient or classical sense.
+그것은 18세기 말까지 (‘원래의 거주민’이라는 어구와 ‘원주민’이라는 고대의 _개념_에서 여전히 살아 있는 의미인) ‘고대의, 고래의, 처음부터’라는 기본적인 의미를 가지고 있었는데, 이것은 그 자체로 고대의 혹은 고전주의의 의미였다.
+notion
+
+onwards
+However, from the late eighteenth century ___ ‘original’ increasingly tended towards the opposite and now-dominant sense of ‘novel’, ‘innovative’, ‘never-been-done-before’ (in the modern sense of ‘an original idea’, ‘strikingly original’); this is the modern or romantic sense.
+그러나, 18세기 말부터 _줄곧_ original은 (‘독창적인 아이디어’, ‘두드러지게 참신한’이라는 현대적 의미에서처럼) 점점 더 정반대이자 현재 지배적인 ‘새로운’, ‘혁신적인’, ‘전에는 해 본 적이 없는’이라는 의미 쪽으로 향하게 되었는데, 이것은 근대의 혹은 낭만주의의 의미이다.
+onwards
+
+tend towards
+However, from the late eighteenth century onwards ‘original’ increasingly ___ ___ the opposite and now-dominant sense of ‘novel’, ‘innovative’, ‘never-been-done-before’ (in the modern sense of ‘an original idea’, ‘strikingly original’); this is the modern or romantic sense.
+그러나, 18세기 말부터 줄곧 original은 (‘독창적인 아이디어’, ‘두드러지게 참신한’이라는 현대적 의미에서처럼) 점점 더 정반대이자 현재 지배적인 ‘새로운’, ‘혁신적인’, ‘전에는 해 본 적이 없는’이라는 의미 쪽_으로 향하게 되_었는데, 이것은 근대의 혹은 낭만주의의 의미이다.
+tended towards
+
+strikingly
+However, from the late eighteenth century onwards ‘original’ increasingly tended towards the opposite and now-dominant sense of ‘novel’, ‘innovative’, ‘never-been-done-before’ (in the modern sense of ‘an original idea’, ‘___ original’); this is the modern or romantic sense.
+그러나, 18세기 말부터 줄곧 original은 (‘독창적인 아이디어’, ‘_두드러지게_ 참신한’이라는 현대적 의미에서처럼) 점점 더 정반대이자 현재 지배적인 ‘새로운’, ‘혁신적인’, ‘전에는 해 본 적이 없는’이라는 의미 쪽으로 향하게 되었는데, 이것은 근대의 혹은 낭만주의의 의미이다.
+strikingly
+
+distinction
+Interestingly, the ___ between the two can be activated by something as slight yet significant as a change of article.
+흥미롭게도, 그 둘 사이의 _차이_는 관사의 교체와 같은 경미하지만 중요한 것에 의해 활성화될 수 있다.
+distinction
+
+activate
+Interestingly, the distinction between the two can be ___ by something as slight yet significant as a change of article.
+흥미롭게도, 그 둘 사이의 차이는 관사의 교체와 같은 경미하지만 중요한 것에 의해 _활성화될_ 수 있다.
+activated
+
+slight
+Interestingly, the distinction between the two can be activated by something as ___ yet significant as a change of article.
+흥미롭게도, 그 둘 사이의 차이는 관사의 교체와 같은 _경미하_지만 중요한 것에 의해 활성화될 수 있다.
+slight
+
+article
+Interestingly, the distinction between the two can be activated by something as slight yet significant as a change of ___.
+흥미롭게도, 그 둘 사이의 차이는 _관사_의 교체와 같은 경미하지만 중요한 것에 의해 활성화될 수 있다.
+article
+
+refer ~ to ...
+‘The original painting’ ___ us back ___ the initial version (not a copy) and invokes the earlier sense.
+the original painting은 우리가 (복사본이 아니라) 원본_에_ 다시 _주목하_게 하여 초기의 의미를 상기시킨다.
+refers to
+‘An original painting’ ___ us ___ a kind of painting that has not been done before and assumes the later sense.
+an original painting은 우리를 전에는 그려지지 않았던 종류의 그림_에_ _주목하_게 하여 나중에 생긴 의미를 가진다.
+refers to
+
+assume
+‘An original painting’ refers us to a kind of painting that has not been done before and ___ the later sense.
+an original painting은 우리를 전에는 그려지지 않았던 종류의 그림에 주목하게 하여 나중에 생긴 의미를 _가진다_.
+assumes
+
+foster
+The biggest barrier to ___ originality, however, is a lack of time in a busy world with ever increasing pressures.
+그러나, 독창성을 _육성하_는 데 있어서 가장 큰 장 애물은 계속해서 압박이 증대되는 바쁜 사회에서 시간의 부족이다.
+fostering
+
+weigh
+It is therefore important to ___ whether the originality one has in mind looks back, forwards or, indeed, attempts to do both at once.
+그러므로, 우리가 마음속에 가진 originality가 뒤를 돌아보는지, 앞을 보는지, 아니면 과연 동시에 둘 다 보려고 시도하는지 _따져 보_는 것이 중요하다.
+weigh

@@ -73,9 +73,7 @@ function All(){
 
 function Reset(){
     for (check_part of document.getElementsByClassName("part_label")){
-        if (check_part.firstElementChild.checked){
-            check_part.firstElementChild.checked = false;
-        }
+        check_part.firstElementChild.checked = false;
     }
     part_selected = {};
 }
@@ -91,12 +89,42 @@ function Enter(){
     }
     lng_selected = document.getElementById("select-lng").value;
     type_selected = document.getElementById("select-type").value;
+
     var message = "Type: ";
     if (type_selected === "word"){
         message += "단어\n";
     }
     else if (type_selected === "sentence"){
         message += "문장\n";
+    }
+    var not_Uld = {}
+    for (p of keys){
+        for (t of part_selected[p]){
+            var s = "#" + type_selected + "_" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
+            if ($(s).length === 0){
+                if (Object.keys(not_Uld).includes(p) === true){
+                    not_Uld[p].push(t);
+                }
+                else{
+                    not_Uld[p] = [t];
+                }
+            }
+        }
+    }
+    if (Object.keys(not_Uld).length !== 0){
+        var not_uploaded = '※아직 업로드되지 않았습니다.※\n';
+        for (p of Object.keys(not_Uld)){
+            not_uploaded += p + ": " + not_Uld[p].join(", ") + '\n';
+            for (t of not_Uld[p]){
+                document.getElementById("Ch"+p.replace(/ /gi,'')+t.replace(/ /gi,'')).firstElementChild.checked = false;
+                Check(document.getElementById("Ch"+p.replace(/ /gi,'')+t.replace(/ /gi,'')).firstElementChild);
+            }
+        }
+        alert(not_uploaded);
+    }
+    keys = Object.keys(part_selected);
+    if (keys.length === 0){
+        return;
     }
     for (p of keys){
         message += p + ": " + part_selected[p].join(", ") + '\n';
@@ -107,7 +135,7 @@ function Enter(){
         return;
     }
     var Text = '';
-    for (p of Object.keys(part_selected)){
+    for (p of keys){
         for (t of part_selected[p]){
             var src = "#" + type_selected + "_" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
             Text += $(src).contents().find("pre").html();
@@ -371,12 +399,12 @@ function Input(){
         alert(Q.length+"개 남았습니다.");
     }
     else if (ans === "dvl"){
+        document.getElementById("count").style.display = "block";
         setTimeout(function(){
             document.getElementById("count").style.display = "none";
             document.getElementById("develop").innerHTML = '';
         },3000);
     }
-
     else if (ans === 'S'){
         return Skip();
     }
@@ -389,6 +417,7 @@ function Input(){
             if (answer.includes(ans)) {
                 alert("SUCCESS");
                 oprt = 0;
+                hint = 0;
                 score += 1;
                 Q.shift();
                 if (Q.length === 0) {
@@ -419,7 +448,6 @@ function Input(){
                 }
             }
         } else if (type_selected === "sentence") {
-            console.log(ans, answer);
             ans = ans.split(" ");
             var U = [];
             var U_a = answer.split(" ");
@@ -445,6 +473,7 @@ function Input(){
             } else if (U.length === U_a.length) {
                 alert("SUCCESS");
                 oprt = 0;
+                hint = 0;
                 score += 1;
                 Q.shift();
                 if (Q.length === 0) {
@@ -515,7 +544,6 @@ function Hint(){
     }
     else if (type_selected === "sentence"){
         if (hint === 1){
-            console.log('hi');
             var U = S[Q[0].substring(0, Q[0].length-1)][Q[0].substring(Q[0].length-1)];
             var R = '';
             var tg = 0;
