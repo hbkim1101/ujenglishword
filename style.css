@@ -85,3 +85,7 @@ label{
 .select_button:hover{
     background-color: rgb(220, 220, 220);
 }
+
+#input-answer::placeholder{
+    font-size: 25px
+}

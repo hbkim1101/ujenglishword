@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
+      <change afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sentence" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,11 +88,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 24" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 23" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word\Weak1 02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
@@ -207,14 +215,7 @@
       <workItem from="1635781733507" duration="2126000" />
       <workItem from="1635865655431" duration="3129000" />
       <workItem from="1635942908471" duration="4506000" />
-      <workItem from="1636095746982" duration="59338000" />
-    </task>
-    <task id="LOCAL-00049" summary="as">
-      <created>1635571184666</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1635571184666</updated>
+      <workItem from="1636095746982" duration="70589000" />
     </task>
     <task id="LOCAL-00050" summary="as">
       <created>1635584667685</created>
@@ -552,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636278570593</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="as">
+      <created>1636280872485</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1636280872485</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

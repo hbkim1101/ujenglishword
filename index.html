@@ -42,7 +42,7 @@
             file_.id = "word_" + part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
             document.getElementsByTagName("head")[0].append(file_);
         }
-        for (i of [1,2]){
+        for (i of [1,2,3]){
             var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;
             if (i < 5) {
                 for (j of [2,4,6,8,10,12]) {
@@ -129,7 +129,7 @@
                             part_label_.appendChild(part_option_);
                         }
 
-                        for (i of [1,2]){
+                        for (i of [1,2,3]){
                             var part_label__ = document.createElement("label");
                             part_label__.style.float = "left";
                             var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;

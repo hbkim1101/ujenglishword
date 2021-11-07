@@ -129,7 +129,14 @@ function Enter(){
     for (p of keys){
         message += p + ": " + part_selected[p].join(", ") + '\n';
     }
-    message += "START?"
+    if (lng_selected === "ENGLISH"){}
+    else if (lng_selected === "KOREAN"){
+        message += "\n※정답 양식※\n" +
+            "「,」로 구분하여 작성.\n" +
+            "「()」: ex) 보호(소) → 보호 or 보호소\n" +
+            "「[]」: ex) 배제[제외]하다 → 배제하다 or 제외하다\n" +
+            "「;」: ex) 빗질하다; 빗 → 빗질하다, 빗다 둘 다 모두 작성.\n"
+    }
     if (confirm(message)){}
     else{
         return;
@@ -163,14 +170,7 @@ function Enter(){
 function Build_list(Text){
     K = []; E = []; K_E = {}; K_ans = {}; S = {};
     var i=0;
-    while (i < Text.length){
-        if (Text[i] === '\r'){
-            Text = Text.substring(0,i)+Text.substring(i+1);
-            i--;
-        }
-        i++;
-    }
-    Text = Text.split('\n');
+    Text = Text.split(/\n|\r/);
     if (type_selected === "word"){
         var ln = 'K';
         var pf;
@@ -233,18 +233,27 @@ function Build_list(Text){
 }
 
 function Manufact_K(Text){
-    var pre = [];
+    var pre = [[]];
     var result;
     var U = '';
     var a = 0;
     var b = 0;
+    var c = 0;
     while (true){
         if (a >= Text.length){
-            pre.push(U);
+            pre[c].push(U);
             break;
         }
+        else if (Text[a] === ';'){
+            pre[c].push(U);
+            U = '';
+            a++;
+            c += 1;
+            pre.push([]);
+        }
         else if (Text[a] === ',' && b === 0){
-            pre.push(U);
+            pre[c].push(U);
+            U = '';
             a++;
         }
         else{
@@ -259,61 +268,63 @@ function Manufact_K(Text){
         a++;
     }
     result = pre;
-    var t = 0;
-    while (t !== result.length){
-        var T = result[t]
-        var con = {'()': [], '[]': []};
-        var r1, r2, r3, r4;
+    for (k=0; k<result.length; k++){
+        var t = 0;
+        while (t !== result[k].length){
+            var T = result[k][t]
+            var con = {'()': [], '[]': []};
+            var r1, r2, r3, r4;
 
-        var i = 0;
-        var f;
-        for (f of T){
-            if (f === '(' || f === ')'){
-                con['()'].push(i);
-            }
-            else if (f === '[' || f === ']'){
-                con['[]'].push(i);
-            }
-            i++;
-        }
-        if (con['()'].length !== 0){
-            r1 = T.substring(0, con['()'][0]);
-            r2 = T.substring(con['()'][1]+1);
-            r3 = r1+T.substring(con['()'][0]+1, con['()'][1])+r2;
-            if (con['()'][0]-1 >= 0 && T[con['()'][0]-1] === ' '){
-                r1 = r1.substring(0, r1.length-2);
-            }
-            else if (con['()'][1]+1 < T.length && T[con['()'][1]+1] === ' '){
-                r2 = r2.substring(1);
-            }
-            r4 = r1+r2;
-            result.push(r3);
-            result.push(r4);
-            result.shift();
-            continue;
-        }
-
-        if (con['[]'].length !== 0){
-            var j =  con['[]'][0];
-            while (true){
-                j--;
-                if (T[j] === ' ' || j === 0){
-                    if (j === 0){
-                        j--;
-                    }
-                    break;
+            var i = 0;
+            var f;
+            for (f of T){
+                if (f === '(' || f === ')'){
+                    con['()'].push(i);
                 }
+                else if (f === '[' || f === ']'){
+                    con['[]'].push(i);
+                }
+                i++;
             }
-            r1 = T.substring(0,j+1);
-            r2 = T.substring(con['[]'][1]+1);
-            r3 = r1 + T.substring(j+1, con['[]'][0]) + r2;
-            r4 = r1 + T.substring(con['[]'][0]+1,con['[]'][1])+r2;
-            result.push(r3);
-            result.push(r4);
-            result.shift();
-            t--;
+            if (con['()'].length !== 0){
+                r1 = T.substring(0, con['()'][0]);
+                r2 = T.substring(con['()'][1]+1);
+                r3 = r1+T.substring(con['()'][0]+1, con['()'][1])+r2;
+                if (con['()'][0]-1 >= 0 && T[con['()'][0]-1] === ' '){
+                    r1 = r1.substring(0, r1.length-2);
+                }
+                else if (con['()'][1]+1 < T.length && T[con['()'][1]+1] === ' '){
+                    r2 = r2.substring(1);
+                }
+                r4 = r1+r2;
+                result[k].push(r3);
+                result[k].push(r4);
+                result[k].shift();
+                continue;
+            }
+
+            if (con['[]'].length !== 0){
+                var j =  con['[]'][0];
+                while (true){
+                    j--;
+                    if (T[j] === ' ' || j === 0){
+                        if (j === 0){
+                            j--;
+                        }
+                        break;
+                    }
+                }
+                r1 = T.substring(0,j+1);
+                r2 = T.substring(con['[]'][1]+1);
+                r3 = r1 + T.substring(j+1, con['[]'][0]) + r2;
+                r4 = r1 + T.substring(con['[]'][0]+1,con['[]'][1])+r2;
+                result[k].push(r3);
+                result[k].push(r4);
+                result[k].shift();
+                t--;
+            }
+            t++;
         }
-        t++;
     }
     return result;
 }
@@ -371,7 +382,7 @@ function Question(){
         }
         else if (lng_selected === "KOREAN"){
             question = K_E[Q[0]];
-            answer = K_ans[Q[0]];
+            answer = Q[0];
             document.getElementById("question").innerHTML = question;
             document.getElementById("input-answer").value='';
             document.getElementById("input-answer").placeholder='';
@@ -414,40 +425,107 @@ function Input(){
     else{
         var message;
         if (type_selected === "word") {
-            if (answer.includes(ans)) {
-                alert("SUCCESS");
-                oprt = 0;
-                hint = 0;
-                score += 1;
-                Q.shift();
-                if (Q.length === 0) {
-                    return Complete();
-                }
-                return Question();
-            } else {
-                if (lng_selected === "KOREAN") {
-                    var F = false;
-                    for (a of answer) {
-                        if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')) {
-                            F = true;
-                        }
+            if (lng_selected === "ENGLISH"){
+                if (answer.includes(ans)) {
+                    alert("SUCCESS");
+                    oprt = 0;
+                    hint = 0;
+                    score += 1;
+                    Q.shift();
+                    if (Q.length === 0) {
+                        return Complete();
                     }
-                    if (F === true) {
-                        alert("띄어쓰기를 확인해주세요.");
-                        return;
-                    }
+                    return Question();
                 }
-                document.getElementById("input-answer").value = '';
-                oprt += 1;
-                if (oprt === 3) {
-                    alert("FAILURE\n3번 모두 실패하셨습니다.");
-                    return Skip();
-                } else {
-                    message = "FAILURE\n남은 기회: " + (3 - oprt);
-                    alert(message);
+                else{
+                    document.getElementById("input-answer").value = '';
+                    oprt += 1;
+                    if (oprt === 3) {
+                        alert("FAILURE\n3번 모두 실패하셨습니다.");
+                        return Skip();
+                    } else {
+                        message = "FAILURE\n남은 기회: " + (3 - oprt);
+                        alert(message);
+                    }
                 }
             }
-        } else if (type_selected === "sentence") {
+            else if (lng_selected === "KOREAN"){
+                ans = ans.split(/, |,/);
+                var T = true;
+                var scr = 0;
+                for (ans_i of ans){
+                    var t = false;
+                    for (A of K_ans[answer]){
+                        for (a of A){
+                            if (ans_i === a) {
+                                t = true;
+                                scr++;
+                                break;
+                            }
+                        }
+                        if (t === true){
+                            break;
+                        }
+                    }
+                    if (t === false){
+                        T = false;
+                    }
+                }
+                if (T === true && scr === K_ans[answer].length){
+                    alert("SUCCESS");
+                    oprt = 0;
+                    hint = 0;
+                    score += 1;
+                    Q.shift();
+                    if (Q.length === 0) {
+                        return Complete();
+                    }
+                    return Question();
+                }
+                else{
+                    var F = true;
+                    var scr_ = 0;
+                    for (ans_i of ans){
+                        var f = false;
+                        for (A of K_ans[answer]) {
+                            for (a of A){
+                                if (ans_i.replace(/ /gi, '') === a.replace(/ /gi, '')) {
+                                    f = true;
+                                    scr_++;
+                                    break;
+                                }
+                            }
+                            if (f === true){
+                                break;
+                            }
+                        }
+                        if (f === false){
+                            F = false;
+                        }
+                    }
+                    if (F === true && scr_ === K_ans[answer].length) {
+                        alert("띄어쓰기를 확인해주세요.");
+                    }
+                    else{
+                        document.getElementById("input-answer").value = '';
+                        oprt += 1;
+                        if (oprt === 3){
+                            alert("FAILURE\n3번 모두 실패하셨습니다.");
+                            return Skip();
+                        }
+                        else{
+                            message = "FAILURE"
+                            if (K_ans[answer].length >= 2){
+                                message += "\n전체 개수: " + K_ans[answer].length + "\n맞은 개수: " + scr_;
+                            }
+                            message += "\n남은 기회: " + (3 - oprt);
+                            alert(message);
+                        }
+                    }
+                }
+            }
+        }
+        else if (type_selected === "sentence") {
             ans = ans.split(" ");
             var U = [];
             var U_a = answer.split(" ");
@@ -521,7 +599,12 @@ function Complete(){
 
 function Skip(){
     if (type_selected === "word"){
-        alert("정답: "+answer[0]);
+        if (lng_selected === "ENGLISH"){
+            alert("정답: "+answer[0]);
+        }
+        else if (lng_selected === "KOREAN"){
+            alert("정답: "+answer);
+        }
     }
     else if (type_selected === "sentence"){
         alert("정답: "+answer);
@@ -539,8 +622,14 @@ function Hint(){
     hint++;
     document.getElementById("input-answer").value = '';
     if (type_selected === "word"){
-        document.getElementById("input-answer").placeholder =
-            answer[0].substring(0, document.getElementById("input-answer").placeholder.length+1);
+        if (lng_selected === "ENGLISH"){
+            document.getElementById("input-answer").placeholder =
+                answer[0].substring(0, document.getElementById("input-answer").placeholder.length+1);
+        }
+        else if (lng_selected === "KOREAN"){
+            document.getElementById("input-answer").placeholder =
+                answer.substring(0, document.getElementById("input-answer").placeholder.length+1);
+        }
     }
     else if (type_selected === "sentence"){
         if (hint === 1){
