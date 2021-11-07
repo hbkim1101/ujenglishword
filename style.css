@@ -58,9 +58,11 @@ button{
 }
 #input-answer{
     width: 300px;
-    font-size: 30px;
+    font-size: 25px;
 }
-
+#input-answer::placeholder{
+    font-size: 25px
+}
 #part_select_box{
     -ms-user-select: none;
     -khtml-user-select: none;
@@ -84,8 +86,4 @@ label{
 }
 .select_button:hover{
     background-color: rgb(220, 220, 220);
-}
-
-#input-answer::placeholder{
-    font-size: 25px
 }
