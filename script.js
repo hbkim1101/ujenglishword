@@ -132,7 +132,7 @@ function Enter(){
     if (lng_selected === "ENGLISH"){}
     else if (lng_selected === "KOREAN"){
         message += "\n※정답 양식※\n" +
-            "「,」: ex) 요소, 성분 → 요소 or 성분 or 요소, 성분 | 둘 중 아무거나 작성.\n" +
+            "「,」: ex) 요소, 성분 → 요소 or 성분 or 요소, 성분 | 아무거나 작성.\n" +
             "「;」: ex) 빗질하다; 빗 → 빗질하다, 빗다 | 둘 다 모두 작성.\n" +
             "「()」: ex) 보호(소) → 보호 or 보호소\n" +
             "「[]」: ex) 배제[제외]하다 → 배제하다 or 제외하다\n" +
