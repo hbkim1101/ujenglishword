@@ -92,10 +92,10 @@ function Enter(){
 
     var message = "Type: ";
     if (type_selected === "word"){
-        message += "단어\n";
+        message += "단어\n\n";
     }
     else if (type_selected === "sentence"){
-        message += "문장\n";
+        message += "문장\n\n";
     }
     var not_Uld = {}
     for (p of keys){
@@ -112,7 +112,7 @@ function Enter(){
         }
     }
     if (Object.keys(not_Uld).length !== 0){
-        var not_uploaded = '※아직 업로드되지 않았습니다.※\n';
+        var not_uploaded = '※아직 업로드되지 않았습니다.※\n\n';
         for (p of Object.keys(not_Uld)){
             not_uploaded += p + ": " + not_Uld[p].join(", ") + '\n';
             for (t of not_Uld[p]){
@@ -138,7 +138,7 @@ function Enter(){
     for (p of keys){
         for (t of part_selected[p]){
             var src = "#" + type_selected + "_" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
-            Text += $(src).contents().find("pre").html();
+            Text += $(src).contents().find("pre").html() + "\n";
         }
     }
     Build_list(Text);
