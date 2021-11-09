@@ -12,6 +12,10 @@ var S = {};
 var part_selected = {}, lng_selected, type_selected;
 var flg;
 
+window.addEventListener('DOMContentLoaded', function(event){
+    document.getElementById("question_box").style.minHeight = window.innerHeight*16/100 + "px"
+})
+
 window.onresize = function(event){
     if (document.getElementsByTagName('body')[0].clientHeight<450){
         document.getElementById("select").style.paddingTop = "0";

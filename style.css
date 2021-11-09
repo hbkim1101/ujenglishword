@@ -42,7 +42,6 @@ button{
     margin-bottom: 0;
 }
 #question_box{
-    min-height: 16vh;
     height: auto;
     width: 100%;
     display: flex;
