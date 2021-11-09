@@ -87,9 +87,19 @@ function Enter(){
             return a < b ? -1 : a > b ? 1 : 0;
     });
     for (p of Object.keys(part_selected)){
-        part_selected[p].sort(function(a, b) {
+        var c = [];
+        for (t of part_selected[p]){
+            c.push(parseInt(t.split(" ")[1]));
+        }
+        var d = c;
+        d.sort(function(a, b) {
             return a < b ? -1 : a > b ? 1 : 0;
         });
+        var u = [];
+        for (e of d){
+            u.push(part_selected[p][c.indexOf(e)]);
+        }
+        part_selected[p] = u;
     }
     lng_selected = document.getElementById("select-lng").value;
     type_selected = document.getElementById("select-type").value;
@@ -133,18 +143,18 @@ function Enter(){
     for (p of keys){
         message += p + ": " + part_selected[p].join(", ") + '\n';
     }
-    if (lng_selected === "ENGLISH"){}
-    else if (lng_selected === "KOREAN"){
-        message += "\n※정답 양식※\n" +
+    if (confirm(message)){}
+    else{
+        return;
+    }
+    if (lng_selected === "KOREAN"){
+        message = "※정답 양식※\n" +
             "「,」: ex) 요소, 성분 → 요소 or 성분 or 요소, 성분 | 아무거나 작성.\n" +
             "「;」: ex) 빗질하다; 빗 → 빗질하다, 빗다 | 둘 다 모두 작성.\n" +
             "「()」: ex) 보호(소) → 보호 or 보호소\n" +
             "「[]」: ex) 배제[제외]하다 → 배제하다 or 제외하다\n" +
-            "「,」로 구분하여 작성."
-    }
-    if (confirm(message)){}
-    else{
-        return;
+            "「,」로 구분하여 작성.";
+        alert(message);
     }
     var Text = '';
     for (p of keys){
