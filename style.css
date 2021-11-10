@@ -47,9 +47,7 @@ button{
     margin-right: 15px;
 }
 #select{
-    min-height: 9vh;
     height: auto;
-    padding-top: 13vh;
 }
 #select-type{
     margin-bottom: 0;
@@ -64,9 +62,6 @@ button{
 #question{
     margin: 0;
     width: 100%;
-}
-#answer_box{
-    padding-bottom: 2vh;
 }
 #input-answer{
     width: 300px;

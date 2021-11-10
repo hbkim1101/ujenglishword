@@ -13,7 +13,12 @@ var part_selected = {}, lng_selected, type_selected;
 var flg;
 
 window.addEventListener('DOMContentLoaded', function(event){
-    document.getElementById("question_box").style.minHeight = window.innerHeight*16/100 + "px"
+    var Height = window.innerHeight
+    document.getElementById("question_box").style.minHeight = Height*16/100 + "px";
+    document.getElementById("select").style.minHeight = Height*9/100 + "px";
+    document.getElementById("select").style.paddingTop = Height*13/100 + "px";
+    document.getElementById("answer_box").style.paddingBottom = Height*2/100 + "px";
+
 })
 
 window.onresize = function(event){
