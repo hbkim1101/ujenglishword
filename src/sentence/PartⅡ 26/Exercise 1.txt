@@ -1,0 +1,54 @@
+lightweight
+One may desire to have immediate delivery as soon as an order is ready, especially when a ___ item is ordered.
+특히 _가벼운_ 물건이 주문될 경우, 주문품이 준비되자마자 즉각적으로 배송받기를 바라는 사람들도 있을 수 있다.
+lightweight
+
+come into play
+This is where a drone ___ ___ ___.
+바로 여기에서 드론이 _활동하기 시작한다_.
+comes into play
+
+GPS
+The drone can pick up the ordered item and via ___ can travel toward the destination, send an alert to the customer, descend, drop the item at the front door of the customer, and return to the base.
+드론은 주문품을 들어 올려 _위성 위치 확인 시스템_을 통해 목적지까지 가서, 고객에게 경보를 보내고, 하강하여, 그 상품을 고객의 현관에 내려놓고, 기지로 돌아올 수 있다.
+GPS
+
+destination
+The drone can pick up the ordered item and via GPS can travel toward the ___, send an alert to the customer, descend, drop the item at the front door of the customer, and return to the base.
+드론은 주문품을 들어 올려 위성 위치 확인 시스템을 통해 _목적지_까지 가서, 고객에게 경보를 보내고, 하강하여, 그 상품을 고객의 현관에 내려놓고, 기지로 돌아올 수 있다.
+destination
+
+alert
+The drone can pick up the ordered item and via GPS can travel toward the destination, send an ___ to the customer, descend, drop the item at the front door of the customer, and return to the base.
+드론은 주문품을 들어 올려 위성 위치 확인 시스템을 통해 목적지까지 가서, 고객에게 _경보_를 보내고, 하강하여, 그 상품을 고객의 현관에 내려놓고, 기지로 돌아올 수 있다.
+alert
+
+descend
+The drone can pick up the ordered item and via GPS can travel toward the destination, send an alert to the customer, ___, drop the item at the front door of the customer, and return to the base.
+드론은 주문품을 들어 올려 위성 위치 확인 시스템을 통해 목적지까지 가서, 고객에게 경보를 보내고, _하강하_여, 그 상품을 고객의 현관에 내려놓고, 기지로 돌아올 수 있다.
+descend
+
+base
+The drone can pick up the ordered item and via GPS can travel toward the destination, send an alert to the customer, descend, drop the item at the front door of the customer, and return to the ___.
+드론은 주문품을 들어 올려 위성 위치 확인 시스템을 통해 목적지까지 가서, 고객에게 경보를 보내고, 하강하여, 그 상품을 고객의 현관에 내려놓고, _기지_로 돌아올 수 있다.
+base
+
+grant
+The FAA has started ___ licenses for certain commercial applications.
+미국 연방 항공국은 특정한 상업적인 응용 분야에 면허를 _승인하기_ 시작했다.
+granting
+
+privacy
+Debate is still on for safety and ___.
+안전과 _사생활_에 관한 논란은 여전히 계속되고 있다.
+privacy
+
+estimate
+The store ___ 80% of its deliveries are light enough (less than 5 pounds) for a drone to carry.
+그 상점은 자사 배송 상품의 80퍼센트가 드론이 운반하기에 (5파운드 미만으로) 충분히 가볍다고 _추산한다_.
+estimates
+
+hobbyist
+Today, customers and ___ can order and operate drones under certain guidelines — for example, flying height is 400 feet.
+오늘날, 고객들과 _취미 활동가들_은 드론을 주문하고, 예를 들어, 비행 고도 400피트와 같은 특정한 지침하에 작동할 수 있다.
+hobbyists

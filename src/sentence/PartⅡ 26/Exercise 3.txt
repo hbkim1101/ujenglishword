@@ -1,0 +1,67 @@
+cheat
+Perhaps the most widely used AI technique in games is ___.
+아마도 게임에서 가장 널리 사용되는 AI 기법은 _부정행위_일 것이다.
+cheating
+___ in this manner is common and helps give the computer an edge against intelligent human players.
+이런 방식의 _부정행위_는 흔한 일이고, 컴퓨터가 게임을 하는 똑똑한 인간에 비해 우위를 가지게 하는 데 도움을 준다.
+Cheating
+However, ___ can be bad.
+하지만 _부정행위_는 해로울 수 있다.
+cheating
+If it is obvious to the player that the computer is ___, the player likely will assume his efforts are useless and lose interest in the game.
+컴퓨터가 _부정행위_를 하고 있다는 것이 게임을 하는 사람에게 분명해지면, 그 사람은 아마도 자신의 노력이 소용없다고 생각해서 그 게임에 흥미를 잃게 될 것이다.
+cheating
+Also, unbalanced ___ can give computer opponents too much power, making it impossible for the player to beat the computer.
+또한 일방적인 _부정행위_는 컴퓨터라는 상대에게 과다한 힘을 주어 게임을 하는 사람이 컴퓨터를 이기는 것을 불가능하게 만들 수 있다.
+cheating
+___ must be balanced to create just enough of a challenge for the player to keep the game interesting and fun.
+_부정행위_는 게임을 하는 사람에게, 그 게임을 흥미롭고 재미있게 유지할 수 있을 딱 그만큼의 해 볼 만한 문제를 만들어 낼 수 있도록 균형이 잡혀야 한다.
+Cheating
+
+simulation
+For example, in a war ___ game the computer team can have access to all information on its human opponents — location of their base; the types, number, and location of units, etc. — without having to send out scouts to gather such intelligence the way a human player must.
+예를 들어 전쟁 _시뮬레이션_ 게임에서 컴퓨터 팀은 자신의 인간 상대에 관한 모든 정보, 즉 그들의 기지 위치, 단위 부대의 종류, 수, 위치 등에 접근할 수 있는데, 게임을 하는 인간이 해야만 하는 방식으로 그런 정보를 수집하기 위해 정찰병을 내보내야 할 필요가 없다.
+simulation
+
+opponent
+For example, in a war simulation game the computer team can have access to all information on its human ___ — location of their base; the types, number, and location of units, etc. — without having to send out scouts to gather such intelligence the way a human player must.
+예를 들어 전쟁 시뮬레이션 게임에서 컴퓨터 팀은 자신의 인간 _상대_에 관한 모든 정보, 즉 그들의 기지 위치, 단위 부대의 종류, 수, 위치 등에 접근할 수 있는데, 게임을 하는 인간이 해야만 하는 방식으로 그런 정보를 수집하기 위해 정찰병을 내보내야 할 필요가 없다.
+opponents
+Also, unbalanced cheating can give computer ___ too much power, making it impossible for the player to beat the computer.
+또한 일방적인 부정행위는 컴퓨터라는 _상대_에게 과다한 힘을 주어 게임을 하는 사람이 컴퓨터를 이기는 것을 불가능하게 만들 수 있다.
+opponents
+
+unit
+For example, in a war simulation game the computer team can have access to all information on its human opponents — location of their base; the types, number, and location of ___, etc. — without having to send out scouts to gather such intelligence the way a human player must.
+예를 들어 전쟁 시뮬레이션 게임에서 컴퓨터 팀은 자신의 인간 상대에 관한 모든 정보, 즉 그들의 기지 위치, _단위 부대_의 종류, 수, 위치 등에 접근할 수 있는데, 게임을 하는 인간이 해야만 하는 방식으로 그런 정보를 수집하기 위해 정찰병을 내보내야 할 필요가 없다.
+units
+
+intelligence
+For example, in a war simulation game the computer team can have access to all information on its human opponents — location of their base; the types, number, and location of units, etc. — without having to send out scouts to gather such ___ the way a human player must.
+예를 들어 전쟁 시뮬레이션 게임에서 컴퓨터 팀은 자신의 인간 상대에 관한 모든 정보, 즉 그들의 기지 위치, 단위 부대의 종류, 수, 위치 등에 접근할 수 있는데, 게임을 하는 인간이 해야만 하는 방식으로 그런 _정보_를 수집하기 위해 정찰병을 내보내야 할 필요가 없다.
+intelligence
+
+common
+Cheating in this manner is ___ and helps give the computer an edge against intelligent human players.
+이런 방식의 부정행위는 _흔한_ 일이고, 컴퓨터가 게임을 하는 똑똑한 인간에 비해 우위를 가지게 하는 데 도움을 준다.
+common
+
+edge
+Cheating in this manner is common and helps give the computer an ___ against intelligent human players.
+이런 방식의 부정행위는 흔한 일이고, 컴퓨터가 게임을 하는 똑똑한 인간에 비해 _우위_를 가지게 하는 데 도움을 준다.
+edge
+
+obvious
+If it is ___ to the player that the computer is cheating, the player likely will assume his efforts are useless and lose interest in the game.
+컴퓨터가 부정행위를 하고 있다는 것이 게임을 하는 사람에게 _분명해_지면, 그 사람은 아마도 자신의 노력이 소용없다고 생각해서 그 게임에 흥미를 잃게 될 것이다.
+obvious
+
+assume
+If it is obvious to the player that the computer is cheating, the player likely will ___ his efforts are useless and lose interest in the game.
+컴퓨터가 부정행위를 하고 있다는 것이 게임을 하는 사람에게 분명해지면, 그 사람은 아마도 자신의 노력이 소용없다고 _생각해_서 그 게임에 흥미를 잃게 될 것이다.
+assume
+
+unbalanced
+Also, ___ cheating can give computer opponents too much power, making it impossible for the player to beat the computer.
+또한 _일방적인_ 부정행위는 컴퓨터라는 상대에게 과다한 힘을 주어 게임을 하는 사람이 컴퓨터를 이기는 것을 불가능하게 만들 수 있다.
+unbalanced

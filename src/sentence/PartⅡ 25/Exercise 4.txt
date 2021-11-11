@@ -1,0 +1,29 @@
+assume
+On the national level of culture, we ___ that people of the same national background share many things that bind them in a common culture: language, values, norms, and traditions.
+문화의 민족적 차원에서 우리는 동일한 민족적 배경을 지닌 사람들은 그들을 공통의 문화 속에 묶어 주는 많은 것, 즉 언어, 가치, 규범, 전통을 공유한다고 _생각한다_.
+assume
+
+bind
+On the national level of culture, we assume that people of the same national background share many things that ___ them in a common culture: language, values, norms, and traditions.
+문화의 민족적 차원에서 우리는 동일한 민족적 배경을 지닌 사람들은 그들을 공통의 문화 속에 _묶어 주_는 많은 것, 즉 언어, 가치, 규범, 전통을 공유한다고 생각한다.
+bind
+
+norms
+On the national level of culture, we assume that people of the same national background share many things that bind them in a common culture: language, values, ___, and traditions.
+문화의 민족적 차원에서 우리는 동일한 민족적 배경을 지닌 사람들은 그들을 공통의 문화 속에 묶어 주는 많은 것, 즉 언어, 가치, _규범_, 전통을 공유한다고 생각한다.
+norms
+
+differ from
+Thus, we expect Germans to ___ ___ Hmong based on differing national cultures.
+따라서 우리는 서로 다른 민족 문화에 근거해서 독일인은 몽족_과 다를_ 것이라고 예상한다.
+differ from
+
+regionalism
+For example, in many parts of the country, ___ exist.
+예를 들어, 전국의 많은 지역에는 _지역주의_가 존재한다.
+regionalisms
+
+refer to ~ as ...
+People who live in the middle of the United States (in states such as Kansas, Illinois, Iowa, Nebraska, Indiana, and Wisconsin) are often ___ ___ ___ “Midwesterners.”
+(Kansas, Illinois, Iowa, Nebraska, Indiana, Wisconsin과 같은 주인) 미국의 중부에 사는 사람들은 흔히 ‘중 서부인’_이라고 불린_다.
+referred to as

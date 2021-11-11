@@ -1,0 +1,105 @@
+vehicle
+For companies with a manufacturing or industrial focus, machines, ___ and tools can be made ‘smart’, meaning they can be connected, data-enabled and constantly reporting their status to each other.
+제조업이나 공업을 위주로 하는 기업의 경우, 기계, _차량_, 도구가 ‘스마트하게’ 만들어질 수 있는데, 그것은 그것들이 연결되고, 데이터에 의해 활성화되며, 지속적으로 상태를 서로 알리고 있을 수 있다는 것을 의미한다.
+vehicles
+
+device
+Machine data can include anything from IT machines to sensors and meters and GPS ___.
+머신 데이터는 IT 기계에서부터 감지기 및 계측기와 GPS _장치_에 이르는 모든 것을 포함할 수 있다.
+devices
+
+visibility
+Using this data, organizations can gain real-time ___ into their operations.
+조직체들은 이 데이터를 사용하여 자신들의 운영을 들여다보는 실시간 _가시성_을 얻을 수 있다.
+visibility
+
+operation
+Using this data, organizations can gain real-time visibility into their ___.
+조직체들은 이 데이터를 사용하여 자신들의 _운영_을 들여다보는 실시간 가시성을 얻을 수 있다.
+operations
+This increases efficiency by allowing every aspect of an industrial ___ to be monitored and adjusted for optimal performance.
+이를 통해 성능이 최적화되도록 산업 _운영_의 모든 측면이 추적 관찰되고 조정될 수 있도록 함으로써 효율성이 증대된다.
+operation
+
+efficiency
+This increases ___ by allowing every aspect of an industrial operation to be monitored and adjusted for optimal performance.
+이를 통해 성능이 최적화되도록 산업 운영의 모든 측면이 추적 관찰되고 조정될 수 있도록 함으로써 _효율성_이 증대된다.
+efficiency
+
+monitor
+This increases efficiency by allowing every aspect of an industrial operation to be ___ and adjusted for optimal performance.
+이를 통해 성능이 최적화되도록 산업 운영의 모든 측면이 _추적 관찰되_고 조정될 수 있도록 함으로써 효율성이 증대된다.
+monitored
+
+adjust
+This increases efficiency by allowing every aspect of an industrial operation to be monitored and ___ for optimal performance.
+이를 통해 성능이 최적화되도록 산업 운영의 모든 측면이 추적 관찰되고 _조정될_ 수 있도록 함으로써 효율성이 증대된다.
+adjusted
+
+optimal
+This increases efficiency by allowing every aspect of an industrial operation to be monitored and adjusted for ___ performance.
+이를 통해 성능이 _최적_화되도록 산업 운영의 모든 측면이 추적 관찰되고 조정될 수 있도록 함으로써 효율성이 증대된다.
+optimal
+
+costly
+It can also help reduce ___ down-time, on the basis that, if we know exactly when to replace a worn part, machinery will break down less often.
+그것은 또한, _비용이 많이 드는_ 작동 중지 시간을 줄이는 데 도움이 될 수도 있는데, 마모된 부품을 정확히 언제 교체해야 할지 알고 있으면 기계가 덜 빈번하게 고장 날 것이라는 이유에서다.
+costly
+
+down-time
+It can also help reduce costly ___, on the basis that, if we know exactly when to replace a worn part, machinery will break down less often.
+그것은 또한, 비용이 많이 드는 _작동 중지 시간_을 줄이는 데 도움이 될 수도 있는데, 마모된 부품을 정확히 언제 교체해야 할지 알고 있으면 기계가 덜 빈번하게 고장 날 것이라는 이유에서다.
+down-time
+
+on the basis that
+It can also help reduce costly down-time, ___ ___ ___ ___, if we know exactly when to replace a worn part, machinery will break down less often.
+그것은 또한, 비용이 많이 드는 작동 중지 시간을 줄이는 데 도움이 될 수도 있는데, 마모된 부품을 정확히 언제 교체해야 할지 알고 있으면 기계가 덜 빈번하게 고장 날 것_이라는 이유에서_다.
+on the basis that
+
+worn
+It can also help reduce costly down-time, on the basis that, if we know exactly when to replace a ___ part, machinery will break down less often.
+그것은 또한, 비용이 많이 드는 작동 중지 시간을 줄이는 데 도움이 될 수도 있는데, _마모된_ 부품을 정확히 언제 교체해야 할지 알고 있으면 기계가 덜 빈번하게 고장 날 것이라는 이유에서다.
+worn
+
+machinery
+It can also help reduce costly down-time, on the basis that, if we know exactly when to replace a worn part, ___ will break down less often.
+그것은 또한, 비용이 많이 드는 작동 중지 시간을 줄이는 데 도움이 될 수도 있는데, 마모된 부품을 정확히 언제 교체해야 할지 알고 있으면 _기계_가 덜 빈번하게 고장 날 것이라는 이유에서다.
+machinery
+
+break down
+It can also help reduce costly down-time, on the basis that, if we know exactly when to replace a worn part, machinery will ___ ___ less often.
+그것은 또한, 비용이 많이 드는 작동 중지 시간을 줄이는 데 도움이 될 수도 있는데, 마모된 부품을 정확히 언제 교체해야 할지 알고 있으면 기계가 덜 빈번하게 _고장 날_ 것이라는 이유에서다.
+break down
+
+optimize
+In retail, for example, companies are able to ___ their stock keeping, with stock being automatically replenished when certain conditions are identified or when stock levels drop below a certain number.
+예컨대 소매업에서는 특정 상황이 발견될 때나 재고 수준이 특정한 수 이하로 떨어질 때 재고가 자동으로 보충되기 때문에, 기업은 자신들의 재고 유지를 _최적화할_ 수 있다.
+optimize
+
+stock
+In retail, for example, companies are able to optimize their ___ keeping, with ___ being automatically replenished when certain conditions are identified or when ___ levels drop below a certain number.
+예컨대 소매업에서는 특정 상황이 발견될 때나 _재고_ 수준이 특정한 수 이하로 떨어질 때 _재고_가 자동으로 보충되기 때문에, 기업은 자신들의 _재고_ 유지를 최적화할 수 있다.
+stock stock stock
+It is even possible to use predictions generated from social media data, web search trends and weather forecasts to predict demand and top up ___.
+소셜 미디어 데이터, 웹 검색 추세, 일기 예보에서 생성된 예측 내용을 사용해 수요를 예측하고 _재고_의 양을 늘리는 것까지도 가능하다.
+stock
+
+automatically
+In retail, for example, companies are able to optimize their stock keeping, with stock being ___ replenished when certain conditions are identified or when stock levels drop below a certain number.
+예컨대 소매업에서는 특정 상황이 발견될 때나 재고 수준이 특정한 수 이하로 떨어질 때 재고가 _자동으로_ 보충되기 때문에, 기업은 자신들의 재고 유지를 최적화할 수 있다.
+automatically
+
+generate
+It is even possible to use predictions ___ from social media data, web search trends and weather forecasts to predict demand and top up stock.
+소셜 미디어 데이터, 웹 검색 추세, 일기 예보에서 _생성된_ 예측 내용을 사용해 수요를 예측하고 재고의 양을 늘리는 것까지도 가능하다.
+generated
+
+weather forecast
+It is even possible to use predictions generated from social media data, web search trends and ___ ___ to predict demand and top up stock.
+소셜 미디어 데이터, 웹 검색 추세, _일기 예보_에서 생성된 예측 내용을 사용해 수요를 예측하고 재고의 양을 늘리는 것까지도 가능하다.
+weather forecasts
+
+top up
+It is even possible to use predictions generated from social media data, web search trends and weather forecasts to predict demand and ___ ___ stock.
+소셜 미디어 데이터, 웹 검색 추세, 일기 예보에서 생성된 예측 내용을 사용해 수요를 예측하고 재고_의 양을 늘리_는 것까지도 가능하다.
+top up

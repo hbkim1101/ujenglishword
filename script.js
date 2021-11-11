@@ -88,24 +88,24 @@ function Reset(){
 }
 
 function Enter(){
-    var keys = Object.keys(part_selected).sort(function(a, b) {
-            return a < b ? -1 : a > b ? 1 : 0;
-    });
-    for (p of Object.keys(part_selected)){
+    var dict = {};
+    var keys = Object.keys(part_selected).sort();
+    for (k of keys){
         var c = [];
-        for (t of part_selected[p]){
-            c.push(parseInt(t.split(" ")[1]));
+        for (t of part_selected[k]){
+            c.push(parseInt(t.split("  ")[1]));
         }
-        var d = c;
-        d.sort(function(a, b) {
-            return a < b ? -1 : a > b ? 1 : 0;
-        });
+        var d = c.slice();
+        d.sort();
         var u = [];
         for (e of d){
-            u.push(part_selected[p][c.indexOf(e)]);
+            u.push(part_selected[k][c.indexOf(e)]);
         }
-        part_selected[p] = u;
+        dict[k] = u;
     }
+    part_selected = dict;
+    keys = Object.keys(part_selected);
+
     lng_selected = document.getElementById("select-lng").value;
     type_selected = document.getElementById("select-type").value;
 
@@ -629,6 +629,7 @@ function Skip(){
     else if (type_selected === "sentence"){
         alert("정답: "+answer);
     }
+    hint = 0;
     oprt = 0;
     R.push(Q[0]);
     Q.shift();

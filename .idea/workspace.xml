@@ -10,9 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 25/Exercise 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 25/Exercise 3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 25/Exercise 4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 26/Exercise 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 26/Exercise 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 26/Exercise 3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 26/Exercise 4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 23/Exercise 4.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,11 +89,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 24" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 23" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 25" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\word" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
@@ -211,14 +219,7 @@
       <workItem from="1636095746982" duration="72884000" />
       <workItem from="1636467564104" duration="1145000" />
       <workItem from="1636474550796" duration="4727000" />
-      <workItem from="1636542513284" duration="1986000" />
-    </task>
-    <task id="LOCAL-00058" summary="as">
-      <created>1635657296580</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1635657296580</updated>
+      <workItem from="1636542513284" duration="17935000" />
     </task>
     <task id="LOCAL-00059" summary="as">
       <created>1635657643191</created>
@@ -556,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636477720031</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="as">
+      <created>1636544698159</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1636544698160</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

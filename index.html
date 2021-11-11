@@ -27,7 +27,7 @@
                 file_word.src = "src/word/" + part + "/" + sqc + ".txt";
                 file_word.id = "word_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                 document.getElementsByTagName("head")[0].append(file_word);
-                if ([23,24].includes(i) || (i === 25 && j === 1)){
+                if ([23,24,25,26].includes(i)){
                     file_sentence.src = "src/sentence/" + part + "/" + sqc + ".txt";
                     file_sentence.id = "sentence_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                     document.getElementsByTagName("head")[0].append(file_sentence);

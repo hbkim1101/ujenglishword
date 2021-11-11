@@ -1,0 +1,73 @@
+utter
+As a child’s lexicon grows, she begins to ___ simple sentences and to acquire new vocabulary at a very rapid pace.
+자신의 어휘 목록이 늘어나면서, 아이는 간단한 문장을 _말하_고 매우 빠른 속도로 새로운 어휘를 습득하기 시작한다.
+utter
+
+acquire
+As a child’s lexicon grows, she begins to utter simple sentences and to ___ new vocabulary at a very rapid pace.
+자신의 어휘 목록이 늘어나면서, 아이는 간단한 문장을 말하고 매우 빠른 속도로 새로운 어휘를 _습득하_기 시작한다.
+acquire
+
+rapid
+As a child’s lexicon grows, she begins to utter simple sentences and to acquire new vocabulary at a very ___ pace.
+자신의 어휘 목록이 늘어나면서, 아이는 간단한 문장을 말하고 매우 _빠른_ 속도로 새로운 어휘를 습득하기 시작한다.
+rapid
+
+context
+In this ___, overgeneralization refers to an extension of a language rule to an exception to the rule.
+이러한 _상황_에서, 과잉 일반화는 언어 규칙을 그 규칙의 예외에까지 확장하는 것을 가리킨다.
+context
+
+overgeneralization
+This is sometimes seen in the form of ___.
+이것은 때때로 _과잉 일반화_의 형태로 드러난다.
+overgeneralization
+In this context, ___ refers to an extension of a language rule to an exception to the rule.
+이러한 상황에서, _과잉 일반화_는 언어 규칙을 그 규칙의 예외에까지 확장하는 것을 가리킨다.
+overgeneralization
+
+refer to
+In this context, overgeneralization ___ ___ an extension of a language rule to an exception to the rule.
+이러한 상황에서, 과잉 일반화는 언어 규칙을 그 규칙의 예외에까지 확장하는 것_을 가리킨다_.
+refers to
+
+extension
+In this context, overgeneralization refers to an ___ of a language rule to an exception to the rule.
+이러한 상황에서, 과잉 일반화는 언어 규칙을 그 규칙의 예외에까지 _확장하는 것을 가리킨다.
+extension
+
+exception
+In this context, overgeneralization refers to an extension of a language rule to an ___ to the rule.
+이러한 상황에서, 과잉 일반화는 언어 규칙을 그 규칙의 _예외_에까지 확장하는 것을 가리킨다.
+exception
+Young children will overgeneralize this rule to cases that are ___ to the “add an s to the end of the word” rule and say things like “those two gooses” or “three mouses.”
+어린아이들은 이 규칙을 “단어의 끝에 s를 추가하라.”라는 규칙의 _예외_인 경우에 과잉 일반화하여 “those two gooses(저 두 마리의 거위)” 나 “three mouses(세 마리의 쥐)”와 같은 말을 하게 될 것이다.
+exceptions
+Clearly, the rules of the language are understood, even if the ___ to the rules are still being learned.
+비록 규칙의 _예외_에 대한 학습이 여전히 진행되고 있다 하더라도, 분명히 언어 규칙은 이해된 것이다.
+exceptions
+
+be the case
+For example, in English, it ___ usually ___ ___ that an “s” is added to the end of a word to indicate plurality.
+예를 들어, 영어에서, 일반적으로 복수를 나타내기 위해 단어의 끝에 ‘s’가 추가되는 것이 _사실이다_.
+is the case
+
+indicate
+For example, in English, it is usually the case that an “s” is added to the end of a word to ___ plurality.
+예를 들어, 영어에서, 일반적으로 복수를 _나타내_기 위해 단어의 끝에 ‘s’가 추가되는 것이 사실이다.
+indicate
+
+demonstrate
+In addition, children begin to ___ a clear understanding of the specific rules that apply to their language(s).
+게다가, 아이들은 자신의 언어(들)에 적용되는 특정 규칙에 대한 명확한 이해를 _보여 주_기 시작한다.
+demonstrate
+
+specific
+In addition, children begin to demonstrate a clear understanding of the ___ rules that apply to their language(s).
+게다가, 아이들은 자신의 언어(들)에 적용되는 _특정_ 규칙에 대한 명확한 이해를 보여 주기 시작한다.
+specific
+
+apply to
+In addition, children begin to demonstrate a clear understanding of the specific rules that ___ ___ their language(s).
+게다가, 아이들은 자신의 언어(들)_에 적용되_는 특정 규칙에 대한 명확한 이해를 보여 주기 시작한다.
+apply to
