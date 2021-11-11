@@ -93,7 +93,7 @@ function Enter(){
     for (k of keys){
         var c = [];
         for (t of part_selected[k]){
-            c.push(parseInt(t.split("  ")[1]));
+            c.push(parseInt(t.split(" ")[1]));
         }
         var d = c.slice();
         d.sort();
