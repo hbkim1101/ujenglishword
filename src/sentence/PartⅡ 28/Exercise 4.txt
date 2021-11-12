@@ -1,0 +1,40 @@
+assume
+For government policy to ___ that young women can rely on others for financial support is dangerous.
+정부 정책이 젊은 여성들이 재정적 지원을 다른 이들에게 의존할 수 있다고 _가정하_는 것은 위험하다.
+assume
+
+rely on
+For government policy to assume that young women can ___ ___ others for financial support is dangerous.
+정부 정책이 젊은 여성들이 재정적 지원을 다른 이들_에게 의존할_ 수 있다고 가정하는 것은 위험하다.
+rely on
+
+financial
+For government policy to assume that young women can rely on others for ___ support is dangerous.
+정부 정책이 젊은 여성들이 _재정적_ 지원을 다른 이들에게 의존할 수 있다고 가정하는 것은 위험하다.
+financial
+Thirdly, ___ dependence means a young woman is always at risk of experiencing poverty if support is withdrawn or a relationship ends.
+셋째로 _경제적_ 의존은 만약에 지원이 철회되거나 관계가 끝난다면 젊은 여성은 언제나 빈곤을 겪게 될 위험에 처해 있다는 것을 의미한다.
+financial
+
+contribution
+Women’s lower ___ to the household’s income can mean that they receive less money for themselves and consume fewer household resources, which can lead to poverty.
+가정 수입에 대한 여성의 낮은 _기여_는 그들이 자신을 위해 더 적은 돈을 받고 더 적은 가정 재원을 소비하고, 이는 빈곤으로 이어질 수 있다는 것을 의미할 수 있다.
+contribution
+
+poverty
+Women’s lower contribution to the household’s income can mean that they receive less money for themselves and consume fewer household resources, which can lead to ___.
+가정 수입에 대한 여성의 낮은 기여는 그들이 자신을 위해 더 적은 돈을 받고 더 적은 가정 재원을 소비하고, 이는 _빈곤_으로 이어질 수 있다는 것을 의미할 수 있다.
+poverty
+Thirdly, financial dependence means a young woman is always at risk of experiencing ___ if support is withdrawn or a relationship ends.
+셋째로 경제적 의존은 만약에 지원이 철회되거나 관계가 끝난다면 젊은 여성은 언제나 _빈곤_을 겪게 될 위험에 처해 있다는 것을 의미한다.
+poverty
+
+withdraw
+Thirdly, financial dependence means a young woman is always at risk of experiencing poverty if support is ___ or a relationship ends.
+셋째로 경제적 의존은 만약에 지원이 _철회되_거나 관계가 끝난다면 젊은 여성은 언제나 빈곤을 겪게 될 위험에 처해 있다는 것을 의미한다.
+withdrawn
+
+adequate
+Young women need an ___ income of their own from work or the social security system.
+젊은 여성은 직장으로부터 혹은 사회 보장 제도로부터 오는 그들 자신의 _충분한_ 수입이 필요하다.
+adequate

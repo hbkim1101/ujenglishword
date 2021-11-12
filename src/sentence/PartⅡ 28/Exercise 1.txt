@@ -1,0 +1,47 @@
+strive
+The logic of ___ to get the most profit out of a limited number of offerings, is well rooted in the prevailing business culture.
+제한된 수의 매물로부터 최대의 이익을 얻기 위해 _분투한다_는 논리는 일반적인 사업 문화에 잘 뿌리박혀 있다.
+striving
+
+offering
+The logic of striving to get the most profit out of a limited number of ___, is well rooted in the prevailing business culture.
+제한된 수의 _매물_로부터 최대의 이익을 얻기 위해 분투한다는 논리는 일반적인 사업 문화에 잘 뿌리박혀 있다.
+offerings
+
+prevailing
+The logic of striving to get the most profit out of a limited number of offerings, is well rooted in the ___ business culture.
+제한된 수의 매물로부터 최대의 이익을 얻기 위해 분투한다는 논리는 _일반적인_ 사업 문화에 잘 뿌리박혀 있다.
+prevailing
+
+interconnected
+However powerful the logic is, within an ___ system that operates like the web of life, it overlooks many opportunities.
+그 논리가 얼마나 강력하든지 간에, 생명(체)의 망처럼 작동하는 _상호 연결 되어 있는_ 체계 안에서 그것은 많은 기회를 못 보고 넘어간다.
+interconnected
+In practice, the highest possible target for one parameter can only be achieved in a way that is harmful to other ___ factors.
+실제로 한 가지 변인을 위한 가능한 가장 높은 목표는 다른 _상호 연결된_ 요인들에 해가 되는 방식으로 성취될 수 있을 뿐이다.
+interconnected
+
+overlook
+However powerful the logic is, within an interconnected system that operates like the web of life, it ___ many opportunities.
+그 논리가 얼마나 강력하든지 간에, 생명(체)의 망처럼 작동하는 상호 연결 되어 있는 체계 안에서 그것은 많은 기회를 _못 보고 넘어간다_.
+overlooks
+
+neglect
+Imagine for a moment that a tree maximises its production of chlorophyll but ___ transpiration, which will result in it overheating, or that a hen focuses solely on laying eggs without paying any attention to raising chicks.
+나무가 엽록소 생산을 최대화하고 증산 작용을 _무시하_여 결과적으로 그것이 과열되거나, 또는 닭이 병아리를 키우는 데는 전혀 신경 쓰지 않고 오로지 알을 낳는 데만 집중하는 것을 잠시 상상해 보라.
+neglects
+
+overheat
+Imagine for a moment that a tree maximises its production of chlorophyll but neglects transpiration, which will result in it ___, or that a hen focuses solely on laying eggs without paying any attention to raising chicks.
+나무가 엽록소 생산을 최대화하고 증산 작용을 무시하여 결과적으로 그것이 _과열_되거나, 또는 닭이 병아리를 키우는 데는 전혀 신경 쓰지 않고 오로지 알을 낳는 데만 집중하는 것을 잠시 상상해 보라.
+overheating
+
+undermine
+It does not take a biologist to realise that a single focus on one outcome can not only be harmful to the system, but it ___ long-term livelihood.
+굳이 생물학자가 아니어도 한 가지 결과에만 오로지 집중하는 것은 체계에 해가 될 뿐만 아니라 장기적인 생계의 _기반을 약화시킨다_는 것을 이해할 수 있다.
+undermines
+
+livelihood
+It does not take a biologist to realise that a single focus on one outcome can not only be harmful to the system, but it undermines long-term ___.
+굳이 생물학자가 아니어도 한 가지 결과에만 오로지 집중하는 것은 체계에 해가 될 뿐만 아니라 장기적인 _생계_의 기반을 약화시킨다는 것을 이해할 수 있다.
+livelihood
