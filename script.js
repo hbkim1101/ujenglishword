@@ -653,7 +653,7 @@ function Hint(){
         }
     }
     else if (type_selected === "sentence"){
-        if (hint === 1){
+        if (hint === 2){
             var U = S[Q[0].substring(0, Q[0].length-1)][Q[0].substring(Q[0].length-1)];
             var R = '';
             var tg = 0;
