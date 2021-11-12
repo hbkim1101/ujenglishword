@@ -1,0 +1,19 @@
+reveal
+Each picture you shoot, however, ___ a somewhat different you.
+그러나 여러분이 찍는 각각의 사진은 다소 다른 여러분을 _보여 준다_.
+reveals
+
+current
+Thus, while our memories are important and help us construct our sense of who we are, we need to keep the mental picture we carry with us ___.
+우리는 시시각각으로, 사람마다, 해마다 변한다. 그러므로 우리의 기억은 중요하고 우리가 누구인지에 대한 의식을 형성하는 데 도움을 주지만, 우리는 우리가 지니고 있는 심상을 _최신의_ 상태로 유지할 필요가 있다.
+current
+
+discount
+By doing this, we will be better able to ___ images that no longer accurately represent us, and thereby avoid focusing on what psychologists refer to as regrets — “the lost lives, lost selves a person could have lived or been if s/he had done a few things differently.”
+이렇게 함으로써, 우리는 더 이상 우리를 정확하게 나타내지 않는 이미지를 더 잘 _무시할_ 수 있게 될 것이고, 그로 인하여 심리학자들이 후회라고 부르는 것, 즉 ‘어떤 사람이 몇 가지 일을 달리했다면 살았을 수도 있었거나 될 수도 있었던 잃어버린 삶, 잃어버린 자아’에 집중하는 것을 더 잘 피할 수 있게 될 것이다.
+discount
+
+refer to ~ as ...
+By doing this, we will be better able to discount images that no longer accurately represent us, and thereby avoid focusing on what psychologists ___ ___ ___ regrets — “the lost lives, lost selves a person could have lived or been if s/he had done a few things differently.”
+이렇게 함으로써, 우리는 더 이상 우리를 정확하게 나타내지 않는 이미지를 더 잘 무시할 수 있게 될 것이고, 그로 인하여 심리학자들이 후회_라고 부르_는 것, 즉 ‘어떤 사람이 몇 가지 일을 달리했다면 살았을 수도 있었거나 될 수도 있었던 잃어버린 삶, 잃어버린 자아’에 집중하는 것을 더 잘 피할 수 있게 될 것이다.
+refer to as

@@ -1,0 +1,59 @@
+indicate
+Some studies ___ that decisions about what to attend to are made early in the perceptual process, but other studies reveal that unattended information is processed at least to some extent.
+어떤 연구는 무엇에 주의를 기울여야 할지에 관한 결정이 지각 과정 초반에 이루어진다는 것을 _보여 주_지만, 또 어떤 연구는 주의를 기울이지 않은 정보가 적어도 어느 정도는 처리된다는 것을 보여 준다.
+indicate
+
+attend to
+Some studies indicate that decisions about what to ___ ___ are made early in the perceptual process, but other studies reveal that unattended information is processed at least to some extent.
+어떤 연구는 무엇_에 주의를 기울_여야 할지에 관한 결정이 지각 과정 초반에 이루어진다는 것을 보여 주지만, 또 어떤 연구는 주의를 기울이지 않은 정보가 적어도 어느 정도는 처리된다는 것을 보여 준다.
+attend to
+In one experiment, participants were told to ___ ___ the message coming in one ear: “They threw stones at the bank yesterday.”
+한 실험에서, 참 가자들은 한쪽 귀로 들어오는 “그들은 어제 bank에 돌을 던졌다.”라는 메시지_에 주의를 기울이_라는 말을 들었다.
+attend to
+
+perceptual
+Some studies indicate that decisions about what to attend to are made early in the ___ process, but other studies reveal that unattended information is processed at least to some extent.
+어떤 연구는 무엇에 주의를 기울여야 할지에 관한 결정이 _지각_ 과정 초반에 이루어진다는 것을 보여 주지만, 또 어떤 연구는 주의를 기울이지 않은 정보가 적어도 어느 정도는 처리된다는 것을 보여 준다.
+perceptual
+
+unattended
+Some studies indicate that decisions about what to attend to are made early in the perceptual process, but other studies reveal that ___ information is processed at least to some extent.
+어떤 연구는 무엇에 주의를 기울여야 할지에 관한 결정이 지각 과정 초반에 이루어진다는 것을 보여 주지만, 또 어떤 연구는 _주의를 기울이지 않은_ 정보가 적어도 어느 정도는 처리된다는 것을 보여 준다.
+unattended
+Several selective-listening studies have found that even when participants cannot repeat an ___ message, they still have processed its contents.
+선택적 듣기에 관한 몇몇 연구는 참가자들이 _주의를 기울이지 않은_ 메시지를 전할 수 없을 때조차도, 그들은 여전히 그것의 내용을 처리한다는 것을 발견했다.
+unattended
+At the same time, the ___ ear was presented with one of two words: either “river” or “money.”
+동시에, _주의를 기울이지 않는_ 귀에는 ‘강’이나 ‘돈’이라는 두 단어 중 하나가 제시되었다.
+unattended
+Afterward, participants could not report the ___ words; however, those presented with “river” interpreted the sentence to mean someone had thrown stones at a riverbank, while those presented with “money” interpreted the sentence to mean someone had thrown stones at a financial institution.
+나중에, 참가자들은 _주의를 기울이지 않은_ 단어들을 전할 수는 없었지만, ‘강’이라는 단어가 제시된 사람들은 그 문장을 누군가 강둑에 돌을 던졌다는 의미로 해석한 반면에, ‘돈’이라는 단어가 제시된 사람들은 그 문장을 누군가 금융 기관에 돌을 던졌다는 의미로 해석하였다.
+unattended
+
+content
+Several selective-listening studies have found that even when participants cannot repeat an unattended message, they still have processed its ___.
+선택적 듣기에 관한 몇몇 연구는 참가자들이 주의를 기울이지 않은 메시지를 전할 수 없을 때조차도, 그들은 여전히 그것의 _내용_을 처리한다는 것을 발견했다.
+contents
+
+present
+At the same time, the unattended ear was ___ with one of two words: either “river” or “money.”
+동시에, 주의를 기울이지 않는 귀에는 ‘강’이나 ‘돈’이라는 두 단어 중 하나가 _제시되_었다.
+presented
+Afterward, participants could not report the unattended words; however, those ___ with “river” interpreted the sentence to mean someone had thrown stones at a riverbank, while those ___ with “money” interpreted the sentence to mean someone had thrown stones at a financial institution.
+나중에, 참가자들은 주의를 기울이지 않은 단어들을 전할 수는 없었지만, ‘강’이라는 단어가 _제시된_ 사람들은 그 문장을 누군가 강둑에 돌을 던졌다는 의미로 해석한 반면에, ‘돈’이라는 단어가 _제시된_ 사람들은 그 문장을 누군가 금융 기관에 돌을 던졌다는 의미로 해석하였다.
+presented presented
+
+interpret
+Afterward, participants could not report the unattended words; however, those presented with “river” ___ the sentence to mean someone had thrown stones at a riverbank, while those presented with “money” ___ the sentence to mean someone had thrown stones at a financial institution.
+나중에, 참가자들은 주의를 기울이지 않은 단어들을 전할 수는 없었지만, ‘강’이라는 단어가 제시된 사람들은 그 문장을 누군가 강둑에 돌을 던졌다는 의미로 _해석한_ 반면에, ‘돈’이라는 단어가 제시된 사람들은 그 문장을 누군가 금융 기관에 돌을 던졌다는 의미로 _해석하였다_.
+interpreted interpreted
+
+financial institution
+Afterward, participants could not report the unattended words; however, those presented with “river” interpreted the sentence to mean someone had thrown stones at a riverbank, while those presented with “money” interpreted the sentence to mean someone had thrown stones at a ___ ___.
+나중에, 참가자들은 주의를 기울이지 않은 단어들을 전할 수는 없었지만, ‘강’이라는 단어가 제시된 사람들은 그 문장을 누군가 강둑에 돌을 던졌다는 의미로 해석한 반면에, ‘돈’이라는 단어가 제시된 사람들은 그 문장을 누군가 _금융 기관_에 돌을 던졌다는 의미로 해석하였다.
+financial institution
+
+extract
+Thus they ___ meaning from the word even though they did not process the word consciously.
+따라서 그들은 비록 자신들이 그 단어를 의식적으로 처리하지 않았다 하더라도 그 단어로부터 의미를 _이끌어 내었다_.
+extracted
