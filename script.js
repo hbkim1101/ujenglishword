@@ -1,16 +1,20 @@
 var test;
 var Flatform;
 var Q;
+var Q_dup;
 var R = [];
+var R_dup = {};
 var question, answer, score = 0, init_score;
 var K = [];
 var E = [];
+var D = {};
 var K_E = {};
 var K_ans = {};
 var E_ans = {};
 var S = {};
 var part_selected = {}, lng_selected, type_selected;
 var flg;
+var dup = -1;
 
 window.addEventListener('DOMContentLoaded', function(event){
     var Height = window.innerHeight
@@ -165,12 +169,16 @@ function Enter(){
     for (p of keys){
         for (t of part_selected[p]){
             var src = "#" + type_selected + "_" + p.replace(/ /gi, '')+ "_" +t.replace(/ /gi, '');
-            Text += $(src).contents().find("pre").html() + "\n";
+            Text += $(src).contents().find("pre").html();
+            if (type_selected === "sentence"){
+                Text += "\n";
+            }
         }
     }
     Build_list(Text);
     if (type_selected === "word") {
-        Q = K;
+        Q = K.slice();
+        Q_dup = {...D};
     }
     else if (type_selected === "sentence") {
         var U = [];
@@ -189,7 +197,7 @@ function Enter(){
 
 function Build_list(Text){
     K = []; E = []; K_E = {}; K_ans = {}; S = {};
-    var i=0;
+    var i = 0;
     Text = Text.split(/\n|\r/);
     if (type_selected === "word"){
         var ln = 'K';
@@ -208,12 +216,74 @@ function Build_list(Text){
             }
             else{
                 E.push(f);
-                K_E[pf] = f;
+                if (pf in K_E){
+                    if (typeof(K_E[pf]) === "string"){
+                        K_E[pf] = [K_E[pf], f];
+                        D[pf]='';
+                    }
+                    else{
+                        K_E[pf].push(f)
+                    }
+                }
+                else{
+                    K_E[pf] = f;
+                }
                 ln = 'K';
                 if (lng_selected === "ENGLISH"){
                     E_ans[f] = Manufact_E(f);
                 }
             }
+        }
+        var a = 0;
+        while (true){
+            if (a >= Object.keys(D).length){
+                break;
+            }
+            var d = Object.keys(D)[a];
+            var dl = K_E[d].length;
+            K_E[d] = new Set(K_E[d]);
+            K_E[d] = [...K_E[d]];
+            dl -= K_E[d].length;
+            var c = 0;
+            var b = 0;
+            while (true){
+                if (c === dl){
+                    break;
+                }
+                if (K[b] === d){
+                    K.splice(b,1);
+                    c++;
+                    continue;
+                }
+                b++;
+            }
+            if (K_E[d].length === 1){
+                K_E[d] = K_E[d][0];
+                delete D[d];
+                continue;
+            }
+            var l = 0;
+            while (true){
+                var f = true;
+                for (i=0;i<K_E[d].length;i++){
+                    var com = K_E[d][i].slice(0,l);
+                    var C = K_E[d].slice(0,i).concat(K_E[d].slice(i+1));
+                    for (k of C){
+                        if (k.slice(0,l) === com){
+                            f = false;
+                        }
+                    }
+                }
+                if (f === true){
+                    K_E[d].push(l);
+                    break;
+                }
+                else{
+                    l++;
+                }
+            }
+            D[d] = K_E[d];
+            a++;
         }
     }
     else if (type_selected === "sentence"){
@@ -392,12 +462,25 @@ function Question(){
     if (type_selected === "word"){
         document.getElementById("question").style.fontSize = "23.5px";
         document.getElementById("question").style.fontWeight= "bold";
+        document.getElementById("input-answer").placeholder='';
         if (lng_selected === "ENGLISH"){
             question = Q[0];
-            answer = E_ans[K_E[Q[0]]];
+            if (typeof(K_E[Q[0]]) === "object"){
+                var r = [];
+                for (i=0;i<Q_dup[Q[0]].length-1;i++){
+                    r.push(i);
+                }
+                shuffle(r);
+                dup = r[0];
+                answer = E_ans[Q_dup[Q[0]][dup]];
+                document.getElementById("input-answer").placeholder=Q_dup[Q[0]][dup].slice(0,Q_dup[Q[0]][Q_dup[Q[0]].length-1]);
+            }
+            else{
+                dup = -1;
+                answer = E_ans[K_E[Q[0]]];
+            }
             document.getElementById("question").innerHTML = question;
             document.getElementById("input-answer").value='';
-            document.getElementById("input-answer").placeholder='';
             document.getElementById("input-answer").focus();
         }
         else if (lng_selected === "KOREAN"){
@@ -447,15 +530,7 @@ function Input(){
         if (type_selected === "word") {
             if (lng_selected === "ENGLISH"){
                 if (answer.includes(ans)) {
-                    alert("SUCCESS");
-                    oprt = 0;
-                    hint = 0;
-                    score += 1;
-                    Q.shift();
-                    if (Q.length === 0) {
-                        return Complete();
-                    }
-                    return Question();
+                    Success()
                 }
                 else{
                     document.getElementById("input-answer").value = '';
@@ -492,15 +567,7 @@ function Input(){
                     }
                 }
                 if (T === true && scr === K_ans[answer].length){
-                    alert("SUCCESS");
-                    oprt = 0;
-                    hint = 0;
-                    score += 1;
-                    Q.shift();
-                    if (Q.length === 0) {
-                        return Complete();
-                    }
-                    return Question();
+                    Success()
                 }
                 else{
                     var F = true;
@@ -569,15 +636,7 @@ function Input(){
                     alert(message);
                 }
             } else if (U.length === U_a.length) {
-                alert("SUCCESS");
-                oprt = 0;
-                hint = 0;
-                score += 1;
-                Q.shift();
-                if (Q.length === 0) {
-                    return Complete();
-                }
-                return Question();
+                Success()
             } else {
                 for (u of U) {
                     var n = Indexof(question, "___")[u];
@@ -591,6 +650,33 @@ function Input(){
             }
         }
     }
+}
+
+function Success(){
+    var message = '정답: '
+    if (type_selected === "word"){
+        if (lng_selected === "ENGLISH"){
+            message += answer[0];
+        }
+        else if (lng_selected === "KOREAN"){
+            message += answer;
+        }
+    }
+    else if (type_selected === "sentence"){
+        message += answer;
+    }
+    alert(message);
+    oprt = 0;
+    hint = 0;
+    score += 1;
+    if (dup !== -1){
+        Q_dup[Q[0]].splice(dup,1);
+    }
+    Q.shift();
+    if (Q.length === 0) {
+        return Complete();
+    }
+    return Question();
 }
 
 function Complete(){
@@ -611,8 +697,10 @@ function Complete(){
         }
         score = 0;
         init_score = R.length;
-        Q = R;
+        Q = R.slice();
+        Q_dup = {...R_dup};
         R = [];
+        R_dup = {};
         Question();
     }
 }
@@ -629,9 +717,18 @@ function Skip(){
     else if (type_selected === "sentence"){
         alert("정답: "+answer);
     }
-    hint = 0;
     oprt = 0;
+    hint = 0;
     R.push(Q[0]);
+    if (dup !== -1){
+        if (Q[0] in R_dup){
+            R_dup[Q[0]].splice(R_dup[Q[0]].length-2,0,Q_dup[Q[0]][dup]);
+        }
+        else{
+            R_dup[Q[0]] = [Q_dup[Q[0]][dup], Q_dup[Q[0]][Q_dup[Q[0]].length-1]];
+        }
+        Q_dup[Q[0]].splice(dup,1);
+    }
     Q.shift();
     if (Q.length === 0){
         return Complete();

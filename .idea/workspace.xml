@@ -10,12 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 28/Exercise 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 28/Exercise 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 28/Exercise 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 28/Exercise 4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak2 03/Exercise 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word/Weak2 04/Exercise 4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak2 04/Exercise 4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word/Weak2 04/Exercise 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak2 04/Exercise 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word/Weak2 04/Exercise 8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/word/Weak2 04/Exercise 8.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,14 +216,8 @@
       <workItem from="1636095746982" duration="72884000" />
       <workItem from="1636467564104" duration="1145000" />
       <workItem from="1636474550796" duration="4727000" />
-      <workItem from="1636542513284" duration="30411000" />
-    </task>
-    <task id="LOCAL-00063" summary="as">
-      <created>1635677350774</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1635677350774</updated>
+      <workItem from="1636542513284" duration="31140000" />
+      <workItem from="1636766385580" duration="13668000" />
     </task>
     <task id="LOCAL-00064" summary="as">
       <created>1635684000111</created>
@@ -559,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636696432095</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="as">
+      <created>1636702108848</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1636702108848</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
