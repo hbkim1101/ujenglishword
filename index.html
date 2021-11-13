@@ -42,16 +42,21 @@
             file_.id = "word_" + part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
             document.getElementsByTagName("head")[0].append(file_);
         }
-        for (i of [1,2,3,4]){
+        for (i of [1,2,3,4,5]){
             var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;
+            var list;
             if (i < 5) {
-                for (j of [2,4,6,8,10,12]) {
-                    var sqc__ = "Exercise " + j;
-                    var file__ = document.createElement("iframe");
-                    file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
-                    file__.id = "word_" + part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
-                    document.getElementsByTagName("head")[0].append(file__);
-                }
+                list = [2,4,6,8,10,12];
+            }
+            else{
+                list = [1,2,3,4,7,8,9,10];
+            }
+            for (j of list) {
+                var sqc__ = "Exercise " + j;
+                var file__ = document.createElement("iframe");
+                file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
+                file__.id = "word_" + part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
+                document.getElementsByTagName("head")[0].append(file__);
             }
         }
     </script>
@@ -129,7 +134,7 @@
                             part_label_.appendChild(part_option_);
                         }
 
-                        for (i of [1,2,3,4]){
+                        for (i of [1,2,3,4,5]){
                             var part_label__ = document.createElement("label");
                             part_label__.style.float = "left";
                             var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;
@@ -137,21 +142,26 @@
                             part_label__.innerHTML = "&nbsp" + part__;
                             part_select.appendChild(part_label__);
                             part_select.appendChild(document.createElement("br"));
+                            var list;
                             if (i < 5){
-                                for (j of [2,4,6,8,10,12]){
-                                    var part_option__ = document.createElement("label");
-                                    part_option__.className = "part_label";
-                                    part_option__.style.float = "left";
-                                    part_option__.style.width = "111.2px";
-                                    part_option__.style.fontWeight = "300";
-                                    part_option__.addEventListener("mousedown", function(e){
-                                        Part_visible();
-                                    });
-                                    var sqc__ = "Exercise " + j;
-                                    part_option__.id = "Ch" + part__.replace(/ /gi,'') + sqc__.replace(/ /gi,'');
-                                    part_option__.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
-                                    part_label__.appendChild(part_option__);
-                                }
+                                list = [2,4,6,8,10,12];
+                            }
+                            else{
+                                list = [1,2,3,4,7,8,9,10];
+                            }
+                            for (j of list){
+                                var part_option__ = document.createElement("label");
+                                part_option__.className = "part_label";
+                                part_option__.style.float = "left";
+                                part_option__.style.width = "111.2px";
+                                part_option__.style.fontWeight = "300";
+                                part_option__.addEventListener("mousedown", function(e){
+                                    Part_visible();
+                                });
+                                var sqc__ = "Exercise " + j;
+                                part_option__.id = "Ch" + part__.replace(/ /gi,'') + sqc__.replace(/ /gi,'');
+                                part_option__.innerHTML = "&nbsp&nbsp<input type='checkbox' onclick='Part_visible(); Check(this)'>" + sqc__;
+                                part_label__.appendChild(part_option__);
                             }
 
                         }
