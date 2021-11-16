@@ -1,0 +1,95 @@
+reliance
+Logic suggests that our increasing ___ on electronic communications might increase social isolation.
+논리가 보여 주는 바는 우리가 전자 통신에 점점 더 많이 _의존_함으로써 사회적 고립이 증가될지도 모른다는 것이다.
+reliance
+
+isolation
+Logic suggests that our increasing reliance on electronic communications might increase social ___.
+논리가 보여 주는 바는 우리가 전자 통신에 점점 더 많이 의존함으로써 사회적 _고립_이 증가될지도 모른다는 것이다.
+isolation
+Indeed, some studies suggest that unlimited access to e-mail actually increases people’s sense of loneliness and ___.
+실제로, 일부 연구는 이메일에 대한 제한 없는 접속이 사실은 사람들의 외로움과 _고립감_을 증가시킨다는 것을 보여 준다.
+isolation
+
+medium
+But there are others working in the new ___ of telemedicine who have found that electronic communications may make it easier for people to interact.
+그러나 원격 의료라는 새로운 _매체_에서 일하면서 전자 통신이 사람들의 소통을 더 쉽게 만들 수 있다는 것을 발견한 다른 사람들도 있다.
+medium
+
+telemedicine
+But there are others working in the new medium of ___ who have found that electronic communications may make it easier for people to interact.
+그러나 _원격 의료_라는 새로운 매체에서 일하면서 전자 통신이 사람들의 소통을 더 쉽게 만들 수 있다는 것을 발견한 다른 사람들도 있다.
+telemedicine
+In isolated communities, too small to afford full-time medical health providers, ___ — diagnosis and treatment with the assistance of videoconferencing technology — is being tried out with success.
+너무 작아서 전일제 의료 서비스 제공자를 고용할 형편이 되지 않는 고립된 지역 사회에서, 화상 회의 기술의 도움을 받아 진단하고 치료하는 _원격 의료_가 성공적으로 시도되고 있다.
+telemedicine
+
+diagnosis
+In isolated communities, too small to afford full-time medical health providers, telemedicine — ___ and treatment with the assistance of videoconferencing technology — is being tried out with success.
+너무 작아서 전일제 의료 서비스 제공자를 고용할 형편이 되지 않는 고립된 지역 사회에서, 화상 회의 기술의 도움을 받아 _진단_하고 치료하는 원격 의료가 성공적으로 시도되고 있다.
+diagnosis
+
+treatment
+In isolated communities, too small to afford full-time medical health providers, telemedicine — diagnosis and ___ with the assistance of videoconferencing technology — is being tried out with success.
+너무 작아서 전일제 의료 서비스 제공자를 고용할 형편이 되지 않는 고립된 지역 사회에서, 화상 회의 기술의 도움을 받아 진단하고 _치료_하는 원격 의료가 성공적으로 시도되고 있다.
+treatment
+
+assistance
+In isolated communities, too small to afford full-time medical health providers, telemedicine — diagnosis and treatment with the ___ of videoconferencing technology — is being tried out with success.
+너무 작아서 전일제 의료 서비스 제공자를 고용할 형편이 되지 않는 고립된 지역 사회에서, 화상 회의 기술의 _도움_을 받아 진단하고 치료하는 원격 의료가 성공적으로 시도되고 있다.
+assistance
+
+videoconferencing technology
+In isolated communities, too small to afford full-time medical health providers, telemedicine — diagnosis and treatment with the assistance of ___ ___ — is being tried out with success.
+너무 작아서 전일제 의료 서비스 제공자를 고용할 형편이 되지 않는 고립된 지역 사회에서, _화상 회의 기술_의 도움을 받아 진단하고 치료하는 원격 의료가 성공적으로 시도되고 있다.
+videoconferencing technology
+
+institute
+Some who have been ___ telepsychiatric sessions have noticed that rather than being inhibited by this mode of communicating, patients actually feel less inhibited than when speaking to a psychiatrist face to face.
+원격 정신과 진료를 _시행해_ 온 일부 의사들은, 환자들이 이러한 의사소통 방식에 의해 제약을 받기보다는 정신과 의사에게 얼굴을 맞대고 말할 때보다 실제로 덜 어색하게 느낀다는 점을 알아냈다.
+instituting
+
+inhibit
+Some who have been instituting telepsychiatric sessions have noticed that rather than being ___ by this mode of communicating, patients actually feel less inhibited than when speaking to a psychiatrist face to face.
+원격 정신과 진료를 시행해 온 일부 의사들은, 환자들이 이러한 의사소통 방식에 의해 _제약을 받_기보다는 정신과 의사에게 얼굴을 맞대고 말할 때보다 실제로 덜 어색하게 느낀다는 점을 알아냈다.
+inhibited
+
+inhibited
+Some who have been instituting telepsychiatric sessions have noticed that rather than being inhibited by this mode of communicating, patients actually feel less ___ than when speaking to a psychiatrist face to face.
+원격 정신과 진료를 시행해 온 일부 의사들은, 환자들이 이러한 의사소통 방식에 의해 제약을 받기보다는 정신과 의사에게 얼굴을 맞대고 말할 때보다 실제로 덜 _어색하게 느낀_다는 점을 알아냈다.
+inhibited
+
+psychiatrist
+Some who have been instituting telepsychiatric sessions have noticed that rather than being inhibited by this mode of communicating, patients actually feel less inhibited than when speaking to a ___ face to face.
+원격 정신과 진료를 시행해 온 일부 의사들은, 환자들이 이러한 의사소통 방식에 의해 제약을 받기보다는 _정신과 의사_에게 얼굴을 맞대고 말할 때보다 실제로 덜 어색하게 느낀다는 점을 알아냈다.
+psychiatrist
+
+phenomenon
+This may be part of the same ___ as the ease that we feel in communicating our deepest burdens to a respected but impersonal confessor.
+이것은 우리가 훌륭하지만, 특정 개인과 관계가 없는 고해 신부에게 마음속 가장 깊은 곳에 있는 짐을 전할 때 느끼는 편안함과 같은 _현상_의 일부일 수 있다.
+phenomenon
+
+impersonal
+This may be part of the same phenomenon as the ease that we feel in communicating our deepest burdens to a respected but ___ confessor.
+이것은 우리가 훌륭하지만, _특정 개인과 관계가 없는_ 고해 신부에게 마음속 가장 깊은 곳에 있는 짐을 전할 때 느끼는 편안함과 같은 현상의 일부일 수 있다.
+impersonal
+
+confessor
+This may be part of the same phenomenon as the ease that we feel in communicating our deepest burdens to a respected but impersonal ___.
+이것은 우리가 훌륭하지만, 특정 개인과 관계가 없는 _고해 신부_에게 마음속 가장 깊은 곳에 있는 짐을 전할 때 느끼는 편안함과 같은 현상의 일부일 수 있다.
+confessor
+
+bare one's heart
+However, in this new age, the person to whom we ___ ___ ___ is not hidden behind oak walls and velvet curtains but behind a glowing, protective computer screen.
+그러나, 이 새로운 시대에, 우리가 _우리의 마음을 털어놓_는 사람은 참나무 벽과 벨벳 커튼 뒤가 아니라 빛을 발(산)하는 보호용 컴퓨터 화면 뒤에 가려져 있다.
+bare our hearts
+
+glowing
+However, in this new age, the person to whom we bare our hearts is not hidden behind oak walls and velvet curtains but behind a ___, protective computer screen.
+그러나, 이 새로운 시대에, 우리가 우리의 마음을 털어놓는 사람은 참나무 벽과 벨벳 커튼 뒤가 아니라 _빛을 발(산)하는_ 보호용 컴퓨터 화면 뒤에 가려져 있다.
+glowing
+
+protective
+However, in this new age, the person to whom we bare our hearts is not hidden behind oak walls and velvet curtains but behind a glowing, ___ computer screen.
+그러나, 이 새로운 시대에, 우리가 우리의 마음을 털어놓는 사람은 참나무 벽과 벨벳 커튼 뒤가 아니라 빛을 발(산)하는 _보호용_ 컴퓨터 화면 뒤에 가려져 있다.
+protective

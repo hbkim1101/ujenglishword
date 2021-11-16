@@ -10,15 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/word/Weak3 05/Exercise 9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pangpang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 29/Exercise 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 29/Exercise 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 29/Exercise 3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅡ 29/Exercise 4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_visitors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/word" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -87,10 +87,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 27" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword" />
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -219,6 +219,8 @@
       <workItem from="1636474550796" duration="4727000" />
       <workItem from="1636542513284" duration="31140000" />
       <workItem from="1636766385580" duration="15169000" />
+      <workItem from="1636935560740" duration="3455000" />
+      <workItem from="1637076704996" duration="3598000" />
     </task>
     <task id="LOCAL-00065" summary="as">
       <created>1635684827041</created>

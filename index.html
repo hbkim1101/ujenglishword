@@ -27,11 +27,9 @@
                 file_word.src = "src/word/" + part + "/" + sqc + ".txt";
                 file_word.id = "word_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
                 document.getElementsByTagName("head")[0].append(file_word);
-                if ([23,24,25,26,27,28].includes(i)){
-                    file_sentence.src = "src/sentence/" + part + "/" + sqc + ".txt";
-                    file_sentence.id = "sentence_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
-                    document.getElementsByTagName("head")[0].append(file_sentence);
-                }
+                file_sentence.src = "src/sentence/" + part + "/" + sqc + ".txt";
+                file_sentence.id = "sentence_" + part.replace(/ /gi, '') + "_" + sqc.replace(/ /gi, '');
+                document.getElementsByTagName("head")[0].append(file_sentence);
             }
         }
         for (i of [3,4,5,6,7,12,13,14,15,16]) {
@@ -63,7 +61,10 @@
 </head>
 <body>
     <section id="section">
-        <img src="src/communist.jpg" style="width: 25vh; position: absolute; right: 0px; bottom: 0px;">
+        <div style="height: 8vh; position: absolute; right: 0; bottom: 0;">
+            <img src="src/communist.jpg" alt="소신발언" style="width: 25vh; height: inherit; border-radius: 10px;"/>
+            <img src="src/pangpang.jpg" alt="괴도팡팡" style="width: 25vh; height: inherit;  border-radius: 10px"/>
+        </div>
         <div id="select" style="text-align: center">
             <div style="display: inline-block">
                 <button id="part_button" onclick="Part_visible();"
