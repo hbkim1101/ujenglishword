@@ -91,6 +91,24 @@ function Reset(){
     part_selected = {};
 }
 
+var label_click = true;
+function Part_all(part){
+    var f = true;
+    for (check_part of document.getElementsByClassName(part.replace(/ /gi,''))){
+        if (check_part.firstElementChild.checked === false){
+            f = false;
+            check_part.firstElementChild.checked = true;
+            Check(check_part.firstElementChild);
+        }
+    }
+    if (f === true){
+        for (check_part of document.getElementsByClassName(part.replace(/ /gi,''))){
+            check_part.firstElementChild.checked = false;
+            Check(check_part.firstElementChild);
+        }
+    }
+}
+
 function Enter(){
     document.getElementById("question").innerHTML = '';
     document.getElementById("input-answer").value='';

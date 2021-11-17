@@ -80,6 +80,10 @@ button{
 label{
     text-align: left;
 }
+
+.label:hover{
+    background-color: #f1f1f1;
+}
 .part_label:hover{
     background-color: #1e90ff;
     color: #FFFFFF;
