@@ -381,7 +381,7 @@ function Manufact_K(Text){
                 r2 = T.substring(con['()'][1]+1);
                 r3 = r1+T.substring(con['()'][0]+1, con['()'][1])+r2;
                 if (con['()'][0]-1 >= 0 && T[con['()'][0]-1] === ' '){
-                    r1 = r1.substring(0, r1.length-2);
+                    r1 = r1.substring(0, r1.length-1);
                 }
                 else if (con['()'][1]+1 < T.length && T[con['()'][1]+1] === ' '){
                     r2 = r2.substring(1);
