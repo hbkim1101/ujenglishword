@@ -192,7 +192,7 @@ function Enter(){
             "※참고※\n" +
             "___ 2개 이상: 빈칸의 단어 중 아무거나 순서대로\n" +
             "ex) make the most of의 정답 양식:\n" +
-            "     → make | make most | most of | ···\n" +
+            "     → make | make most | most of | · · ·\n" +
             "띄어쓰기로 구분하여 작성해 주세요.";
         alert(message);
     }
