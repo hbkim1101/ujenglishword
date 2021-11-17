@@ -15,6 +15,7 @@ var S = {};
 var part_selected = {}, lng_selected, type_selected;
 var flg;
 var dup = -1;
+var message = '';
 
 window.addEventListener('DOMContentLoaded', function(event){
     var Height = window.innerHeight
@@ -134,7 +135,7 @@ function Enter(){
     lng_selected = document.getElementById("select-lng").value;
     type_selected = document.getElementById("select-type").value;
 
-    var message = "Type: ";
+    message = "Type: ";
     if (type_selected === "word"){
         message += "단어\n\n";
     }
@@ -177,13 +178,22 @@ function Enter(){
     else{
         return;
     }
-    if (lng_selected === "KOREAN"){
+    if (type_selected === "word" && lng_selected === "KOREAN"){
         message = "※정답 양식※\n" +
-            "「,」: ex) 요소, 성분 → 요소 or 성분 or 요소, 성분 | 아무거나 작성.\n" +
-            "「;」: ex) 빗질하다; 빗 → 빗질하다, 빗다 | 둘 다 모두 작성.\n" +
+            "「,」: ex) 요소, 성분 → 요소 or 성분 or 요소, 성분 | 아무거나\n" +
+            "「;」: ex) 빗질하다; 빗 → 빗질하다, 빗다 | 둘 다 모두\n" +
             "「()」: ex) 보호(소) → 보호 or 보호소\n" +
             "「[]」: ex) 배제[제외]하다 → 배제하다 or 제외하다\n" +
-            "「,」로 구분하여 작성.";
+            "「,」로 구분하여 작성해 주세요.";
+        alert(message);
+    }
+    else if (type_selected === "sentence"){
+        message = "빈칸에 올바른 단어를 작성해 주세요.\n\n" +
+            "※참고※\n" +
+            "___ 2개 이상: 빈칸의 단어 중 아무거나 순서대로\n" +
+            "ex) make the most of의 정답 양식:\n" +
+            "     → make | make most | most of | ···\n" +
+            "띄어쓰기로 구분하여 작성해 주세요.";
         alert(message);
     }
     var Text = '';
@@ -548,7 +558,6 @@ function Input(){
         return Hint();
     }
     else{
-        var message;
         if (type_selected === "word") {
             if (lng_selected === "ENGLISH"){
                 if (answer.includes(ans)) {
@@ -648,7 +657,7 @@ function Input(){
                 i++;
             }
             if (U.length === 0 || (U_a.length === 1 && U.length !== 1)) {
-                if (ans.join(" ").toLowerCase() === answer){
+                if (ans.join(" ").toLowerCase() === answer.toLowerCase()){
                     alert('대소문자를 확인해 주세요.');
                     return;
                 }
@@ -664,19 +673,20 @@ function Input(){
             } else if (U.length === U_a.length) {
                 Success()
             } else {
-                console.log(U);
-                console.log(U_a);
+                var U_s = [];
                 var k = 0
                 for (u of U) {
                     console.log(u);
                     var n = Indexof(question, "___")[u-k];
                     document.getElementById("input-answer").value = '';
                     question = question.substring(0, n) + U_a[u-k] + question.substring(n + 3);
-                    U_a.splice(u-k, 1);
+                    U_s.push(U_a.splice(u-k, 1));
                     k++;
                 }
                 document.getElementById("question").innerHTML = question;
-                alert("더 쓰시오.");
+                message = U_s.join(", ") + " 정답!";
+                message += "\n\n더 작성해 주세요."
+                alert(message);
                 answer = U_a.join(" ");
             }
         }
@@ -684,7 +694,7 @@ function Input(){
 }
 
 function Success(){
-    var message = '정답: '
+    message = '정답: ';
     if (type_selected === "word"){
         if (lng_selected === "ENGLISH"){
             message += answer[0];
@@ -714,7 +724,7 @@ function Success(){
 function Complete(){
     document.getElementById("question").innerHTML='';
     document.getElementById("input-answer").value='';
-    var message = '';
+    message = '';
     message += "총 개수: " + init_score + "\n"
     message += "맞힌 개수: " + score;
     if (score === init_score){
