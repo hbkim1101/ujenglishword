@@ -564,14 +564,35 @@ function Input(){
                     Success()
                 }
                 else{
-                    document.getElementById("input-answer").value = '';
-                    oprt += 1;
-                    if (oprt === 3) {
-                        alert("FAILURE\n3번 모두 실패하셨습니다.");
-                        return Skip();
-                    } else {
-                        message = "FAILURE\n남은 기회: " + (3 - oprt);
-                        alert(message);
+                    var F_e = true;
+                    var scr_e = 0;
+                    var f_e = false;
+                    for (a of E_ans[answer]) {
+                        if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')) {
+                            f_e = true;
+                            scr_e++;
+                            break;
+                        }
+                        if (f_e === true){
+                            break;
+                        }
+                    }
+                    if (f_e === false){
+                            F_e = false;
+                    }
+                    if (F_e === true && scr_e === E_ans[answer].length) {
+                        alert("띄어쓰기를 확인해주세요.");
+                    }
+                    else{
+                        document.getElementById("input-answer").value = '';
+                        oprt += 1;
+                        if (oprt === 3) {
+                            alert("FAILURE\n3번 모두 실패하셨습니다.");
+                            return Skip();
+                        } else {
+                            message = "FAILURE\n남은 기회: " + (3 - oprt);
+                            alert(message);
+                        }
                     }
                 }
             }
@@ -601,27 +622,27 @@ function Input(){
                     Success()
                 }
                 else{
-                    var F = true;
-                    var scr_ = 0;
+                    var F_k = true;
+                    var scr_k = 0;
                     for (ans_i of ans){
-                        var f = false;
+                        var f_k = false;
                         for (A of K_ans[answer]) {
                             for (a of A){
                                 if (ans_i.replace(/ /gi, '') === a.replace(/ /gi, '')) {
-                                    f = true;
-                                    scr_++;
+                                    f_k = true;
+                                    scr_k++;
                                     break;
                                 }
                             }
-                            if (f === true){
+                            if (f_k === true){
                                 break;
                             }
                         }
-                        if (f === false){
-                            F = false;
+                        if (f_k === false){
+                            F_k = false;
                         }
                     }
-                    if (F === true && scr_ === K_ans[answer].length) {
+                    if (F_k === true && scr_k === K_ans[answer].length) {
                         alert("띄어쓰기를 확인해주세요.");
                     }
                     else{
@@ -728,11 +749,12 @@ function Complete(){
     message += "총 개수: " + init_score + "\n"
     message += "맞힌 개수: " + score;
     if (score === init_score){
+        message += "\n\n모두 맞혔습니다!";
         alert(message);
     }
     else{
         message += "\n틀린 개수: " + (init_score-score);
-        message += "\nRESTART?"
+        message += "\n\n계속 하시겠습니까?"
         if (confirm(message)){}
         else{
             return;
