@@ -4,7 +4,7 @@ var Q;
 var Q_dup;
 var R = [];
 var R_dup = {};
-var question, answer, score = 0, init_score;
+var question, answer, answer_stn, score = 0, init_score;
 var K = [];
 var E = [];
 var D = {};
@@ -519,6 +519,7 @@ function Question(){
         var U = S[Q[0].substring(0, Q[0].length-1)][Q[0].substring(Q[0].length-1)];
         question = U[0] + "<br><br>" + U[1].replace(/_/gi,'');
         answer = U[2];
+        answer_stn = answer;
         console.log(answer);
         document.getElementById("question").innerHTML = question;
         document.getElementById("input-answer").value='';
@@ -646,7 +647,11 @@ function Input(){
                 }
                 i++;
             }
-            if (U.length === 0) {
+            if (U.length === 0 || (U_a.length === 1 && U.length !== 1)) {
+                if (ans.join(" ").toLowerCase() === answer){
+                    alert('대소문자를 확인해 주세요.');
+                    return;
+                }
                 document.getElementById("input-answer").value = '';
                 oprt += 1;
                 if (oprt === 3) {
@@ -659,14 +664,19 @@ function Input(){
             } else if (U.length === U_a.length) {
                 Success()
             } else {
+                console.log(U);
+                console.log(U_a);
+                var k = 0
                 for (u of U) {
-                    var n = Indexof(question, "___")[u];
+                    console.log(u);
+                    var n = Indexof(question, "___")[u-k];
                     document.getElementById("input-answer").value = '';
-                    question = question.substring(0, n) + U_a[u] + question.substring(n + 3);
-                    document.getElementById("question").innerHTML = question;
-                    alert("더 쓰시오.");
-                    U_a.splice(u, 1);
+                    question = question.substring(0, n) + U_a[u-k] + question.substring(n + 3);
+                    U_a.splice(u-k, 1);
+                    k++;
                 }
+                document.getElementById("question").innerHTML = question;
+                alert("더 쓰시오.");
                 answer = U_a.join(" ");
             }
         }
@@ -684,8 +694,9 @@ function Success(){
         }
     }
     else if (type_selected === "sentence"){
-        message += answer;
+        message += answer_stn;
     }
+    message += "\n\n정답입니다!";
     alert(message);
     oprt = 0;
     hint = 0;
@@ -736,7 +747,7 @@ function Skip(){
         }
     }
     else if (type_selected === "sentence"){
-        alert("정답: "+answer);
+        alert("정답: "+answer_stn);
     }
     oprt = 0;
     hint = 0;
