@@ -1,0 +1,37 @@
+inauthentic
+The ‘___’ as somehow ‘not being the real thing’ has long been a feature of the tourism industry.
+왜 그런지 모르겠지만 ‘진품이 아닌 것’으로서 ‘_진짜가 아닌_’ 것이 오랫동안 관광 산업의 특징이었다.
+inauthentic
+Thus, authentic pilgrimage continues to centre on an ___ location.
+따라서 진짜 순례가 계속하여 _진짜가 아닌_ 장소에 집중된다.
+inauthentic
+
+conceive
+It is not difficult to ___ of a situation in which Shakespeare’s birthplace was found not to be Shakespeare’s birthplace but was still promoted as such to tourists, many of whom would be none the wiser, and many others who would still be able to absorb an interesting presentation of social heritage without the hook of any famous association.
+셰익스피어의 생가가 셰익스피어의 생가가 아닌 것으로 밝혀졌으나, 그것에 대해 모르고 있을 사람이 다수인 관광객들과, 어떤 유명한 연관성의 고리가 없어도 사회적 유산에 대한 흥미로운 소개를 여전히 받아들일 수 있을 많은 다른 이들에게 그러한 것으로 여전히 홍보되었던 상황을 _상상하_는 것은 어렵지 않다.
+conceive
+
+none the wiser
+It is not difficult to conceive of a situation in which Shakespeare’s birthplace was found not to be Shakespeare’s birthplace but was still promoted as such to tourists, many of whom would be ___ ___ ___, and many others who would still be able to absorb an interesting presentation of social heritage without the hook of any famous association.
+셰익스피어의 생가가 셰익스피어의 생가가 아닌 것으로 밝혀졌으나, 그것에 대해 _모르고 있_을 사람이 다수인 관광객들과, 어떤 유명한 연관성의 고리가 없어도 사회적 유산에 대한 흥미로운 소개를 여전히 받아들일 수 있을 많은 다른 이들에게 그러한 것으로 여전히 홍보되었던 상황을 상상하는 것은 어렵지 않다.
+none the wiser
+
+absorb
+It is not difficult to conceive of a situation in which Shakespeare’s birthplace was found not to be Shakespeare’s birthplace but was still promoted as such to tourists, many of whom would be none the wiser, and many others who would still be able to ___ an interesting presentation of social heritage without the hook of any famous association.
+셰익스피어의 생가가 셰익스피어의 생가가 아닌 것으로 밝혀졌으나, 그것에 대해 모르고 있을 사람이 다수인 관광객들과, 어떤 유명한 연관성의 고리가 없어도 사회적 유산에 대한 흥미로운 소개를 여전히 _받아들일_ 수 있을 많은 다른 이들에게 그러한 것으로 여전히 홍보되었던 상황을 상상하는 것은 어렵지 않다.
+absorb
+
+social heritage
+It is not difficult to conceive of a situation in which Shakespeare’s birthplace was found not to be Shakespeare’s birthplace but was still promoted as such to tourists, many of whom would be none the wiser, and many others who would still be able to absorb an interesting presentation of ___ ___ without the hook of any famous association.
+셰익스피어의 생가가 셰익스피어의 생가가 아닌 것으로 밝혀졌으나, 그것에 대해 모르고 있을 사람이 다수인 관광객들과, 어떤 유명한 연관성의 고리가 없어도 _사회적 유산_에 대한 흥미로운 소개를 여전히 받아들일 수 있을 많은 다른 이들에게 그러한 것으로 여전히 홍보되었던 상황을 상상하는 것은 어렵지 않다.
+social heritage
+
+hook
+It is not difficult to conceive of a situation in which Shakespeare’s birthplace was found not to be Shakespeare’s birthplace but was still promoted as such to tourists, many of whom would be none the wiser, and many others who would still be able to absorb an interesting presentation of social heritage without the ___ of any famous association.
+셰익스피어의 생가가 셰익스피어의 생가가 아닌 것으로 밝혀졌으나, 그것에 대해 모르고 있을 사람이 다수인 관광객들과, 어떤 유명한 연관성의 _고리_가 없어도 사회적 유산에 대한 흥미로운 소개를 여전히 받아들일 수 있을 많은 다른 이들에게 그러한 것으로 여전히 홍보되었던 상황을 상상하는 것은 어렵지 않다.
+hook
+
+association
+It is not difficult to conceive of a situation in which Shakespeare’s birthplace was found not to be Shakespeare’s birthplace but was still promoted as such to tourists, many of whom would be none the wiser, and many others who would still be able to absorb an interesting presentation of social heritage without the hook of any famous ___.
+셰익스피어의 생가가 셰익스피어의 생가가 아닌 것으로 밝혀졌으나, 그것에 대해 모르고 있을 사람이 다수인 관광객들과, 어떤 유명한 _연관성_의 고리가 없어도 사회적 유산에 대한 흥미로운 소개를 여전히 받아들일 수 있을 많은 다른 이들에게 그러한 것으로 여전히 홍보되었던 상황을 상상하는 것은 어렵지 않다.
+association

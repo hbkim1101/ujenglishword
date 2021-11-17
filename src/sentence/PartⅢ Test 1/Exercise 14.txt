@@ -1,0 +1,67 @@
+hatred
+One of the keys to end all wars, ___, bigotry, suffering, violence, and disease is kindness.
+모든 전쟁, _증오_, 편협성, 고통, 폭력, 질병을 끝내는 비결들 중 하나는 친절이다.
+hatred
+
+suffering
+One of the keys to end all wars, hatred, bigotry, ___, violence, and disease is kindness.
+모든 전쟁, 증오, 편협성, _고통_, 폭력, 질병을 끝내는 비결들 중 하나는 친절이다.
+suffering
+
+violence
+One of the keys to end all wars, hatred, bigotry, suffering, ___, and disease is kindness.
+모든 전쟁, 증오, 편협성, 고통, _폭력_, 질병을 끝내는 비결들 중 하나는 친절이다.
+violence
+
+perform
+___ acts of kindness every single day.
+친절한 행위를 하루도 빠짐없이 _행하라_.
+Perform
+If we all ___ one little act of kindness each day, eventually we would have a world at peace and free of disease!
+만약 우리 모두가 매일 하나의 작은 친절한 행위를 _행한_다면 결국 우리는 평화롭고 질병이 없는 세상을 누리게 될 것이다!
+performed
+
+organic
+Serotonin is an ___ compound, found in the brain, which makes you feel good.
+세로토닌은 뇌에서 발견되는 _유기_ 화합물인데, 여러분을 기분 좋게 만들어 준다.
+organic
+
+compound
+Serotonin is an organic ___, found in the brain, which makes you feel good.
+세로토닌은 뇌에서 발견되는 유기 _화합물_인데, 여러분을 기분 좋게 만들어 준다.
+compound
+
+boost
+It also ___ your immune system.
+그것은 또한 여러분의 면역 체계를 _신장시킨다_.
+boosts
+
+immune system
+It also boosts your ___ ___.
+그것은 또한 여러분의 _면역 체계_를 신장시킨다.
+immune system
+
+ward off
+You feel good and you ___ ___ illness.
+여러분은 기분이 좋아지고, 병_을 물리친다_.
+ward off
+
+recipient
+However, here’s the best part, the person who is the ___ of the act of kindness also feels an increase in his or her serotonin level as well as does everyone in the immediate vicinity.
+하지만 압권은 바로 가까이에 있는 모든 사람들이 자신의 세로토닌양의 증가를 느끼는 것처럼 친절한 행위의 _수혜자_인 사람 또한 자신의 세로토닌양의 증가를 잘 느낀다는 것이다.
+recipient
+
+immediate
+However, here’s the best part, the person who is the recipient of the act of kindness also feels an increase in his or her serotonin level as well as does everyone in the ___ vicinity.
+하지만 압권은 _바로 가까이에 있는_ 모든 사람들이 자신의 세로토닌양의 증가를 느끼는 것처럼 친절한 행위의 수혜자인 사람 또한 자신의 세로토닌양의 증가를 잘 느낀다는 것이다.
+immediate
+
+eventually
+If we all performed one little act of kindness each day, ___ we would have a world at peace and free of disease!
+만약 우리 모두가 매일 하나의 작은 친절한 행위를 행한다면 _결국_ 우리는 평화롭고 질병이 없는 세상을 누리게 될 것이다!
+eventually
+
+at peace
+If we all performed one little act of kindness each day, eventually we would have a world ___ ___ and free of disease!
+만약 우리 모두가 매일 하나의 작은 친절한 행위를 행한다면 결국 우리는 _평화롭_고 질병이 없는 세상을 누리게 될 것이다!
+at peace

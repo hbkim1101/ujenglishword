@@ -35,10 +35,14 @@
         for (i of [3,4,5,6,7,12,13,14,15,16]) {
             var part_ = "PartⅢ Test 1";
             var sqc_= "Exercise " + i;
-            var file_ = document.createElement("iframe");
-            file_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
-            file_.id = "word_" + part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
-            document.getElementsByTagName("head")[0].append(file_);
+            var file_word_ = document.createElement("iframe");
+            var file_sentence_ = document.createElement("iframe");
+            file_word_.src = "src/word/" + part_ + "/" + sqc_ + ".txt";
+            file_word_.id = "word_" + part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
+            document.getElementsByTagName("head")[0].append(file_word_);
+            file_sentence_.src = "src/sentence/" + part_ + "/" + sqc_ + ".txt";
+            file_sentence_.id = "sentence_" + part_.replace(/ /gi, '') + "_" + sqc_.replace(/ /gi, '');
+            document.getElementsByTagName("head")[0].append(file_sentence_);
         }
         for (i of [1,2,3,4,5]){
             var part__ = "Weak" + parseInt((i+1)/2) + " 0" + i;

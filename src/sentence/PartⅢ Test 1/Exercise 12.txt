@@ -1,0 +1,47 @@
+penetrate
+Most of the forest is dark, because only 3 per cent of the sun’s light ___ the canopy.
+숲 대부분은 어두운데, 이것은 햇빛의 3퍼센트만이 숲의 우거진 윗부분을 _통과하_기 때문이다.
+penetrates
+
+pitch-black
+For the plants under the trees this makes it ___.
+이는 나무 아래에 있는 초목들에게 숲을 _칠흑같이 어둡_게 만든다.
+pitch-black
+
+have to do with
+You might not think so when you walk through the forest, but this ___ ___ ___ ___ the green shade you find there.
+여러분이 숲속을 걸을 때 그렇게 생각하지 않을 수도 있지만, 이 현상은 여러분이 그곳에서 발견하는 초록의 그늘_과 관련이 있다_.
+has to do with
+
+convert
+Trees use the chlorophyll in the leaves to ___ light, water and carbon dioxide into sugar.
+나무는 빛, 물, 이산화 탄소를 당으로 _변환시키_기 위해 잎 속에 있는 엽록소를 이용한다.
+convert
+
+carbon dioxide
+Trees use the chlorophyll in the leaves to convert light, water and ___ ___ into sugar.
+나무는 빛, 물, _이산화 탄소_를 당으로 변환시키기 위해 잎 속에 있는 엽록소를 이용한다.
+carbon dioxide
+
+wavelength
+Chlorophyll, however, has a ‘green gap’, which means it can’t make use of this ___ of light.
+그러나 엽록소는 ‘녹색 공백’을 갖고 있는데, 이는 엽록소가 이 _파장_의 빛을 이용할 수 없다는 것을 뜻한다.
+wavelength
+As 97 per cent of all the other ___ of light have already been absorbed and processed in the canopy, from where the green plants on the forest floor are standing, things literally look gloomy.
+다른 모든 _파장대_의 빛의 97퍼센트가 이미 숲의 우거진 윗부분에서 흡수되고 처리되었으므로 숲 바닥의 초록 식물들이 서 있는 곳으로부터는 사물이 말 그대로 어둑하게 보인다.
+wavelengths
+
+absorb
+As 97 per cent of all the other wavelengths of light have already been ___ and processed in the canopy, from where the green plants on the forest floor are standing, things literally look gloomy.
+다른 모든 파장대의 빛의 97퍼센트가 이미 숲의 우거진 윗부분에서 _흡수되_고 처리되었으므로 숲 바닥의 초록 식물들이 서 있는 곳으로부터는 사물이 말 그대로 어둑하게 보인다.
+absorbed
+
+literally
+As 97 per cent of all the other wavelengths of light have already been absorbed and processed in the canopy, from where the green plants on the forest floor are standing, things ___ look gloomy.
+다른 모든 파장대의 빛의 97퍼센트가 이미 숲의 우거진 윗부분에서 흡수되고 처리되었으므로 숲 바닥의 초록 식물들이 서 있는 곳으로부터는 사물이 _말 그대로_ 어둑하게 보인다.
+literally
+
+gloomy
+As 97 per cent of all the other wavelengths of light have already been absorbed and processed in the canopy, from where the green plants on the forest floor are standing, things literally look ___.
+다른 모든 파장대의 빛의 97퍼센트가 이미 숲의 우거진 윗부분에서 흡수되고 처리되었으므로 숲 바닥의 초록 식물들이 서 있는 곳으로부터는 사물이 말 그대로 _어둑하_게 보인다.
+gloomy

@@ -1,0 +1,59 @@
+gear
+Big, heavy motors ran factories and trains and the ___ of automation.
+크고 무거운 모터가 공장과 열차, 그리고 자동화 _장비_를 움직였다.
+gears
+
+work
+If big motors changed ___, they were sure to change the home, too.
+큰 모터가 _작업장_을 변화시켰다면, 그것들이 가정 또한 변화시킬 것이 확실했다.
+work
+
+feature
+So the 1918 edition of the Sears, Roebuck catalog ___ the Home Motor — a five-pound electrical beast that would “lighten the burden of the home.”
+그리하여 Sears, Roebuck 사의 1918년판 상품 목록에는 Home Motor가 _특별히 포함되_었는데, 이것은 ‘집안의 걱정거리를 가볍게 해’ 줄 5파운드 무게의 전기 괴물이었다.
+featured
+
+beast
+So the 1918 edition of the Sears, Roebuck catalog featured the Home Motor — a five-pound electrical ___ that would “lighten the burden of the home.”
+그리하여 Sears, Roebuck 사의 1918년판 상품 목록에는 Home Motor가 특별히 포함되었는데, 이것은 ‘집안의 걱정거리를 가볍게 해’ 줄 5파운드 무게의 전기 _괴물_이었다.
+beast
+
+plug-in
+Also for sale were ___ that attached to the central Home Motor: an egg beater device, a fan, a mixer, a grinder, a buffer.
+중앙 Home Motor에 부착하는 _플러그로 연결되는 전기 제품들_, 이를테면 달걀 거품기, 선풍기, 혼합기, 분쇄기, (바닥) 오염 제거기 또한 판매되었다.
+plug-ins
+
+attach
+Also for sale were plug-ins that ___ to the central Home Motor: an egg beater device, a fan, a mixer, a grinder, a buffer.
+중앙 Home Motor에 부착하는 플러그로 _연결되_는 전기 제품들, 이를테면 달걀 거품기, 선풍기, 혼합기, 분쇄기, (바닥) 오염 제거기 또한 판매되었다.
+attached
+
+egg beater
+Also for sale were plug-ins that attached to the central Home Motor: an ___ ___ device, a fan, a mixer, a grinder, a buffer.
+중앙 Home Motor에 부착하는 플러그로 연결되는 전기 제품들, 이를테면 _달걀 거품기_, 선풍기, 혼합기, 분쇄기, (바닥) 오염 제거기 또한 판매되었다.
+egg beater
+
+buffer
+Also for sale were plug-ins that attached to the central Home Motor: an egg beater device, a fan, a mixer, a grinder, a ___.
+중앙 Home Motor에 부착하는 플러그로 연결되는 전기 제품들, 이를테면 달걀 거품기, 선풍기, 혼합기, 분쇄기, _(바닥) 오염 제거기_ 또한 판매되었다.
+buffer
+
+handy
+Any job that needed doing, the ___ Home Motor could do.
+_편리한_ Home Motor는 (집에서) 해야 할 그 어떤 일도 할 수 있었다.
+handy
+
+embedded
+They are so small, so ___, and so common that we are unconscious of their presence.
+그것들은 너무 작고, 너무 _뿌리박혀_ 있으며, 너무 흔해서 우리는 그것들의 존재를 의식하지 않는다.
+embedded
+
+presence
+They are so small, so embedded, and so common that we are unconscious of their ___.
+그것들은 너무 작고, 너무 뿌리박혀 있으며, 너무 흔해서 우리는 그것들의 _존재_를 의식하지 않는다.
+presence
+
+whir
+We would have a hard time just listing all the motors ___ in our homes today.
+우리가 오늘날 우리 가정에서 _윙윙 소리를 내며 돌아가고 있는_ 모든 모터들의 이름을 나열하는 것만도 힘든 일이 될 것이다.
+whirring

@@ -1,0 +1,49 @@
+nostalgic
+Some people are ___ for a simpler life more deeply embedded in natural rhythms.
+어떤 사람들은 자연의 리듬 속에 더 깊이 묻혀 있는 더 단순한 삶에 대해 _향수를 느낀_다.
+nostalgic
+
+embed
+Some people are nostalgic for a simpler life more deeply ___ in natural rhythms.
+어떤 사람들은 자연의 리듬 속에 더 깊이 _묻혀 있는_ 더 단순한 삶에 대해 향수를 느낀다.
+embedded
+
+environmental humanities
+The ___ ___ increasingly tend toward a different view.
+_환경 인문학_은 점차 다른 견해 쪽으로 기운다.
+environmental humanities
+
+rural
+In industrialized societies, ___ and suburban residents generally have larger “carbon footprints” than city dwellers, because people in the countryside drive considerable distances between workplaces, shops, schools, and a home that is expensive to heat and cool.
+산업화된 사회에서, _시골_과 교외의 거주자들은 일반적으로 도시 거주자들보다 ‘탄소 발자국’이 더 큰데, 왜냐하면 시골에 사는 사람들은 일터, 상점, 학교와, 냉난방 비용이 많이 드는 주택 사이의 상당한 거리를 운전하기 때문이다.
+rural
+
+suburban
+In industrialized societies, rural and ___ residents generally have larger “carbon footprints” than city dwellers, because people in the countryside drive considerable distances between workplaces, shops, schools, and a home that is expensive to heat and cool.
+산업화된 사회에서, 시골과 _교외의_ 거주자들은 일반적으로 도시 거주자들보다 ‘탄소 발자국’이 더 큰데, 왜냐하면 시골에 사는 사람들은 일터, 상점, 학교와, 냉난방 비용이 많이 드는 주택 사이의 상당한 거리를 운전하기 때문이다.
+suburban
+
+carbon footprint
+In industrialized societies, rural and suburban residents generally have larger “___ ___” than city dwellers, because people in the countryside drive considerable distances between workplaces, shops, schools, and a home that is expensive to heat and cool.
+산업화된 사회에서, 시골과 교외의 거주자들은 일반적으로 도시 거주자들보다 ‘_탄소 발자국_’이 더 큰데, 왜냐하면 시골에 사는 사람들은 일터, 상점, 학교와, 냉난방 비용이 많이 드는 주택 사이의 상당한 거리를 운전하기 때문이다.
+carbon footprints
+
+dweller
+In industrialized societies, rural and suburban residents generally have larger “carbon footprints” than city ___, because people in the countryside drive considerable distances between workplaces, shops, schools, and a home that is expensive to heat and cool.
+산업화된 사회에서, 시골과 교외의 _거주자들_은 일반적으로 도시 거주자들보다 ‘탄소 발자국’이 더 큰데, 왜냐하면 시골에 사는 사람들은 일터, 상점, 학교와, 냉난방 비용이 많이 드는 주택 사이의 상당한 거리를 운전하기 때문이다.
+dwellers
+
+density
+An urban apartment building with shared walls is more heat efficient than a house, and the greater population ___ of cities makes mass transit feasible.
+공유되는 벽이 있는 도시의 아파트 건물은 주택보다 열효율이 더 높고, 도시의 더 높은 인구 _밀도_는 대중교통을 실현 가능하게 한다.
+density
+
+mass transit
+An urban apartment building with shared walls is more heat efficient than a house, and the greater population density of cities makes ___ ___ feasible.
+공유되는 벽이 있는 도시의 아파트 건물은 주택보다 열효율이 더 높고, 도시의 더 높은 인구 밀도는 _대중교통_을 실현 가능하게 한다.
+mass transit
+
+feasible
+An urban apartment building with shared walls is more heat efficient than a house, and the greater population density of cities makes mass transit ___.
+공유되는 벽이 있는 도시의 아파트 건물은 주택보다 열효율이 더 높고, 도시의 더 높은 인구 밀도는 대중교통을 _실현 가능하_게 한다.
+feasible

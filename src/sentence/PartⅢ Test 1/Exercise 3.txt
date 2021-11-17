@@ -1,0 +1,57 @@
+moralistic
+All nations, as well as the international museum community, must accept, either based simply on a “___” theory of what is right and justifiable or on the recognition of a crucial necessity to protect and conserve the cultural heritage, that nations, and museums, must join together to help protect and preserve each country’s treasures.
+국제적인 박물관 단체뿐만 아니라 모든 국가들은 단순히 무엇이 옳고 정당한가에 대한 ‘_도덕주의적_’ 이론이나 문화 유산을 보호하고 보존해야 할 중대한 필요성에 대한 인식에 근거하여, 국가, 그리고 박물관이, 각 나라의 보물을 보호하고 보존하는 것을 돕기 위해 서로 협력해야 한다는 사실을 인정해야 한다.
+moralistic
+
+justifiable
+All nations, as well as the international museum community, must accept, either based simply on a “moralistic” theory of what is right and ___ or on the recognition of a crucial necessity to protect and conserve the cultural heritage, that nations, and museums, must join together to help protect and preserve each country’s treasures.
+국제적인 박물관 단체뿐만 아니라 모든 국가들은 단순히 무엇이 옳고 _정당한_가에 대한 ‘도덕주의적’ 이론이나 문화 유산을 보호하고 보존해야 할 중대한 필요성에 대한 인식에 근거하여, 국가, 그리고 박물관이, 각 나라의 보물을 보호하고 보존하는 것을 돕기 위해 서로 협력해야 한다는 사실을 인정해야 한다.
+justifiable
+
+recognition
+All nations, as well as the international museum community, must accept, either based simply on a “moralistic” theory of what is right and justifiable or on the ___ of a crucial necessity to protect and conserve the cultural heritage, that nations, and museums, must join together to help protect and preserve each country’s treasures.
+국제적인 박물관 단체뿐만 아니라 모든 국가들은 단순히 무엇이 옳고 정당한가에 대한 ‘도덕주의적’ 이론이나 문화 유산을 보호하고 보존해야 할 중대한 필요성에 대한 _인식_에 근거하여, 국가, 그리고 박물관이, 각 나라의 보물을 보호하고 보존하는 것을 돕기 위해 서로 협력해야 한다는 사실을 인정해야 한다.
+recognition
+
+crucial
+All nations, as well as the international museum community, must accept, either based simply on a “moralistic” theory of what is right and justifiable or on the recognition of a ___ necessity to protect and conserve the cultural heritage, that nations, and museums, must join together to help protect and preserve each country’s treasures.
+국제적인 박물관 단체뿐만 아니라 모든 국가들은 단순히 무엇이 옳고 정당한가에 대한 ‘도덕주의적’ 이론이나 문화 유산을 보호하고 보존해야 할 _중대한_ 필요성에 대한 인식에 근거하여, 국가, 그리고 박물관이, 각 나라의 보물을 보호하고 보존하는 것을 돕기 위해 서로 협력해야 한다는 사실을 인정해야 한다.
+crucial
+
+heritage
+All nations, as well as the international museum community, must accept, either based simply on a “moralistic” theory of what is right and justifiable or on the recognition of a crucial necessity to protect and conserve the cultural ___, that nations, and museums, must join together to help protect and preserve each country’s treasures.
+국제적인 박물관 단체뿐만 아니라 모든 국가들은 단순히 무엇이 옳고 정당한가에 대한 ‘도덕주의적’ 이론이나 문화 _유산_을 보호하고 보존해야 할 중대한 필요성에 대한 인식에 근거하여, 국가, 그리고 박물관이, 각 나라의 보물을 보호하고 보존하는 것을 돕기 위해 서로 협력해야 한다는 사실을 인정해야 한다.
+heritage
+
+translate
+Such protection and preservation does not ___ to a right to take another country’s cultural patrimony.
+그러한 보호와 보존은 다른 나라의 문화유산을 빼앗을 권리를 _의미하_지 않는다.
+translate
+
+peculiar
+It is ___ indeed that many leading museum officials have not encouraged such a national attitude and even have justified, indirectly at least, the trafficking in cultural treasures.
+많은 주요 박물관 관계자들이 그러한 국가적 태도를 장려하지 않고, 최소한 간접적으로는 문화재의 밀매를 심지어 정당화했다는 것은 참으로 _이상한_ 일이다.
+peculiar
+
+code of ethics
+Museum officials must begin to follow a stricter ___ ___ ___ with regard to their acquisitions.
+박물관 관계자들은 그들의 취득물에 관하여 더 엄격한 _윤리 강령_을 따르기 시작해야 한다.
+code of ethics
+Provisions of the ___ ___ ___ adopted by the International Council of Museums should provide the example for all museums.
+국제 박물관 협회가 채택한 _윤리 강령_ 조항은 모든 박물관에 그 전형을 제공해야 한다.
+Code of Ethics
+
+acquisition
+Museum officials must begin to follow a stricter code of ethics with regard to their ___.
+박물관 관계자들은 그들의 _취득물_에 관하여 더 엄격한 윤리 강령을 따르기 시작해야 한다.
+acquisitions
+
+provision
+___ of the Code of Ethics adopted by the International Council of Museums should provide the example for all museums.
+국제 박물관 협회가 채택한 윤리 강령 _조항_은 모든 박물관에 그 전형을 제공해야 한다.
+Provisions
+
+adopt
+Provisions of the Code of Ethics ___ by the International Council of Museums should provide the example for all museums.
+국제 박물관 협회가 _채택한_ 윤리 강령 조항은 모든 박물관에 그 전형을 제공해야 한다.
+adopted

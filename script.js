@@ -92,6 +92,9 @@ function Reset(){
 }
 
 function Enter(){
+    document.getElementById("question").innerHTML = '';
+    document.getElementById("input-answer").value='';
+    document.getElementById("input-answer").placeholder='';
     var dict = {};
     var keys = Object.keys(part_selected).sort();
     for (k of keys){
@@ -100,7 +103,7 @@ function Enter(){
             c.push(parseInt(t.split(" ")[1]));
         }
         var d = c.slice();
-        d.sort();
+        d.sort(function(a, b){ return a-b; });
         var u = [];
         for (e of d){
             u.push(part_selected[k][c.indexOf(e)]);

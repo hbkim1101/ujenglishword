@@ -10,7 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd730cf-e756-4e4f-ab38-53f0db72619e" name="Changes" comment="as">
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sentence/PartⅢ Test 1/Exercise 7.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sentence" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,8 +91,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence" />
+      <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 27" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword" />
       <recent name="C:\Users\김우성\IdeaProjects\ujenglishword\src\sentence\PartⅡ 25" />
@@ -213,14 +224,7 @@
       <workItem from="1636542513284" duration="31140000" />
       <workItem from="1636766385580" duration="15169000" />
       <workItem from="1636935560740" duration="3455000" />
-      <workItem from="1637076704996" duration="9723000" />
-    </task>
-    <task id="LOCAL-00066" summary="as">
-      <created>1635684882793</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1635684882793</updated>
+      <workItem from="1637076704996" duration="14968000" />
     </task>
     <task id="LOCAL-00067" summary="as">
       <created>1635685398518</created>
@@ -558,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637080352568</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="as">
+      <created>1637112167137</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1637112167137</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
