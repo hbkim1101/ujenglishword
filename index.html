@@ -73,7 +73,7 @@
             <div style="display: inline-block">
                 <button id="part_button" onclick="Part_visible();"
                         onmousedown="if($('#part_select_box').css('display')==='block'){clicked=true}" onmouseup="clicked=false">Part</button>
-                <div tabindex="1" id="part_select_box" class="part_select" style="overflow: overlay; position: absolute; background-color: #FFFFFF; width: 128px; height: 30vh; border: 1px solid; border-color: black; margin-left: 10px; display: none"
+                <div tabindex="1" id="part_select_box" class="part_select" style="overflow: overlay; position: absolute; background-color: #FFFFFF; width: 128px; height: 50vh; border: 1px solid; border-color: black; margin-left: 10px; display: none"
                      onblur="this.style.display='none';if(clicked===true){visible=false}">
                     <div style="position: sticky; top: 0;">
                         <button class="select_button" onmousedown="event.preventDefault(); Part_visible(); All()">all</button>
