@@ -822,7 +822,12 @@ function Skip(){
         Q_dup[Q[0]].splice(dup,1);
     }
     if (type_selected === "word"){
-        W.push([question,answer,W_a]);
+        if (lng_selected === "ENGLISH"){
+            W.push([question,answer[0],W_a]);
+        }
+        else if (lng_selected === "KOREAN"){
+            W.push([question,answer,W_a]);
+        }
     }
     else if (type_selected === "sentence"){
         if (W.includes(Q[0].substring(0,Q[0].length-1)) === false){
