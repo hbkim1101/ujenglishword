@@ -222,7 +222,7 @@
                    autocapitalize="off">
         </div>
         <div style="text-align: center">
-            <button id='skip' name="skip" onclick="Skip();">SKIP</button>
+            <button id='skip' name="skip" onclick="if (W_a.length === 0){W_a.push('SKIP');}Skip();">SKIP</button>
             <button id='hint' name="hint" style="display:inline-block;" onclick="Hint();">HINT</button>
         </div>
         <div id="count" style="display: none">

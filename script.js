@@ -4,7 +4,8 @@ var Q;
 var Q_dup;
 var R = [];
 var R_dup = {};
-var question, answer, answer_stn, score = 0, init_score;
+var question, answer, answer_stn
+var score = 0, init_score, skip_count;
 var K = [];
 var E = [];
 var D = {};
@@ -12,6 +13,7 @@ var K_E = {};
 var K_ans = {};
 var E_ans = {};
 var S = {};
+var W = [], W_a = [];
 var part_selected = {}, lng_selected, type_selected;
 var flg;
 var dup = -1;
@@ -222,6 +224,9 @@ function Enter(){
     }
     score = 0;
     init_score = Q.length;
+    skip_count = 0;
+    W = [];
+    W_a = [];
     shuffle(Q);
     Question();
 }
@@ -510,6 +515,7 @@ function Question(){
                 dup = -1;
                 answer = E_ans[K_E[Q[0]]];
             }
+            console.log(answer);
             document.getElementById("question").innerHTML = question;
             document.getElementById("input-answer").value='';
             document.getElementById("input-answer").focus();
@@ -517,6 +523,7 @@ function Question(){
         else if (lng_selected === "KOREAN"){
             question = K_E[Q[0]];
             answer = Q[0];
+            console.log(answer);
             document.getElementById("question").innerHTML = question;
             document.getElementById("input-answer").value='';
             document.getElementById("input-answer").placeholder='';
@@ -552,6 +559,10 @@ function Input(){
         },3000);
     }
     else if (ans === 'S'){
+        if (W_a.length === 0){
+            W_a.push("SKIP");
+        }
+        skip_count++;
         return Skip();
     }
     else if (ans === 'H'){
@@ -584,13 +595,14 @@ function Input(){
                         alert("띄어쓰기를 확인해주세요.");
                     }
                     else{
+                        W_a.push(ans);
                         document.getElementById("input-answer").value = '';
                         oprt += 1;
                         if (oprt === 3) {
-                            alert("FAILURE\n3번 모두 실패하셨습니다.");
+                            alert("오답입니다.\n\n3번 모두 실패하셨습니다.");
                             return Skip();
                         } else {
-                            message = "FAILURE\n남은 기회: " + (3 - oprt);
+                            message = "오답입니다.\n\n남은 기회: " + (3 - oprt);
                             alert(message);
                         }
                     }
@@ -646,18 +658,19 @@ function Input(){
                         alert("띄어쓰기를 확인해주세요.");
                     }
                     else{
+                        W_a.push(ans);
                         document.getElementById("input-answer").value = '';
                         oprt += 1;
                         if (oprt === 3){
-                            alert("FAILURE\n3번 모두 실패하셨습니다.");
+                            alert("오답입니다.\n\n3번 모두 실패하셨습니다.");
                             return Skip();
                         }
                         else{
-                            message = "FAILURE"
+                            message = "오답입니다."
                             if (K_ans[answer].length >= 2){
-                                message += "\n전체 개수: " + K_ans[answer].length + "\n맞은 개수: " + scr_;
+                                message += "\n\n전체 개수: " + K_ans[answer].length + "\n맞은 개수: " + scr_;
                             }
-                            message += "\n남은 기회: " + (3 - oprt);
+                            message += "\n\n남은 기회: " + (3 - oprt);
                             alert(message);
                         }
                     }
@@ -685,10 +698,10 @@ function Input(){
                 document.getElementById("input-answer").value = '';
                 oprt += 1;
                 if (oprt === 3) {
-                    alert("FAILURE\n3번 모두 실패하셨습니다.");
+                    alert("오답입니다.\n\n3번 모두 실패하셨습니다.");
                     return Skip();
                 } else {
-                    message = "FAILURE\n남은 기회: " + (3 - oprt);
+                    message = "오답입니다.\n\n남은 기회: " + (3 - oprt);
                     alert(message);
                 }
             } else if (U.length === U_a.length) {
@@ -697,7 +710,6 @@ function Input(){
                 var U_s = [];
                 var k = 0
                 for (u of U) {
-                    console.log(u);
                     var n = Indexof(question, "___")[u-k];
                     document.getElementById("input-answer").value = '';
                     question = question.substring(0, n) + U_a[u-k] + question.substring(n + 3);
@@ -753,14 +765,30 @@ function Complete(){
         alert(message);
     }
     else{
-        message += "\n틀린 개수: " + (init_score-score);
+        if (skip_count !== 0){
+            message += "\n틀린 개수: " + (init_score-score-skip_count);
+            message += "\n넘어간 개수: " + skip_count;
+        }
         message += "\n\n계속 하시겠습니까?"
+        message += "\n\n※오답 목록※"
+        if (type_selected === "word"){
+            for (U_w of W){
+                message += "\n· " + U_w[0] + " | " + U_w[1];
+                message += "  → " + U_w[2].join(", ");
+            }
+        }
+        else if (type_selected === "sentence"){
+            for (U_w of W){
+                message += "\n· " + U_w;
+            }
+        }
         if (confirm(message)){}
         else{
             return;
         }
         score = 0;
         init_score = R.length;
+        skip_count = 0;
         Q = R.slice();
         Q_dup = {...R_dup};
         R = [];
@@ -793,7 +821,16 @@ function Skip(){
         }
         Q_dup[Q[0]].splice(dup,1);
     }
+    if (type_selected === "word"){
+        W.push([question,answer,W_a]);
+    }
+    else if (type_selected === "sentence"){
+        if (W.includes(Q[0].substring(0,Q[0].length-1)) === false){
+            W.push(Q[0].substring(0,Q[0].length-1));
+        }
+    }
     Q.shift();
+    W_a = [];
     if (Q.length === 0){
         return Complete();
     }
