@@ -30,7 +30,7 @@ section:after{
     }
 }
 
-select, #part_button{
+select, #part_button, #option_button{
     width: 100px;
     height: 40px;
     border: 1px solid #E0E0E0;
@@ -84,7 +84,7 @@ label{
 .label:hover{
     background-color: #f1f1f1;
 }
-.part_label:hover{
+.part_label:hover, .option_label:hover{
     background-color: #1e90ff;
     color: #FFFFFF;
 }

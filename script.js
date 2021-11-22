@@ -48,6 +48,15 @@ function Part_visible(){
         visible = true;
     }
 }
+function Option_visible(){
+    if (visible === true){
+        document.getElementById("option_select_box").style.display = "block";
+        document.getElementById("option_select_box").focus();
+    }
+    else{
+        visible = true;
+    }
+}
 function Check(elm){
     var key = elm.parentElement.parentElement.id;
     var value = elm.parentElement.innerText.substring(2);
@@ -180,14 +189,16 @@ function Enter(){
     else{
         return;
     }
+    message = "공백 입력 시: 남은 개수 표시\n" +
+        "대문자 S 입력 시: SKIP\n" +
+        "대문자 H 입력 시: HINT"
     if (type_selected === "word" && lng_selected === "KOREAN"){
-        message = "※정답 양식※\n" +
+        message += "\n\n※정답 양식※\n" +
             "「,」: ex) 요소, 성분 → 요소 or 성분 or 요소, 성분 | 아무거나\n" +
             "「;」: ex) 빗질하다; 빗 → 빗질하다, 빗다 | 둘 다 모두\n" +
             "「()」: ex) 보호(소) → 보호 or 보호소\n" +
             "「[]」: ex) 배제[제외]하다 → 배제하다 or 제외하다\n" +
             "「,」로 구분하여 작성해 주세요.";
-        alert(message);
     }
     else if (type_selected === "sentence"){
         message = "빈칸에 올바른 단어를 작성해 주세요.\n\n" +
@@ -196,8 +207,8 @@ function Enter(){
             "ex) make the most of의 정답 양식:\n" +
             "     → make | make most | most of | · · ·\n" +
             "띄어쓰기로 구분하여 작성해 주세요.";
-        alert(message);
     }
+    alert(message);
     var Text = '';
     for (p of keys){
         for (t of part_selected[p]){
@@ -549,7 +560,9 @@ var oprt = 0;
 function Input(){
     var ans = document.getElementById("input-answer").value;
     if (ans === '') {
-        alert(Q.length+"개 남았습니다.");
+        message = "총 개수: " + init_score;
+        message += "\n남은 개수: " + Q.length;
+        alert(message);
     }
     else if (ans === "dvl"){
         document.getElementById("count").style.display = "block";

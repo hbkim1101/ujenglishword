@@ -211,6 +211,16 @@
                 <option id="lng_writeENGLISH" value="ENGLISH">영어 쓰기</option>
                 <option id="lng_writeKOREAN" value="KOREAN">한국어 쓰기</option>
             </select>
+            <div id="select-opt" style="display: none;">
+                <button id="option_button" onclick="Option_visible();"
+                        onmousedown="if($('#option_select_box').css('display')==='block'){clicked=true}" onmouseup="clicked=false">설정</button>
+                <div tabindex="1" id="option_select_box" class="option_select" style="position: absolute; background-color: #FFFFFF; width: 128px; border: 1px solid; border-color: black; margin-left: 10px; display: none"
+                     onblur="this.style.display='none';if(clicked===true){visible=false}">
+                    <label id="except" class="option_label" style="width: inherit; float: left; font-size: 14px" onmousedown="event.preventDefault();">&nbsp<input type="checkbox" onclick="Option_visible()">고유명사 제외</label>
+                    <label id="first_ch" class="option_label" style="width: inherit; float: left; font-size: 14px" onmousedown="event.preventDefault();">&nbsp<input type="checkbox" onclick="Option_visible()">첫글자 보이기</label>
+                </div>
+
+            </div>
             <button onclick="Enter()">Enter</button>
         </div>
         <div id="question_box">
