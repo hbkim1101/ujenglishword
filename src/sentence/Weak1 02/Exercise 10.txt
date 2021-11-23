@@ -1,0 +1,104 @@
+accumulated
+Despite the ___ frustration and rage, brought about by our struggle to adapt ourselves to machines, genuine resistance to the machine is relatively rare.
+우리 자신을 기계에 맞추려는 노력으로부터 초래된 _누적된_ 좌절과 분노에도 불구하고, 기계에 대한 진정한 저항은 비교적 드물다.
+accumulated
+
+rage
+Despite the accumulated frustration and ___, brought about by our struggle to adapt ourselves to machines, genuine resistance to the machine is relatively rare.
+우리 자신을 기계에 맞추려는 노력으로부터 초래된 누적된 좌절과 _분노_에도 불구하고, 기계에 대한 진정한 저항은 비교적 드물다.
+rage
+
+bring about
+Despite the accumulated frustration and rage, ___ ___ by our struggle to adapt ourselves to machines, genuine resistance to the machine is relatively rare.
+우리 자신을 기계에 맞추려는 노력으로부터 _초래된_ 누적된 좌절과 분노에도 불구하고, 기계에 대한 진정한 저항은 비교적 드물다.
+brought about
+
+precondition
+Our ___ to favor novelty keeps us fascinated by the machines.
+새로운 것을 선호하도록 우리가 _사전 조건화된 것_은 우리가 기계에 계속 매료되어 있게 한다.
+preconditioning
+
+novelty
+Our preconditioning to favor ___ keeps us fascinated by the machines.
+_새로운 것_을 선호하도록 우리가 사전 조건화된 것은 우리가 기계에 계속 매료되어 있게 한다.
+novelty
+
+enthusiastically
+Generally people try bravely, even ___, to accommodate themselves.
+일반적으로 사람들은 자신을 적응시키려고 용감하게, 심지어 _열정적으로_ 노력한다.
+enthusiastically
+
+accommodate oneself
+Generally people try bravely, even enthusiastically, to ___ ___.
+일반적으로 사람들은 _자신을 적응시키_려고 용감하게, 심지어 열정적으로 노력한다.
+accommodate themselves
+
+consequently
+They are not sure why they are ___ unhappy.
+그들은 왜 자신들이 _그 결과로_ 불행한지 잘 모른다.
+consequently
+
+convince ~ of ...
+They do not blame the machines, for we have ___ ourselves — or been ___ by advertising and promotion — ___ their marvelous natures and of our great need for them.
+그들은 기계를 탓하지 않는데, 왜냐하면 우리가 기계의 놀라운 본질과 그것에 대한 우리의 큰 필요_에 대해_ 스스로_를 납득시켜_ 버렸거나 아니면 광고와 홍보를 통해 _설득되_었기 때문이다.
+convinced convinced of
+
+marvelous
+They do not blame the machines, for we have convinced ourselves — or been convinced by advertising and promotion — of their ___ natures and of our great need for them.
+그들은 기계를 탓하지 않는데, 왜냐하면 우리가 기계의 _놀라운_ 본질과 그것에 대한 우리의 큰 필요에 대해 스스로를 납득시켜 버렸거나 아니면 광고와 홍보를 통해 설득되었기 때문이다.
+marvelous
+
+dependency
+We have created ___ where none existed, forgetting that we survived and thrived as a species for hundreds of thousands of years without the internal combustion engine or the cell phone.
+내연 기관이나 휴대폰 없이 우리가 수십만 년 동안 하나의 종으로서 생존하고 번성했다는 사실을 잊은 채, (의존증이) 존재하지도 않았던 곳에 _의존증_을 만들어 냈다.
+dependency
+
+thrive
+We have created dependency where none existed, forgetting that we survived and ___ as a species for hundreds of thousands of years without the internal combustion engine or the cell phone.
+내연 기관이나 휴대폰 없이 우리가 수십만 년 동안 하나의 종으로서 생존하고 _번성했_다는 사실을 잊은 채, (의존증이) 존재하지도 않았던 곳에 의존증을 만들어 냈다.
+thrived
+
+species
+We have created dependency where none existed, forgetting that we survived and thrived as a ___ for hundreds of thousands of years without the internal combustion engine or the cell phone.
+내연 기관이나 휴대폰 없이 우리가 수십만 년 동안 하나의 _종_으로서 생존하고 번성했다는 사실을 잊은 채, (의존증이) 존재하지도 않았던 곳에 의존증을 만들어 냈다.
+species
+
+inadequate
+Now too many of us feel lost and ___ and frightened if the lights go out.
+이제는 우리 중 너무 많은 사람이 불이 꺼지면 어찌할 바를 모르고 _무력하_고 두렵다고 느낀다.
+inadequate
+
+spouse
+We love our machines, after all — as we would a ___ in an enduring bad marriage, whose flaws are so familiar, whose irritating voice is so much a part of the background that it is impossible to conceive its not being there.
+우리는 결국 우리의 기계를 사랑하는데, 그것은 우리가 지속되는 형편없는 결혼 생활에서 _배우자_를 사랑하는 것과 마찬가지라서, 그 배우자의 결함이 너무나 익숙하고, 그 배우자의 짜증 나는 목소리가 너무나 배경의 일부가 되어 그것이 거기에 없는 것을 상상할 수도 없는 것과 같다.
+spouse
+
+enduring
+We love our machines, after all — as we would a spouse in an ___ bad marriage, whose flaws are so familiar, whose irritating voice is so much a part of the background that it is impossible to conceive its not being there.
+우리는 결국 우리의 기계를 사랑하는데, 그것은 우리가 _지속되는_ 형편없는 결혼 생활에서 배우자를 사랑하는 것과 마찬가지라서, 그 배우자의 결함이 너무나 익숙하고, 그 배우자의 짜증 나는 목소리가 너무나 배경의 일부가 되어 그것이 거기에 없는 것을 상상할 수도 없는 것과 같다.
+enduring
+
+flaw
+We love our machines, after all — as we would a spouse in an enduring bad marriage, whose ___ are so familiar, whose irritating voice is so much a part of the background that it is impossible to conceive its not being there.
+우리는 결국 우리의 기계를 사랑하는데, 그것은 우리가 지속되는 형편없는 결혼 생활에서 배우자를 사랑하는 것과 마찬가지라서, 그 배우자의 _결함_이 너무나 익숙하고, 그 배우자의 짜증 나는 목소리가 너무나 배경의 일부가 되어 그것이 거기에 없는 것을 상상할 수도 없는 것과 같다.
+flaws
+
+irritating
+We love our machines, after all — as we would a spouse in an enduring bad marriage, whose flaws are so familiar, whose ___ voice is so much a part of the background that it is impossible to conceive its not being there.
+우리는 결국 우리의 기계를 사랑하는데, 그것은 우리가 지속되는 형편없는 결혼 생활에서 배우자를 사랑하는 것과 마찬가지라서, 그 배우자의 결함이 너무나 익숙하고, 그 배우자의 _짜증 나는_ 목소리가 너무나 배경의 일부가 되어 그것이 거기에 없는 것을 상상할 수도 없는 것과 같다.
+irritating
+
+background
+We love our machines, after all — as we would a spouse in an enduring bad marriage, whose flaws are so familiar, whose irritating voice is so much a part of the ___ that it is impossible to conceive its not being there.
+우리는 결국 우리의 기계를 사랑하는데, 그것은 우리가 지속되는 형편없는 결혼 생활에서 배우자를 사랑하는 것과 마찬가지라서, 그 배우자의 결함이 너무나 익숙하고, 그 배우자의 짜증 나는 목소리가 너무나 _배경_의 일부가 되어 그것이 거기에 없는 것을 상상할 수도 없는 것과 같다.
+background
+
+conceive
+We love our machines, after all — as we would a spouse in an enduring bad marriage, whose flaws are so familiar, whose irritating voice is so much a part of the background that it is impossible to ___ its not being there.
+우리는 결국 우리의 기계를 사랑하는데, 그것은 우리가 지속되는 형편없는 결혼 생활에서 배우자를 사랑하는 것과 마찬가지라서, 그 배우자의 결함이 너무나 익숙하고, 그 배우자의 짜증 나는 목소리가 너무나 배경의 일부가 되어 그것이 거기에 없는 것을 _상상할_ 수도 없는 것과 같다.
+conceive
+
+alternative
+___ are not even imagined.
+_대안_은 상상조차 되지 않는다.
+Alternatives

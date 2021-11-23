@@ -1,0 +1,80 @@
+foundation
+One ___ of our view of leadership is that leadership is relational.
+지도력에 대한 우리의 관점의 한 가지 _토대_는 지도력이 ‘관계적’이라는 것이다.
+foundation
+
+relational
+One foundation of our view of leadership is that leadership is ___.
+지도력에 대한 우리의 관점의 한 가지 토대는 지도력이 ‘_관계적_’이라는 것이다.
+relational
+
+trait
+Much of early ___ theory seemed to ignore this.
+초기 _특성_ 이론의 많은 부분이 이것을 무시했던 것 같다.
+trait
+Effective leaders are not simply amalgams of desirable ___; they are actively and reciprocally engaged in a complex series of relationships that require cultivation and nurture.
+유능한 지도자는 단순히 바람직한 _특성들_의 혼합체가 아니라, 그들은 구축과 육성을 요구하는 복잡한 일련의 관계에 적극적으로 그리고 상호적으로 참여한다.
+traits
+
+ignore
+Much of early trait theory seemed to ___ this.
+초기 특성 이론의 많은 부분이 이것을 _무시했_던 것 같다.
+ignore
+
+neglect
+By trying to distill the characteristics of leaders, it ___ the fact that leadership is a relationship built actively by both parties.
+지도자의 특성을 추출해내려 함으로써, 그것은 지도력이 양쪽에 의해 적극적으로 구축되는 관계라는 사실을 _간과했다_.
+neglected
+
+actively
+By trying to distill the characteristics of leaders, it neglected the fact that leadership is a relationship built ___ by both parties.
+지도자의 특성을 추출해내려 함으로써, 그것은 지도력이 양쪽에 의해 _적극적으로_ 구축되는 관계라는 사실을 간과했다.
+actively
+Effective leaders are not simply amalgams of desirable traits; they are ___ and reciprocally engaged in a complex series of relationships that require cultivation and nurture.
+유능한 지도자는 단순히 바람직한 특성들의 혼합체가 아니라, 그들은 구축과 육성을 요구하는 복잡한 일련의 관계에 _적극적으로_ 그리고 상호적으로 참여한다.
+actively
+
+party
+By trying to distill the characteristics of leaders, it neglected the fact that leadership is a relationship built actively by both ___.
+지도자의 특성을 추출해내려 함으로써, 그것은 지도력이 양쪽 _관계자_에 의해 적극적으로 구축되는 관계라는 사실을 간과했다.
+parties
+
+construct
+In reality, leadership is always a social ___ that is re-created by the relationships between leaders and those they aspire to lead.
+사실 지도력은 언제나 지도자와 그들이 이끌기를 열망하는 사람들 사이의 관계에 의해 재창조되는 사회적 _구성물_이다.
+construct
+
+aspire
+In reality, leadership is always a social construct that is re-created by the relationships between leaders and those they ___ to lead.
+사실 지도력은 언제나 지도자와 그들이 이끌기를 _열망하_는 사람들 사이의 관계에 의해 재창조되는 사회적 구성물이다.
+aspire
+
+desirable
+Effective leaders are not simply amalgams of ___ traits; they are actively and reciprocally engaged in a complex series of relationships that require cultivation and nurture.
+유능한 지도자는 단순히 _바람직한_ 특성들의 혼합체가 아니라, 그들은 구축과 육성을 요구하는 복잡한 일련의 관계에 적극적으로 그리고 상호적으로 참여한다.
+desirable
+
+cultivation
+Effective leaders are not simply amalgams of desirable traits; they are actively and reciprocally engaged in a complex series of relationships that require ___ and nurture.
+유능한 지도자는 단순히 바람직한 특성들의 혼합체가 아니라, 그들은 _구축_과 육성을 요구하는 복잡한 일련의 관계에 적극적으로 그리고 상호적으로 참여한다.
+cultivation
+
+nurture
+Effective leaders are not simply amalgams of desirable traits; they are actively and reciprocally engaged in a complex series of relationships that require cultivation and ___.
+유능한 지도자는 단순히 바람직한 특성들의 혼합체가 아니라, 그들은 구축과 _육성_을 요구하는 복잡한 일련의 관계에 적극적으로 그리고 상호적으로 참여한다.
+nurture
+
+constant
+Like all social creations, this web of relationships is easy to break and requires ___ re-creation.
+모든 사회적 창조물과 마찬가지로, 이러한 관계망은 망가지기 쉬우며 _지속적인_ 재창조를 필요로 한다.
+constant
+
+confirm
+You can ___ this every time you talk to a successful CEO, a sports coach, or a team leader.
+여러분은 성공한 CEO나 스포츠 코치나 팀 지도자와 대화할 때마다 이를 _확인할_ 수 있다.
+confirm
+
+devote
+All will tell you that much of their leadership effort is ___ to the maintenance of particular kinds of relationships with their followers.
+모두가 자신들의 지도력을 위한 노력의 많은 부분을 자신들을 따르는 사람들과의 특정한 종류의 관계 유지에 _쏟고 있_다고 말할 것이다.
+devoted

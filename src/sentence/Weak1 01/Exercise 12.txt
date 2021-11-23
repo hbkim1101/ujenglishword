@@ -1,0 +1,92 @@
+reference
+The title of Carson’s book, Silent Spring, was a ___ to a world without birds that could be the ultimate outcome of indiscriminate pesticide use.
+Carson이 쓴 책의 제목인 Silent Spring은 무분별한 살충제 사용의 최종적인 결과가 될 수 있는, 새가 살지 않는 세상에 대한 _언급_이었다.
+reference
+
+ultimate
+The title of Carson’s book, Silent Spring, was a reference to a world without birds that could be the ___ outcome of indiscriminate pesticide use.
+Carson이 쓴 책의 제목인 Silent Spring은 무분별한 살충제 사용의 _최종적인_ 결과가 될 수 있는, 새가 살지 않는 세상에 대한 언급이었다.
+ultimate
+
+outcome
+The title of Carson’s book, Silent Spring, was a reference to a world without birds that could be the ultimate ___ of indiscriminate pesticide use.
+Carson이 쓴 책의 제목인 Silent Spring은 무분별한 살충제 사용의 최종적인 _결과_가 될 수 있는, 새가 살지 않는 세상에 대한 언급이었다.
+outcome
+
+indiscriminate
+The title of Carson’s book, Silent Spring, was a reference to a world without birds that could be the ultimate outcome of ___ pesticide use.
+Carson이 쓴 책의 제목인 Silent Spring은 _무분별한_ 살충제 사용의 최종적인 결과가 될 수 있는, 새가 살지 않는 세상에 대한 언급이었다.
+indiscriminate
+
+pesticide
+The title of Carson’s book, Silent Spring, was a reference to a world without birds that could be the ultimate outcome of indiscriminate ___ use.
+Carson이 쓴 책의 제목인 Silent Spring은 무분별한 _살충제_ 사용의 최종적인 결과가 될 수 있는, 새가 살지 않는 세상에 대한 언급이었다.
+pesticide
+She made a forceful case for the severe damage that reckless spraying of ___ had caused to wildlife and exposed the potential threat to humans as well.
+그녀는 분별없는 _살충제_의 살포가 야생동물에게 끼친 심각한 피해를 강력하게 주장했고 인간에게 또한 미칠 수 있는 잠재적인 위협을 폭로했다.
+pesticides
+
+research
+As a scientist, Carson ___ her book carefully and grounded it in rigorous science.
+과학자로서 Carson은 자신의 책을 위해 꼼꼼하게 _조사하였_고 정확한 과학에 그것의 근거를 두었다.
+researched
+
+rigorous
+As a scientist, Carson researched her book carefully and grounded it in ___ science.
+과학자로서 Carson은 자신의 책을 위해 꼼꼼하게 조사하였고 _정확한_ 과학에 그것의 근거를 두었다.
+rigorous
+
+make a case for
+She ___ ___ forceful ___ ___ the severe damage that reckless spraying of pesticides had caused to wildlife and exposed the potential threat to humans as well.
+그녀는 분별없는 살충제의 살포가 야생동물에게 끼친 심각한 피해_를_ 강력하게 _주장했_고 인간에게 또한 미칠 수 있는 잠재적인 위협을 폭로했다.
+made a case for
+
+forceful
+She made a ___ case for the severe damage that reckless spraying of pesticides had caused to wildlife and exposed the potential threat to humans as well.
+그녀는 분별없는 살충제의 살포가 야생동물에게 끼친 심각한 피해를 _강력하_게 주장했고 인간에게 또한 미칠 수 있는 잠재적인 위협을 폭로했다.
+forceful
+
+severe
+She made a forceful case for the ___ damage that reckless spraying of pesticides had caused to wildlife and exposed the potential threat to humans as well.
+그녀는 분별없는 살충제의 살포가 야생동물에게 끼친 _심각한_ 피해를 강력하게 주장했고 인간에게 또한 미칠 수 있는 잠재적인 위협을 폭로했다.
+severe
+
+reckless
+She made a forceful case for the severe damage that ___ spraying of pesticides had caused to wildlife and exposed the potential threat to humans as well.
+그녀는 _분별없는_ 살충제의 살포가 야생동물에게 끼친 심각한 피해를 강력하게 주장했고 인간에게 또한 미칠 수 있는 잠재적인 위협을 폭로했다.
+reckless
+
+passionate
+She did it with a ___, poetic writing style that made the subject accessible to ordinary people.
+그녀는 일반인들이 그 주제를 쉽게 접할 수 있게 한 _열정적_이고 시적인 문체로 그것을 했다.
+passionate
+
+accessible
+She did it with a passionate, poetic writing style that made the subject ___ to ordinary people.
+그녀는 일반인들이 그 주제를 _쉽게 접할 수 있_게 한 열정적이고 시적인 문체로 그것을 했다.
+accessible
+
+realm
+Up to that time, technology had been seen as the ___ of scientists and government regulators, and Americans generally entrusted it to the experts who appeared to understand the complicated details of biology and chemistry.
+그때까지 과학 기술은 과학자와 정부 관리자의 _영역_으로 여겨져 왔으며, 미국인들은 일반적으로 생물학과 화학의 복잡한 세부사항을 이해하는 것으로 보이는 전문가들에게 그것을 맡겼다.
+realm
+
+entrust
+Up to that time, technology had been seen as the realm of scientists and government regulators, and Americans generally ___ it to the experts who appeared to understand the complicated details of biology and chemistry.
+그때까지 과학 기술은 과학자와 정부 관리자의 영역으로 여겨져 왔으며, 미국인들은 일반적으로 생물학과 화학의 복잡한 세부사항을 이해하는 것으로 보이는 전문가들에게 그것을 _맡겼다_.
+entrusted
+
+engaged
+Silent Spring encouraged citizens to become informed and to become actively ___, and in so doing helped usher in the spirit of participatory democracy that characterized the 1960s.
+Silent Spring은 시민들이 정보를 얻고 적극적으로 _참여하_도록 격려했으며, 그렇게 하면서 1960년대의 특징이 되었던 참여 민주주의의 정신이 시작되는 데 도움을 주었다.
+engaged
+
+in so doing
+Silent Spring encouraged citizens to become informed and to become actively engaged, and ___ ___ ___ helped usher in the spirit of participatory democracy that characterized the 1960s.
+Silent Spring은 시민들이 정보를 얻고 적극적으로 참여하도록 격려했으며, _그렇게 하면서_ 1960년대의 특징이 되었던 참여 민주주의의 정신이 시작되는 데 도움을 주었다.
+in so doing
+
+participatory
+Silent Spring encouraged citizens to become informed and to become actively engaged, and in so doing helped usher in the spirit of ___ democracy that characterized the 1960s.
+Silent Spring은 시민들이 정보를 얻고 적극적으로 참여하도록 격려했으며, 그렇게 하면서 1960년대의 특징이 되었던 _참여_ 민주주의의 정신이 시작되는 데 도움을 주었다.
+participatory
