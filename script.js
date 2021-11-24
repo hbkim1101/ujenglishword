@@ -573,6 +573,9 @@ function Input(){
             document.getElementById("develop").innerHTML = '';
         },3000);
     }
+    else if (ans === 'E'){
+        return Enter();
+    }
     else if (ans === 'S'){
         if (W_a.length === 0){
             W_a.push("SKIP");
@@ -695,12 +698,14 @@ function Input(){
             var i = 0;
             var j = 0;
             for (a of ans) {
-                if (U_a.slice(j).includes(a)) {
-                    U.push(U_a.indexOf(a));
+                if (U_a.includes(a)) {
+                    U.push(U_a.indexOf(a)+j);
+                    U_a.shift();
                     j += 1;
                 }
                 i++;
             }
+            U_a = answer.split(" ");
             if (U.length === 0 || (U_a.length === 1 && U.length !== 1)) {
                 if (ans.join(" ").toLowerCase() === answer.toLowerCase()){
                     alert('대소문자를 확인해 주세요.');
@@ -716,7 +721,7 @@ function Input(){
                     alert(message);
                 }
             } else if (U.length === U_a.length) {
-                Success()
+                Success();
             } else {
                 var U_s = [];
                 var k = 0
