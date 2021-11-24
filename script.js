@@ -591,22 +591,18 @@ function Input(){
                 }
                 else{
                     var F_e = true;
-                    var scr_e = 0;
                     var f_e = false;
                     for (a of E_ans[answer[0]]) {
                         if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')) {
                             f_e = true;
-                            scr_e++;
-                            break;
-                        }
-                        if (f_e === true){
                             break;
                         }
                     }
+                    console.log(f_e);
                     if (f_e === false){
-                            F_e = false;
+                        F_e = false;
                     }
-                    if (F_e === true && scr_e === E_ans[answer[0]].length) {
+                    if (F_e === true) {
                         alert("띄어쓰기를 확인해주세요.");
                     }
                     else{
