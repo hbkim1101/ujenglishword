@@ -233,6 +233,8 @@ function Enter(){
         }
         Q = U;
     }
+    R = [];
+    R_dup = {};
     score = 0;
     init_score = Q.length;
     skip_count = 0;
@@ -770,6 +772,7 @@ function Success(){
 function Complete(){
     document.getElementById("question").innerHTML='';
     document.getElementById("input-answer").value='';
+    document.getElementById("input-answer").placeholder = '';
     message = '';
     message += "총 개수: " + init_score + "\n"
     message += "맞힌 개수: " + score;
