@@ -593,7 +593,7 @@ function Input(){
                     var F_e = true;
                     var scr_e = 0;
                     var f_e = false;
-                    for (a of E_ans[answer]) {
+                    for (a of E_ans[answer[0]]) {
                         if (ans.replace(/ /gi, '') === a.replace(/ /gi, '')) {
                             f_e = true;
                             scr_e++;
@@ -606,7 +606,7 @@ function Input(){
                     if (f_e === false){
                             F_e = false;
                     }
-                    if (F_e === true && scr_e === E_ans[answer].length) {
+                    if (F_e === true && scr_e === E_ans[answer[0]].length) {
                         alert("띄어쓰기를 확인해주세요.");
                     }
                     else{
