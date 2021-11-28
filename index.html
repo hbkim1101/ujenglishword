@@ -55,10 +55,17 @@
             }
             for (j of list) {
                 var sqc__ = "Exercise " + j;
-                var file__ = document.createElement("iframe");
-                file__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
-                file__.id = "word_" + part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
-                document.getElementsByTagName("head")[0].append(file__);
+                var file_word__ = document.createElement("iframe");
+                file_word__.src = "src/word/" + part__ + "/" + sqc__ + ".txt";
+                file_word__.id = "word_" + part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
+                document.getElementsByTagName("head")[0].append(file_word__);
+                if (i < 3){
+                    var file_sentence__ = document.createElement("iframe");
+                    file_sentence__.src = "src/sentence/" + part__ + "/" + sqc__ + ".txt";
+                    file_sentence__.id = "sentence_" + part__.replace(/ /gi, '') + "_" + sqc__.replace(/ /gi, '');
+                    document.getElementsByTagName("head")[0].append(file_sentence__);
+
+                }
             }
         }
     </script>
